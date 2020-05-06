@@ -1054,25 +1054,23 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 /*lista des 1*/
-
 #actividad .content .texto_curso .bck-ul-1 li,
 #actividad .content .workspace ul li .bck-ul-1 li ,
 #actividad .popover-background.shown .popover-content .bck-ul-1 li {
-  font-size: 2rem;
-  font-weight: 100;
-  margin-left: -2px;
+	font-size: 2rem;
+    font-weight: 100;
+    margin-left: 5px;
 }
 
 #actividad .content .texto_curso .bck-ul-1 li:before,
 #actividad .content .workspace ul li .bck-ul-1 li:before ,
 #actividad .popover-background.shown .popover-content .bck-ul-1 li:before{
-      content: "";
-    color: #1D1D1B;
+	color: #007BD1;
     content: "";
-    height: 8px;
-    width: 8px;
-    background-color: #1D1D1B;
-    border-radius: 0;
+    height: 5px;
+    width: 5px;
+    background-color: #007BD1;
+    border-radius: 10px;
     margin-top: 14px;
     margin-left: -19px;
 }
@@ -1165,7 +1163,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   margin-left: 0px;
 }
 
-
 /*LISTA 1*/
 #actividad .content .cke_contents .bck-ol-1,
 #actividad .content .texto_curso .bck-ol-1,
@@ -1180,12 +1177,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .texto_curso .bck-ol-1 li,
 #actividad .popover-content .bck-ol-1 li,
 #actividad .content .workspace ul li .bck-ol-1 li {
- 	counter-increment: bck-li-counter;
+	counter-increment: bck-li-counter;
     padding-left: 0px;
     position: relative;
     z-index: 0;
     font-weight: 500;
-    margin-left: -12px;
+    margin-left: 7px;
     margin-top: 10px;
     font-size: 2rem;
     line-height: 1.8em!important;
@@ -1198,11 +1195,11 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	content: counter(bck-li-counter)'. ';
     position: absolute;
     margin-left: -27px;
-    /* text-align: right; */
-    color: #007bc4;
+    color: #007BD1;
     font-weight: bold;
-    font-size: 1.8rem;
-    margin-top: -0.8px;
+    font-size: 2rem;
+    margin-top: -1.8px;
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 /*LISTA 2*/
@@ -1223,19 +1220,25 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding-left: 0px;
     position: relative;
     z-index: 0;
-    margin-left: 0px;
+    font-weight: 500;
+    margin-left: 7px;
     margin-top: 10px;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.8em!important;
 }
 
 #actividad .content .cke_contents ol.bck-ol-2 li:before,
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter)'.';
-	color: #D7B471;
-	margin-top: -0.8px;
+    content: counter(bck-li-counter)'. ';
+    position: absolute;
+    margin-left: -20px;
+    color: #D7B471;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: -0.8px;
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 /*LISTA 3*/
