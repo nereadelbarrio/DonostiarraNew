@@ -694,16 +694,18 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-repeat: no-repeat;
     position: relative;
     background-color: transparent;
-    background-image: url(images/donos_tec_u1_pg19_0001_173343.png);
+    background-image: url(images/donos_tec_u1_pg19_0001.png);
 }
 
 .bck-title-2 {
 	position: relative;
     border-bottom: 2px solid #93D5F6;
     font-weight: bold;
-    text-indent: -41px;
+    text-indent: -30px;
     margin-left: 28px;
+    font-size: 2rem;
     width: fit-content;
+    font-family: 'Conv_MyriadPro-Bold';
 }
 
 /*Título 3*/
