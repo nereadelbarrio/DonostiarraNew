@@ -2426,21 +2426,16 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   margin-right: 10px;
 }
 
-/*icono Nivel1*/
-.icon-nivel1:before {
-  background-image: url(images/icono_nivel1.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    width: 205px;
-    margin-right: 3px;
+/*icono lista*/
+.icon-lista{
+	display: inline-block;
+    width: 10px;
+    height: 14px;
+    background-color: #F7A828;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 0px;
+    left: -7px;
+    background-image: none;
 }
 
 /*icono Nivel2*/
