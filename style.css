@@ -689,7 +689,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-title-2:before{
 	content: " ";
     padding: 32px 21px 1px 10px;
-    left: 2px;
+    left: -2px;
     top: 11px;
     background-repeat: no-repeat;
     position: relative;
@@ -703,7 +703,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-weight: bold;
     text-indent: -30px;
     margin-left: 28px;
-    font-size: 2rem;
+    font-size: 2.1rem;
     width: fit-content;
     font-family: 'Conv_MyriadPro-Bold';
 }
@@ -717,6 +717,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border-top: 2px solid #4DB4E7;
     border-bottom: 2px solid #4DB4E7;
     color: #fff;
+    padding-top: 5px;
+    font-size: 2.1rem;
 }
 
 /*Título 6 - Título DonostiarraNewNaranja*/
