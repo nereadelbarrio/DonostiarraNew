@@ -2410,14 +2410,15 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*Iconos*/
 /*icono lista*/
 .icon-lista:before{
-    display: inline-block;
+	display: inline-block;
     width: 10px;
     height: 14px;
     background-color: #F7A828;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    top: 0px;
-    left: -7px;
+    top: -4px;
+    left: 0px;
     background-image: none;
+    position: relative;
 }
 
 /*icono Hablar*/
