@@ -1,27 +1,27 @@
-/*estilo DONOSTIARRANEW*/
+/*estilo DonostiarraNew*/
 (function (blink) {
 	'use strict';
 
-	var donostiarraNewStyle = function () {
+	var DonostiarraNewStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	donostiarraNewStyle.prototype = {
+	DonostiarraNewStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_donostiarraNew',
+		bodyClassName: 'content_type_clase_DonostiarraNew',
 		ckEditorStyles: {
-			name: 'donostiarraNew',
+			name: 'DonostiarraNew',
 			styles: [
 { name: 'Título Intro', element: 'h2', attributes: { 'class': 'bck-title-intro'} },
 				{ name: 'Título Intro', element: 'h2', attributes: { 'class': 'bck-title-intro'} },
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title-1'} },
 				{ name: 'Título Verde', element: 'h2', attributes: { 'class': 'bck-title-2'} },
-				{ name: 'Título donostiarraNew', element: 'h2', attributes: { 'class': 'bck-title-3'} },
+				{ name: 'Título DonostiarraNew', element: 'h2', attributes: { 'class': 'bck-title-3'} },
 				{ name: 'Título 4 Naranja', element: 'h2', attributes: { 'class': 'bck-title-4'} },
 				{ name: 'Título Project', element: 'h2', attributes: { 'class': 'bck-title-5'} },
-				{ name: 'Título donostiarraNewNaranja', element: 'h2', attributes: { 'class': 'bck-title-6'} },
+				{ name: 'Título DonostiarraNewNaranja', element: 'h2', attributes: { 'class': 'bck-title-6'} },
 				{ name: 'Título Reading', element: 'h2', attributes: { 'class': 'bck-title-7'} },
 				{ name: 'Título Communication', element: 'h2', attributes: { 'class': 'bck-title-8'} },
 				{ name: 'Título 1-Izquierda', element: 'h2', attributes: { 'class': 'bck-title-9'} },
@@ -274,7 +274,7 @@
 
 		formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraNew-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'DonostiarraNew-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -473,7 +473,7 @@
 
 		animateNavbarOnScroll: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'donostiarraNew-navbar');
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'DonostiarraNew-navbar');
 			if (!blink.isApp) return;
 			var $navbar = $('.'+navbar);
 			var lastScrollTop = 0;
@@ -559,9 +559,9 @@
  		}
 	};
 
-	donostiarraNewStyle.prototype = _.extend({}, new blink.theme.styles.basic(), donostiarraNewStyle.prototype);
+	DonostiarraNewStyle.prototype = _.extend({}, new blink.theme.styles.basic(), DonostiarraNewStyle.prototype);
 
-	blink.theme.styles['donostiarraNew'] = donostiarraNewStyle;
+	blink.theme.styles['DonostiarraNew'] = DonostiarraNewStyle;
 
 })( blink );
 
