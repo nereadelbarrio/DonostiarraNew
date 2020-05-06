@@ -670,11 +670,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*Titulo 1*/
 .bck-title1 {
-    background-color: #ffffff;
     padding: 3px 6px;
-    text-shadow: red;
-    text-shadow: none;
-    font-weight: bold;
     position: relative;
     left: -45px;
     font-family: 'Conv_MyriadPro-Bold';
