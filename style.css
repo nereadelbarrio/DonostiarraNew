@@ -1,173 +1,144 @@
 /*estilo DonostiarraNew*/
+
 /* Fonts */
 
 @font-face {
-	font-family: 'Conv_CaeciliaLTStd-Roman';
-	src: url('fonts/CaeciliaLTStd-Roman.eot');
-	src: local('☺'), url('fonts/CaeciliaLTStd-Roman.woff') format('woff'), url('fonts/CaeciliaLTStd-Roman.ttf') format('truetype'), url('fonts/CaeciliaLTStd-Roman.svg') format('svg');
+	font-family: 'Conv_AkzidenzGrotesk-BoldCond';
+	src: url('fonts/AkzidenzGrotesk-BoldCond.eot');
+	src: local('☺'), url('fonts/AkzidenzGrotesk-BoldCond.woff') format('woff'), url('fonts/AkzidenzGrotesk-BoldCond.ttf') format('truetype'), url('fonts/AkzidenzGrotesk-BoldCond.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_DINEngschriftStd';
-	src: url('fonts/DINEngschriftStd.eot');
-	src: local('☺'), url('fonts/DINEngschriftStd.woff') format('woff'), url('fonts/DINEngschriftStd.ttf') format('truetype'), url('fonts/DINEngschriftStd.svg') format('svg');
+	font-family: 'Conv_AkzidenzGrotesk-Cond';
+	src: url('fonts/AkzidenzGrotesk-Cond.eot');
+	src: local('☺'), url('fonts/AkzidenzGrotesk-Cond.woff') format('woff'), url('fonts/AkzidenzGrotesk-Cond.ttf') format('truetype'), url('fonts/AkzidenzGrotesk-Cond.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_FuturaStd-Bold';
-	src: url('fonts/FuturaStd-Bold.eot');
-	src: local('☺'), url('fonts/FuturaStd-Bold.woff') format('woff'), url('fonts/FuturaStd-Bold.ttf') format('truetype'), url('fonts/FuturaStd-Bold.svg') format('svg');
+	font-family: 'Conv_AkzidenzGrotesk-MediumCond';
+	src: url('fonts/AkzidenzGrotesk-MediumCond.eot');
+	src: local('☺'), url('fonts/AkzidenzGrotesk-MediumCond.woff') format('woff'), url('fonts/AkzidenzGrotesk-MediumCond.ttf') format('truetype'), url('fonts/AkzidenzGrotesk-MediumCond.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_FuturaStd-Book';
-	src: url('fonts/FuturaStd-Book.eot');
-	src: local('☺'), url('fonts/FuturaStd-Book.woff') format('woff'), url('fonts/FuturaStd-Book.ttf') format('truetype'), url('fonts/FuturaStd-Book.svg') format('svg');
+	font-family: 'Conv_Bleeker-Regular';
+	src: url('fonts/Bleeker-Regular.eot');
+	src: local('☺'), url('fonts/Bleeker-Regular.woff') format('woff'), url('fonts/Bleeker-Regular.ttf') format('truetype'), url('fonts/Bleeker-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_FuturaStd-BookOblique';
-	src: url('fonts/FuturaStd-BookOblique.eot');
-	src: local('☺'), url('fonts/FuturaStd-BookOblique.woff') format('woff'), url('fonts/FuturaStd-BookOblique.ttf') format('truetype'), url('fonts/FuturaStd-BookOblique.svg') format('svg');
+	font-family: 'Conv_IndieFlower-Regular';
+	src: url('fonts/IndieFlower-Regular.eot');
+	src: local('☺'), url('fonts/IndieFlower-Regular.woff') format('woff'), url('fonts/IndieFlower-Regular.ttf') format('truetype'), url('fonts/IndieFlower-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_FuturaStd-Heavy';
-	src: url('fonts/FuturaStd-Heavy.eot');
-	src: local('☺'), url('fonts/FuturaStd-Heavy.woff') format('woff'), url('fonts/FuturaStd-Heavy.ttf') format('truetype'), url('fonts/FuturaStd-Heavy.svg') format('svg');
+	font-family: 'Conv_MinionPro-Regular';
+	src: url('fonts/MinionPro-Regular.eot');
+	src: local('☺'), url('fonts/MinionPro-Regular.woff') format('woff'), url('fonts/MinionPro-Regular.ttf') format('truetype'), url('fonts/MinionPro-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_FuturaStd-HeavyOblique';
-	src: url('fonts/FuturaStd-HeavyOblique.eot');
-	src: local('☺'), url('fonts/FuturaStd-HeavyOblique.woff') format('woff'), url('fonts/FuturaStd-HeavyOblique.ttf') format('truetype'), url('fonts/FuturaStd-HeavyOblique.svg') format('svg');
+	font-family: 'Conv_MyriadPro-Bold';
+	src: url('fonts/MyriadPro-Bold.eot');
+	src: local('☺'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype'), url('fonts/MyriadPro-Bold.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_FuturaStd-Medium';
-	src: url('fonts/FuturaStd-Medium.eot');
-	src: local('☺'), url('fonts/FuturaStd-Medium.woff') format('woff'), url('fonts/FuturaStd-Medium.ttf') format('truetype'), url('fonts/FuturaStd-Medium.svg') format('svg');
+	font-family: 'Conv_MyriadPro-Regular';
+	src: url('fonts/MyriadPro-Regular.eot');
+	src: local('☺'), url('fonts/MyriadPro-Regular.woff') format('woff'), url('fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_HelveticaNeueLTStd-Bd';
-	src: url('fonts/HelveticaNeueLTStd-Bd.eot');
-	src: local('☺'), url('fonts/HelveticaNeueLTStd-Bd.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Bd.svg') format('svg');
+	font-family: 'Conv_ProximaNova-Black';
+	src: url('fonts/ProximaNova-Black.eot');
+	src: local('☺'), url('fonts/ProximaNova-Black.woff') format('woff'), url('fonts/ProximaNova-Black.ttf') format('truetype'), url('fonts/ProximaNova-Black.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_HelveticaNeueLTStd-It';
-	src: url('fonts/HelveticaNeueLTStd-It.eot');
-	src: local('☺'), url('fonts/HelveticaNeueLTStd-It.woff') format('woff'), url('fonts/HelveticaNeueLTStd-It.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-It.svg') format('svg');
+	font-family: 'Conv_ProximaNova-Bold';
+	src: url('fonts/ProximaNova-Bold.eot');
+	src: local('☺'), url('fonts/ProximaNova-Bold.woff') format('woff'), url('fonts/ProximaNova-Bold.ttf') format('truetype'), url('fonts/ProximaNova-Bold.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_HelveticaNeueLTStd-Roman';
-	src: url('fonts/HelveticaNeueLTStd-Roman.eot');
-	src: local('☺'), url('fonts/HelveticaNeueLTStd-Roman.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Roman.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Roman.svg') format('svg');
+	font-family: 'Conv_ProximaNova-BoldIt';
+	src: url('fonts/ProximaNova-BoldIt.eot');
+	src: local('☺'), url('fonts/ProximaNova-BoldIt.woff') format('woff'), url('fonts/ProximaNova-BoldIt.ttf') format('truetype'), url('fonts/ProximaNova-BoldIt.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_MYRIADPRO-BOLD';
-	src: url('fonts/MYRIADPRO-BOLD.eot');
-	src: local('☺'), url('fonts/MYRIADPRO-BOLD.woff') format('woff'), url('fonts/MYRIADPRO-BOLD.ttf') format('truetype'), url('fonts/MYRIADPRO-BOLD.svg') format('svg');
+	font-family: 'Conv_ProximaNova-Extrabld';
+	src: url('fonts/ProximaNova-Extrabld.eot');
+	src: local('☺'), url('fonts/ProximaNova-Extrabld.woff') format('woff'), url('fonts/ProximaNova-Extrabld.ttf') format('truetype'), url('fonts/ProximaNova-Extrabld.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_MYRIADPRO-IT';
-	src: url('fonts/MYRIADPRO-IT.eot');
-	src: local('☺'), url('fonts/MYRIADPRO-IT.woff') format('woff'), url('fonts/MYRIADPRO-IT.ttf') format('truetype'), url('fonts/MYRIADPRO-IT.svg') format('svg');
+	font-family: 'Conv_ProximaNova-Regular';
+	src: url('fonts/ProximaNova-Regular.eot');
+	src: local('☺'), url('fonts/ProximaNova-Regular.woff') format('woff'), url('fonts/ProximaNova-Regular.ttf') format('truetype'), url('fonts/ProximaNova-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_MYRIADPRO-REGULAR';
-	src: url('fonts/MYRIADPRO-REGULAR.eot');
-	src: local('☺'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff'), url('fonts/MYRIADPRO-REGULAR.ttf') format('truetype'), url('fonts/MYRIADPRO-REGULAR.svg') format('svg');
+	font-family: 'Conv_ProximaNova-RegularIt';
+	src: url('fonts/ProximaNova-RegularIt.eot');
+	src: local('☺'), url('fonts/ProximaNova-RegularIt.woff') format('woff'), url('fonts/ProximaNova-RegularIt.ttf') format('truetype'), url('fonts/ProximaNova-RegularIt.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_MYRIADPRO-SEMIBOLDSEMICN';
-	src: url('fonts/MYRIADPRO-SEMIBOLDSEMICN.eot');
-	src: local('☺'), url('fonts/MYRIADPRO-SEMIBOLDSEMICN.woff') format('woff'), url('fonts/MYRIADPRO-SEMIBOLDSEMICN.ttf') format('truetype'), url('fonts/MYRIADPRO-SEMIBOLDSEMICN.svg') format('svg');
+	font-family: 'Conv_ProximaNova-Semibold';
+	src: url('fonts/ProximaNova-Semibold.eot');
+	src: local('☺'), url('fonts/ProximaNova-Semibold.woff') format('woff'), url('fonts/ProximaNova-Semibold.ttf') format('truetype'), url('fonts/ProximaNova-Semibold.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_NewBaskervilleStd-Bold';
-	src: url('fonts/NewBaskervilleStd-Bold.eot');
-	src: local('☺'), url('fonts/NewBaskervilleStd-Bold.woff') format('woff'), url('fonts/NewBaskervilleStd-Bold.ttf') format('truetype'), url('fonts/NewBaskervilleStd-Bold.svg') format('svg');
+	font-family: 'Conv_ProximaNova-SemiboldIt';
+	src: url('fonts/ProximaNova-SemiboldIt.eot');
+	src: local('☺'), url('fonts/ProximaNova-SemiboldIt.woff') format('woff'), url('fonts/ProximaNova-SemiboldIt.ttf') format('truetype'), url('fonts/ProximaNova-SemiboldIt.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_StoneSansStd-Phonetic';
-	src: url('fonts/StoneSansStd-Phonetic.eot');
-	src: local('☺'), url('fonts/StoneSansStd-Phonetic.woff') format('woff'), url('fonts/StoneSansStd-Phonetic.ttf') format('truetype'), url('fonts/StoneSansStd-Phonetic.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'satisfyregular';
+    src: url('satisfy-regular-webfont.woff2') format('woff2'),
+         url('satisfy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@font-face {
-	font-family: 'Conv_TektonPro-Regular';
-	src: url('fonts/TektonPro-Regular.eot');
-	src: local('☺'), url('fonts/TektonPro-Regular.woff') format('woff'), url('fonts/TektonPro-Regular.ttf') format('truetype'), url('fonts/TektonPro-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Conv_TimesLTStd-Bold';
-	src: url('fonts/TimesLTStd-Bold.eot');
-	src: local('☺'), url('fonts/TimesLTStd-Bold.woff') format('woff'), url('fonts/TimesLTStd-Bold.ttf') format('truetype'), url('fonts/TimesLTStd-Bold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Conv_TimesLTStd-Roman';
-	src: url('fonts/TimesLTStd-Roman.eot');
-	src: local('☺'), url('fonts/TimesLTStd-Roman.woff') format('woff'), url('fonts/TimesLTStd-Roman.ttf') format('truetype'), url('fonts/TimesLTStd-Roman.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Conv_ZAPFDINGBATSSTD';
-	src: url('fonts/ZAPFDINGBATSSTD.eot');
-	src: local('☺'), url('fonts/ZAPFDINGBATSSTD.woff') format('woff'), url('fonts/ZAPFDINGBATSSTD.ttf') format('truetype'), url('fonts/ZAPFDINGBATSSTD.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
 
 /*General */
 body {
@@ -698,21 +669,15 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 /*Titulo 1*/
-.bck-title-1 {
-    color: #ffff;
-    font-size: 2rem;
-    background: #2E73B9;
-    width: fit-content;
+.bck-title1 {
+    background-color: #ffffff;
+    padding: 3px 6px;
+    text-shadow: red;
+    text-shadow: none;
+    font-weight: bold;
     position: relative;
-    text-align: left;
-    padding-left: 54px;
-    padding-right: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    left: -97px;
-    font-weight: 700;
-    font-family: 'Conv_FuturaStd-Book';
-    margin-top: 0px;
+    left: -45px;
+    font-family: 'Conv_MyriadPro-Bold';
 }
 
 
@@ -726,25 +691,38 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   font-family: JacobyICG;
 }
 
-/*Título 2 - Verde*/
-.bck-title-2 {
-  color: #0FA77E;
-    font-size: 3rem;
-    text-align: left;
-    font-family: 'Conv_FuturaStd-Book';
+/*Título 2*/
+.bck-title2:before{
+	content: " ";
+    padding: 32px 21px 1px 10px;
+    left: 2px;
+    top: 11px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg19_0001_173343.png);
 }
 
-/*Título 3 - Título DonostiarraNew*/
-.bck-title-3 {
-    color: #009FA5;
-    background-color: #D8EDEE;
+.bck-title2 {
+	position: relative;
+    border-bottom: 2px solid #93D5F6;
+    font-weight: bold;
+    text-indent: -41px;
+    margin-left: 28px;
     width: fit-content;
-    font-size: 3.2rem;
-    text-align: left;
-    font-weight: 500;
-    padding: 5px 5px 0px 5px;
-    font-family: 'Conv_FuturaStd-Medium';
 }
+
+/*Título 3*/
+.bck-title3 {
+    background-color: #6DAEE0;
+    text-shadow: none;
+    text-align: center;
+    background-color: #85CEE4;
+    border-top: 2px solid #4DB4E7;
+    border-bottom: 2px solid #4DB4E7;
+    color: #fff;
+}
+
 
 /*Título 6 - Título DonostiarraNewNaranja*/
 .bck-title-6 {
@@ -937,11 +915,17 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*Enfasis NumeroIntro*/
 .bck-enfasis-1 {
-    color: #00ACB3;
-    font-size: 8rem;
+	background-size: contain;
+    content: " ";
+    padding: 9px 17px 13px 27px;
+    left: 0px;
+    top: -1px;
+    background-repeat: no-repeat;
     position: relative;
-    top: 15px;
-    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    background-image: url(images/TPR1ESO_Unidad1-3.png);
+    color: #ffff;
+    text-shadow: none;
+    font-size: 2.8rem;
 }
 
 /*énfasis naranja*/
@@ -1207,7 +1191,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: -12px;
     margin-top: 10px;
     font-size: 2rem;
-    font-family: 'Conv_FuturaStd-Medium';
     line-height: 1.8em!important;
 }
 
@@ -1215,21 +1198,14 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .texto_curso .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
-  content: counter(bck-li-counter);
-    width: 32px;
-    height: 27px;
+	content: counter(bck-li-counter)'. ';
     position: absolute;
-    color: #ffff;
-    background: none;
-    margin-left: -46px;
-    margin-right: 0px;
-    text-align: right;
-    font-family: 'Conv_FuturaStd-Medium';
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: normal;
-    top: 1px;
-    left: auto;
+    margin-left: -27px;
+    /* text-align: right; */
+    color: #007bc4;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: -0.8px;
 }
 
 /*LISTA 2*/
@@ -1260,18 +1236,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-  	content: counter(bck-li-counter)" ";
-    width: 27px;
-    height: 27px;
-    position: relative;
-    font-size: 2.2rem;
-    font-weight: 600;
-    color: #009FA5;
-    background: none;
-    margin-left: -35px;
-    margin-right: 0px;
-    text-align: right;
-    font-family: 'Conv_FuturaStd-Bold';
+	content: counter(bck-li-counter)'.';
+	color: #D7B471;
+	margin-top: -0.8px;
 }
 
 /*LISTA 3*/
@@ -1443,62 +1410,75 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*BOXES*/
 
-/*CAJA1 - CajaUnit*/
+/*CAJA1 - CajaActividades*/
+/*caja actividades*/
+.bck-box.box-1{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-top: 3px solid #F4E8D1;
+    border-left: 3px solid #F4E8D1;
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
 
-.bck-box.bck-box-1 {
+.bck-box.box-1 .bck-title{
+	color: #E5BA6B;
     position: relative;
-    background: url(images/rich_english_U7_pg64_img_0001.png) repeat-y;
-    padding: 60px 18px 91px 83px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    width: 125.5%;
+    top: -61px;
 }
 
-
-/*.bck-box-1 .bck-title {
-  border: 3px solid #ED155B;
-  background-color: #ED155B;
-  color: #FFF;
-  width: fit-content;
-  font-weight: 700;
-  width: -moz-fit-content;
-  height: auto;
-  font-size: 3.5rem;
-  border-radius: 10px 10px 0px 0px;
-  padding: 4px 4px 4px 4px;
-  font-family: JacobyICG;
-}*/
-
-.bck-box-1 .bck-content {
-    padding-left: 30px;
-    text-align: left;
-    padding: 0;
-    font-family: 'Conv_FuturaStd-Bold';
+.bck-box.box-1 .bck-content{
+	position: relative;
+    top: -55px;
 }
 
-.bck-box-1 .bck-content p {
-    font-size: 3.2rem;
+.bck-box.box-1 .bck-title:before {
+    content: " ";
+    padding: 32px;
+    left: -57px;
+    top: 16px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg21_0002_553693.png);
 }
 
-/*CAJA2- CajaFondoColor = caja 2 verde */
-
-.bck-box.bck-box-2 {
-  margin-top: 15px;
-  border: none;
-  background: transparent;
+/*CAJA 2- Ejemplo memoria*/
+.bck-box.box-2{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-top: 3px solid #F4E8D1;
+    border-left: 3px solid #F4E8D1;
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
 }
 
-.bck-box.bck-box-2 .bck-title {
-  color: inherit;
+.bck-box.box-2 .bck-title{
+	color: #E5BA6B;
+    position: relative;
+    top: -61px;
 }
 
+.bck-box.box-2 .bck-content{
+	position: relative;
+    top: -55px;
+}
 
-.bck-box.bck-box-2 .bck-content {
-    padding-left: 30px;
-    background-color: #DFEFE4;
-    padding: 8px 8px 8px 19px;
-    box-shadow: 9px 10px 0px -6px #20AA72;
+.bck-box.box-2 .bck-title:before {
+    content: " ";
+    padding: 32px;
+    left: -57px;
+    top: 16px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg22_0001.png);
 }
 
 /*CAJA3 Video*/
@@ -2634,6 +2614,76 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   /*height: 28px;
   width: 30px;*/
 }
+
+/*pop up*/
+.info-template .info-icon{
+	    position: absolute;
+    top: -10px;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 2px #9dcde2;
+    border-radius: 6px;
+    background: #fff;
+    border-color: #fff;
+    color: #ffffff;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.fa-info:before {
+    background-size: contain;
+    content: " ";
+    padding: 9px 23px 13px 32px;
+    left: 0;
+    top: 7px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(images/donos_tec_u1_pg18_0002.png);
+}
+
+.info-template .info-title{
+	color: #9dcde2;
+}
+.info-template.shown{
+	background: -webkit-linear-gradient(315deg,#fff 0,#fff 100%);
+}
+.info-template{
+	box-shadow: 0 0 2px #a9d3e6;
+}
+.info-template .info-title.shown{
+	font-weight: bold;
+	font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+.info-popover .popover-title, .popover-template .popover-title{
+	display: block;
+    position: relative;
+    background: #9dcde2;
+    padding-left: 17px;
+    padding-top: 13px;
+    color: #ffffff;
+    font-size: 2rem;
+    min-height: 35px;
+    font-weight: bold;
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+.fa-times:before {
+    content: "\f00d";
+    color: #ffff;
+}
+.popover-template .popover-title:before{
+	content: "";
+}
+.popover-template .popover-content{
+	color: #007BCD;
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+
 
 /**TABLA y Celdas**/
 
