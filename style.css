@@ -677,18 +677,16 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 
-/*TÃ­tulo 1-Izquierda*/
-.bck-title-9 {
-  color: #F03F23;
-  font-size: 3.2rem;
-  text-align: left;
-  padding-left: 20px;
-  font-weight: 700;
-  font-family: JacobyICG;
+/*Titulo 1*/
+.bck-title-1 {
+    padding: 3px 6px;
+    position: relative;
+    left: -45px;
+    font-family: 'Conv_MyriadPro-Bold';
 }
 
 /*Título 2*/
-.bck-title2:before{
+.bck-title-2:before{
 	content: " ";
     padding: 32px 21px 1px 10px;
     left: 2px;
@@ -699,7 +697,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-image: url(images/donos_tec_u1_pg19_0001_173343.png);
 }
 
-.bck-title2 {
+.bck-title-2 {
 	position: relative;
     border-bottom: 2px solid #93D5F6;
     font-weight: bold;
@@ -709,7 +707,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 /*Título 3*/
-.bck-title3 {
+.bck-title-3 {
     background-color: #6DAEE0;
     text-shadow: none;
     text-align: center;
@@ -718,7 +716,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border-bottom: 2px solid #4DB4E7;
     color: #fff;
 }
-
 
 /*Título 6 - Título DonostiarraNewNaranja*/
 .bck-title-6 {
