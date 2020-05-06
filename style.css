@@ -1,571 +1,1198 @@
-/*estilo DONOSTIARRANEW*/
+/*estilo donostiarraNew*/
 
 /* Fonts */
 
 @font-face {
-	font-family: Campton;
-	font-weight: 100;
-	src: url('fonts/Campton-Light.otf');
-}
-
-@font-face {
-	font-family: Campton;
-	font-weight: bold;
-	src: url('fonts/Campton-Bold.otf');
-
-}
-
-@font-face {
-	font-family: Campton;
-	font-weight: normal;
-	src: url(fonts/Campton-Book.otf);
-}
-
-@font-face {
-	font-family: Campton light;
-	font-weight: 100;
-	src: url('fonts/Campton-Light.otf');
-}
-
-
-b,
-strong {
-	font-weight: bold;
-}
-
-@font-face {
-	font-family: 'Conv_marydale';
-	src: url('fonts/marydale.eot');
-	src: local('â˜º'),
-		url('fonts/marydale.woff') format('woff'),
-		url('fonts/marydale.ttf') format('truetype'),
-		url('fonts/marydale.svg') format('svg');
+	font-family: 'Conv_CaeciliaLTStd-Roman';
+	src: url('fonts/CaeciliaLTStd-Roman.eot');
+	src: local('☺'), url('fonts/CaeciliaLTStd-Roman.woff') format('woff'), url('fonts/CaeciliaLTStd-Roman.ttf') format('truetype'), url('fonts/CaeciliaLTStd-Roman.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_Stag-Light';
-	src: url('fonts/Stag-Light.eot');
-	src: local('â˜º'),
-		url('fonts/Stag-Light.woff') format('woff'),
-		url('fonts/Stag-Light.ttf') format('truetype'),
-		url('fonts/Stag-Light.svg') format('svg');
+	font-family: 'Conv_DINEngschriftStd';
+	src: url('fonts/DINEngschriftStd.eot');
+	src: local('☺'), url('fonts/DINEngschriftStd.woff') format('woff'), url('fonts/DINEngschriftStd.ttf') format('truetype'), url('fonts/DINEngschriftStd.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-/*TOC*/
-#indice .units ul li.active:not(.disabled),
-#indice .units ul li:focus:not(.disabled) {
-	background-color: #333 !important;
+@font-face {
+	font-family: 'Conv_FuturaStd-Bold';
+	src: url('fonts/FuturaStd-Bold.eot');
+	src: local('☺'), url('fonts/FuturaStd-Bold.woff') format('woff'), url('fonts/FuturaStd-Bold.ttf') format('truetype'), url('fonts/FuturaStd-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-	font-size: 14px;
-	font-weight: bold;
+@font-face {
+	font-family: 'Conv_FuturaStd-Book';
+	src: url('fonts/FuturaStd-Book.eot');
+	src: local('☺'), url('fonts/FuturaStd-Book.woff') format('woff'), url('fonts/FuturaStd-Book.ttf') format('truetype'), url('fonts/FuturaStd-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
-#indice .units ul li:hover:not(.disabled) {
-	background: #b7b7b7;
-
+@font-face {
+	font-family: 'Conv_FuturaStd-BookOblique';
+	src: url('fonts/FuturaStd-BookOblique.eot');
+	src: local('☺'), url('fonts/FuturaStd-BookOblique.woff') format('woff'), url('fonts/FuturaStd-BookOblique.ttf') format('truetype'), url('fonts/FuturaStd-BookOblique.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
-	color: #fff;
+@font-face {
+	font-family: 'Conv_FuturaStd-Heavy';
+	src: url('fonts/FuturaStd-Heavy.eot');
+	src: local('☺'), url('fonts/FuturaStd-Heavy.woff') format('woff'), url('fonts/FuturaStd-Heavy.ttf') format('truetype'), url('fonts/FuturaStd-Heavy.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-#list-units .unittag_textbook_donostiarraNew {
-	background: #31a2c7 !important;
+@font-face {
+	font-family: 'Conv_FuturaStd-HeavyOblique';
+	src: url('fonts/FuturaStd-HeavyOblique.eot');
+	src: local('☺'), url('fonts/FuturaStd-HeavyOblique.woff') format('woff'), url('fonts/FuturaStd-HeavyOblique.ttf') format('truetype'), url('fonts/FuturaStd-HeavyOblique.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-#list-units .unittag_textbook_donostiarraNew:hover {
-	background: #3333337d !important;
+@font-face {
+	font-family: 'Conv_FuturaStd-Medium';
+	src: url('fonts/FuturaStd-Medium.eot');
+	src: local('☺'), url('fonts/FuturaStd-Medium.woff') format('woff'), url('fonts/FuturaStd-Medium.ttf') format('truetype'), url('fonts/FuturaStd-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-.units ul#list-units .unittag_textbook_donostiarraNew a .title {
-	color: #ffffff;
+@font-face {
+	font-family: 'Conv_HelveticaNeueLTStd-Bd';
+	src: url('fonts/HelveticaNeueLTStd-Bd.eot');
+	src: local('☺'), url('fonts/HelveticaNeueLTStd-Bd.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Bd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Conv_HelveticaNeueLTStd-It';
+	src: url('fonts/HelveticaNeueLTStd-It.eot');
+	src: local('☺'), url('fonts/HelveticaNeueLTStd-It.woff') format('woff'), url('fonts/HelveticaNeueLTStd-It.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-It.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_HelveticaNeueLTStd-Roman';
+	src: url('fonts/HelveticaNeueLTStd-Roman.eot');
+	src: local('☺'), url('fonts/HelveticaNeueLTStd-Roman.woff') format('woff'), url('fonts/HelveticaNeueLTStd-Roman.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_MYRIADPRO-BOLD';
+	src: url('fonts/MYRIADPRO-BOLD.eot');
+	src: local('☺'), url('fonts/MYRIADPRO-BOLD.woff') format('woff'), url('fonts/MYRIADPRO-BOLD.ttf') format('truetype'), url('fonts/MYRIADPRO-BOLD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_MYRIADPRO-IT';
+	src: url('fonts/MYRIADPRO-IT.eot');
+	src: local('☺'), url('fonts/MYRIADPRO-IT.woff') format('woff'), url('fonts/MYRIADPRO-IT.ttf') format('truetype'), url('fonts/MYRIADPRO-IT.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_MYRIADPRO-REGULAR';
+	src: url('fonts/MYRIADPRO-REGULAR.eot');
+	src: local('☺'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff'), url('fonts/MYRIADPRO-REGULAR.ttf') format('truetype'), url('fonts/MYRIADPRO-REGULAR.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_MYRIADPRO-SEMIBOLDSEMICN';
+	src: url('fonts/MYRIADPRO-SEMIBOLDSEMICN.eot');
+	src: local('☺'), url('fonts/MYRIADPRO-SEMIBOLDSEMICN.woff') format('woff'), url('fonts/MYRIADPRO-SEMIBOLDSEMICN.ttf') format('truetype'), url('fonts/MYRIADPRO-SEMIBOLDSEMICN.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_NewBaskervilleStd-Bold';
+	src: url('fonts/NewBaskervilleStd-Bold.eot');
+	src: local('☺'), url('fonts/NewBaskervilleStd-Bold.woff') format('woff'), url('fonts/NewBaskervilleStd-Bold.ttf') format('truetype'), url('fonts/NewBaskervilleStd-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_StoneSansStd-Phonetic';
+	src: url('fonts/StoneSansStd-Phonetic.eot');
+	src: local('☺'), url('fonts/StoneSansStd-Phonetic.woff') format('woff'), url('fonts/StoneSansStd-Phonetic.ttf') format('truetype'), url('fonts/StoneSansStd-Phonetic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_TektonPro-Regular';
+	src: url('fonts/TektonPro-Regular.eot');
+	src: local('☺'), url('fonts/TektonPro-Regular.woff') format('woff'), url('fonts/TektonPro-Regular.ttf') format('truetype'), url('fonts/TektonPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_TimesLTStd-Bold';
+	src: url('fonts/TimesLTStd-Bold.eot');
+	src: local('☺'), url('fonts/TimesLTStd-Bold.woff') format('woff'), url('fonts/TimesLTStd-Bold.ttf') format('truetype'), url('fonts/TimesLTStd-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_TimesLTStd-Roman';
+	src: url('fonts/TimesLTStd-Roman.eot');
+	src: local('☺'), url('fonts/TimesLTStd-Roman.woff') format('woff'), url('fonts/TimesLTStd-Roman.ttf') format('truetype'), url('fonts/TimesLTStd-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ZAPFDINGBATSSTD';
+	src: url('fonts/ZAPFDINGBATSSTD.eot');
+	src: local('☺'), url('fonts/ZAPFDINGBATSSTD.woff') format('woff'), url('fonts/ZAPFDINGBATSSTD.ttf') format('truetype'), url('fonts/ZAPFDINGBATSSTD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /*General */
-#book-index #indice .units ul li a .title {
-	margin: 0;
-	font-size: 14px;
-	font-weight: 400;
-}
-
-/*Input Blanco*/
-.input_blanco .slide_main .html-book input {
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	background: #fff;
-}
-
-/*logo*/
-.libro-left ul li .title:before {
-	content: "";
-	background-size: contain;
-	top: 3px;
-	background-image: url(imagenes_difusion/thespanishhub_logo.png) !important;
-	position: fixed;
-	width: 80px;
-	height: 40px;
-	background-repeat: no-repeat;
-	left: 50%;
-	margin-left: -40px;
-}
-
-/*video*/
-.vjs-poster {
-	background-color: #fff;
-}
-
 body {
-	font-size: 1.8rem;
-	font-weight: normal;
-	text-align: left;
-	font-family: Campton;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Conv_FuturaStd-Medium';
+}
+
+.body_clase .content-wrapper,
+.body_clase.view-mode .content-wrapper {
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .slide-wrapper {
-	text-align: left;
+  text-align: left;
+}
+
+
+#actividad .carousel-inner .item-container {
+  -webkit-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
+  -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
+  box-shadow: rgba(0, 0, 0, 0.43) 0 3px 9px;
+  padding-bottom: 0px;
+  background: #ffff;	
+	
+}
+
+#actividad .content .header .chapter{
+	    display: none;
+}
+
+#actividad .content .header {
+	display: none;
+}
+
+
+#actividad .content .header .title img {
+	display: none;
+}
+
+#actividad .content .header {
+	border-bottom: none;
+}
+
+
+
+/* modo correcion/revision */
+
+.info-alumno .nombre-alumno {
+	max-width: 189px;
 }
 
 /*tamaÃ±o enunciado listas*/
 
 #actividad .pregunta .texto_curso {
-	font-size: 1.8rem;
+      font-size: 2rem;
 }
 
-#actividad textarea {
-    font-size: 18px;
+/*tamaÃ±o p*/
+
+.texto_curso p {
+  line-height: 1.8 !important;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+  font-weight: 500;
 }
+
+p {
+  margin: 0 0 10px;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+/*justificacción centro*/
+.bck-t-align-center {
+	line-height: 1.7em!important;
+}
+
 
 /*ENLACE WEB*/
 
-#actividad a,
-body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	background-color: transparent;
-	padding: 0px 5px;
-	color: #333;
-	font-weight: 600;
-	text-decoration: none;
-}
+/*#actividad a {
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #F9F2F4;
+  padding: 0px 5px;
+  color: #AECE5D;
+  font-weight: 600;
+  text-decoration: none;
+}*/
+
 /*INDICE LATERAL*/
-
-#indice .units ul li:not(.add) a .title {
-	font-size: 14px;
-	font-weight: 400;
-	margin-left: 10px;
-}
-
-
-body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
 #book-index #indice .units ul li.active a {
-	background: #b7b7b7;
+  background: #0ca1ea;
 }
 
 
 #book-index .col-main {
-	background: #31A2C7;
+      background: #0ca1ea;
 }
 
+#indice .unit-content {
+  -webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
+          box-shadow: 1px 1px 1px 1px #C2C2C2;
+}            
 
 #indice .unit-content .header .title {
-	color: #fff;
-	background: transparent;
-	float: left;
-	font-size: 28px;
-	font-weight: 700;
-	line-height: 34px;
-	padding: 5px 20px;
-	height: 88px;
-	margin: 5px 140px 20px 8px;
-	overflow: hidden;
-	z-index: 1;
-	display: block;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
-	-o-text-overflow: ellipsis;
-	text-overflow: ellipsis;
-}
-
-
-#book-index #indice .unit-content .actividades .item .title {
-	font-size: 14px;
+  color: #2097b9;
+  background: #ffffffd6;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  padding: 5px 20px;
+  height: 50px;
+  margin: 5px 140px 20px 8px;
+  z-index: 1;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 #indice .unit-content .actividades .item .nota {
-	background-color: #428bca;
+      background-color: #428bca;
 }
 
+#indice .units ul li {
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
+  box-shadow: 1px 1px 1px 1px #C2C2C2;
+}
 
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-	background: #31A2C7;
+  background: #139dc5;
 }
 
-
-body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
-body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-	font-size: 14px;
-	font-weight: 400;
+#indice .units ul li.hover:not(.disabled),
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+#indice .units ul li:hover:not(.disabled) {
+  background: #1cb3df;
 }
-
 
 #book-index #indice .unit-content a:hover,
 #indice .units ul li a:hover,
-#indice .actividades a:hover,
 #book-index #indice .unit-content a:active,
 #indice .units ul li a:active,
-#indice .actividades a:active,
 #book-index #indice .unit-content a:focus,
-#indice .units ul li a:focus,
-#indice .actividades a:focus {
-	color: #31A2C7;
+#indice .units ul li a:focus {
+  color: #fff;
 }
 
+#indice .actividades a:hover,
+#indice .actividades a:active,
+#indice .actividades a:focus {
+	color: #0cb9ea;
+}
+
+
 #book-index #indice .unit-content .actividades .item {
-	background: #87bacc;
+  background: transparent;
 }
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
-	background: #31a2c75c;
+  background: transparent;
+  border-bottom: 2px solid #4e235b;
+  padding-left: 10px;
 }
-
 
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
-	background: #ccc;
+  background: transparent;
+  border-bottom: 2px solid #4e235b;
+  padding-left: 10px;
 }
 
+
+
+
+/*HEADER*/
+
 .donostiarraNew-navbar h3 {
-	width: 75%;
-	margin: auto;
-	margin-bottom: 15px;
-	font-size: 2.0rem;
-	font-weight: bold;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+/**/
+
+#actividad .texto_curso {
+  font-size: 2rem;
+  line-height: 1.9;
+}
+
+#actividad .class_slide {
+  padding: 20px 97px 10px;
+  }
+
+body.is_app #actividad .class_slide {
+  padding-top: 20px;
+}
+
+#actividad .slide_content_type_1 .pregunta .texto_curso {
+  font-size: 2.1rem;
+}
+
+.slide_content_type_29 .paint .main-canvas {
+  border: 1px solid #ffffff;
 }
 
 #actividad .content .header .title h3 {
-	color: #fff;
-	background: #333;
-	width: 100%;
-	padding: 13px;
-}
-#actividad .content .header .title h3::before{
-	content: '';
-	display: none;
+  display: none;
 }
 
-.slide_main input:focus,
-.slide_main .form-control:focus {
-	border-color: #aaa;
+#actividad .content .header .title h3:before {
+    content: normal;
 }
 
-.slide_main .html-book input {
-    background: #fff;
+#actividad .content .header .title h3:after {
+  background-image: url(Images/triangulo-blanco2.png);
+  content: '';
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 27px;
+  position: absolute;
+  width: 0px;
+  height: auto;
+  margin-left: 18.5px;
+  top: -8.5px !important;
 }
+
+.slide_main input {
+  max-width: 98%;
+  height: 1,43
+}
+
+.texto_curso li input {
+  height: 1.8em !important;
+  margin-bottom: 7px;
+}
+
+.keyboardInput {
+  height: 1.8em;
+}
+
+/* NAVBAR (Breadcums) */
 
 .donostiarraNew-navbar {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	z-index: 100;
-	width: 100%;
-	height: 50px;
-	border-bottom: 1px solid black;
-	background: #545759;
-}
-
-.logo-publisher {
-	display: none;
-	background: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid black;
+  background: #545759;;
 }
 
 body.is_app .donostiarraNew-navbar {
-	-webkit-transition: top 0.5s linear;
-	-o-transition: top 0.5s linear;
-	-moz-transition: top 0.5s linear;
-	transition: top 0.5s linear;
+  /*top: 0;*/
+  -webkit-transition: top 0.5s linear;
+  -o-transition: top 0.5s linear;
+  -moz-transition: top 0.5s linear;
+  transition: top 0.5s linear;
 }
 
 body.is_app .donostiarraNew-navbar.ocultar {
-	top: -136px;
+  top: -136px;
 }
 
 .donostiarraNew-navbar .navbar-content {
-	width: 100%;
-	height: 100%;
-	padding: 0 20px;
-	text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.logo-publisher {
+  width: 87px;
+  height: 35px;
+  margin: 9px 0;
+  background: none;
+}
+
+.edit -publisher {
+  top: 2px;
+  width: 40px;
+  height: 40px;
 }
 
 .donostiarraNew-navbar .copyright {
-	color: #fff;
-	line-height: 5.0rem;
+  color: #fff;
+  line-height: 5.0rem;
+}
+/**/
+
+/* CKEDITOR */
+#actividad .content img {
+  margin-top: 20px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
 }
 
-.slider-navigator:hover,
-.slider-navigator.disabled {
-	opacity: .5;
-	filter: alpha(opacity=50);
+li img {
+vertical-align: top;
 }
 
+/* ACTIVITIES */
+
+#actividad .workspace.test .checkbox-option label.filter-label,
+#actividad .workspace.test .radio-option label.filter-label,
+#actividad .workspace.true-false .checkbox-option label.filter-label,
+#actividad .workspace.true-false .radio-option label.filter-label {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+#actividad .workspace.true-false .tf-option {
+	display: inline-block;
+	margin-left: 70px;
+}
+
+
+#actividad .content .workspace.test ul li ul li:before,
+#actividad .content .workspace.test ul li .bck-ul li:before {
+  display: none;
+}
+
+/*Evitar bordes en las lineas del matching*/
+#actividad .workspace.matching .img-relaciones img {
+  margin: 0;
+  border: none;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+/*Alinear texto drag and drop*/
+#actividad .drag .circulo_gris p {
+  text-align: left;
+}
+
+
+/*respuesta multiple*/
+#actividad .workspace.multiplechoice_horizontal .opcion {
+  display: inline-block;
+  margin: 10px;
+  padding: 0 5px;
+}
+
+#actividad .workspace.multiplechoice_horizontal>ul.move-text {
+  text-align: center;
+}
+
+.slide_main .multiple-solution-marker {
+  display: none;
+}
+
+/*crucigrama*/
+.slide.crosswords-puzzle .enunciado {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.fillblanks-draggable-wrapper .response p {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1.8rem;
+}
+
+
+/*SeÃ±alar respuesta - Respuesta en lÃ­nea*/
 #actividad .workspace.chooseblanks .inline-answer a {
-	margin: -7px 2px 2px 2px;
+  display: inline-block;
+  vertical-align: initial;
+  border: 2px solid #00bdff;
+  color: #787878;
+  padding: 0px 6px;
+  margin: 2px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
 }
 
-.bck-i-fullscreen figcaption {
-	margin-top: -20px;
-	border-bottom: 0;
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	background: transparent;
+#actividad .workspace.chooseblanks .inline-answer a:hover {
+  background-color: #d2eff7;
+  color: #414141;
 }
+
+#actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+  background-color: #0597ca;
+  color: #fff;
+  font-weight: 400;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+  color: #00bdff;
+  border-color: #00bdff;
+  background-color: #ffffff;
+  padding: 6px;
+    font-size: 2.5rem;
+}
+
+#actividad .workspace.chooseblanks .solucion {
+  border-bottom: 1px solid #00bdff;
+  background-color: #bbffb6;
+}
+
+
+#actividad .workspace.matching .opcion {
+  overflow: hidden;
+  min-height: 2.5em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 10px;
+  border: 2px solid #64bcd5;
+  margin: 2px 0;
+  padding: 5px;
+  width: 100%;
+  float: left;
+}
+
+#actividad .workspace.matching .opcion:hover {
+  background: #e0f7ff9e;
+}
+
+/*rellenar espacios*/
+.slide_main input, 
+.slide_main .img-input-container{
+	border-bottom-color: #7a7a7a;
+    background-color: #e2e2e2;
+}
+
+/*Redacción*/
+.cke_reset{
+	background: white;
+}
+
+/*relacionar altura linea*/
+#actividad .box p{
+	font-size: 2rem;
+    line-height: 1.5;
+}
+
+/*Classify activities*/
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+  border-color: #64bcd59c;
+  padding: 6px;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+  border: 3px solid #64bcd59c;
+  padding-top: 15px;
+}
+
+/*ordenar*/
+#actividad .workspace.ordenar.ordenar_horizontal li{
+	padding: 4px 40px;
+}
+
+#actividad .workspace.ordenar .js-rank-item{
+	margin-bottom: 16px;
+}
+
+
+/**/
 
 /*Icono audio*/
+
 #actividad .player.audio {
-	background-image: url(imagenes_difusion/img_audio.png);
-	color: #fff;
+  background-image: url(images/rich_english_U7_pg64_img_0004.png);
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: contain;
+  background-position: 0;
+  background-color: #9a999e00;
+}
+
+#actividad .player.audio:hover {
+  -webkit-box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
+  box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
 }
 
 
-#actividad .content img.player,
-#actividad .player.audio,
-#actividad .player.video,
-#help-panel-content .player,
-#remote-alert-modal-rich .player {
-	height: 25px !important;
-	width: 27px;
-	display: inline-block;
-	background-repeat: no-repeat;
-	border-radius: 100%;
-	margin: 0 5px;
-	vertical-align: sub;
+#actividad .content img.player, #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
+  height: 30px !important;
+  width: 35px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  margin-right: 5px;
+  padding: 0px;
 }
 
-.bck-sub-label,
-.bck-file-label {
-	background: transparent;
-	-webkit-border-radius: 5px 5px;
-	-moz-border-radius: 5px 5px;
-	border-radius: 5px 5px;
-	max-width: 200px;
-	margin: 0px;
-	padding: 0px;
-	display: inline-block;
-	text-align: center;
-	overflow-wrap: break-word;
+#actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
+background-color: #00800000; 
+  }
+
+body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
+    background-color: transparent;
 }
 
-.bck-file-attach:before {
-	content: " ";
-	background-image: url(imagenes_difusion/icono_transcripciones.png);
-	background-repeat: no-repeat;
-	padding: 10px;
-	background-size: contain;
-	margin-top: 4px;
-	position: absolute;
+#actividad .content img.player, #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player:hover {
+-webkit-box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
+  box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
 }
 
-.bck-file-attach img {
-	display: none;
+.bck-title-intro {
+  font-size: 5rem;
+  color: #ea5b0c;
 }
 
-.bck-file-attach span {
-	display: inline-block;
-	max-width: 100%;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	padding-left: 20px;
-}
-
-/*tÃ­tulo genÃ©rico*/
-
-.bck-title {
-	color: #211915;
-	font-size: 2.1rem;
-	border-bottom: none;
-	font-weight: inherit;
-}
-
-.bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #333;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-
-.bck-title-preparate:before {
-	content: " ";
-	position: relative;
-	top: 15px;
-	left: 0;
-	padding: 17px;
-	margin-right: 10px;
-	background-size: contain;
-	background-image: url(imagenes_difusion/img_casablanca.png);
-	background-repeat: no-repeat;
-}
-
-
+/*Titulo 1*/
 .bck-title-1 {
-	color: #333;
-	font-size: 2.3rem;
-	padding-bottom: 5px;
-	margin-left: 25px;
-	font-family: Campton;
-	font-weight: bold;
-	border-bottom: none;
+    color: #ffff;
+    font-size: 2rem;
+    background: #2E73B9;
+    width: fit-content;
+    position: relative;
+    text-align: left;
+    padding-left: 54px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: -97px;
+    font-weight: 700;
+    font-family: 'Conv_FuturaStd-Book';
+    margin-top: 0px;
 }
 
-.bck-title-1::before{
-	content: '';
-	display: none;
+
+/*TÃ­tulo 1-Izquierda*/
+.bck-title-9 {
+  color: #F03F23;
+  font-size: 3.2rem;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: 700;
+  font-family: JacobyICG;
 }
 
+/*Título 2 - Verde*/
+.bck-title-2 {
+  color: #0FA77E;
+    font-size: 3rem;
+    text-align: left;
+    font-family: 'Conv_FuturaStd-Book';
+}
+
+/*Título 3 - Título donostiarraNew*/
 .bck-title-3 {
-	font-family: Campton light;
-	font-weight: 100;
-	font-size: 1.7rem;
-	border-bottom: none;
+    color: #009FA5;
+    background-color: #D8EDEE;
+    width: fit-content;
+    font-size: 3.2rem;
+    text-align: left;
+    font-weight: 500;
+    padding: 5px 5px 0px 5px;
+    font-family: 'Conv_FuturaStd-Medium';
 }
 
+/*Título 6 - Título donostiarraNewNaranja*/
+.bck-title-6 {
+	display: inline-block;
+	color: #ffffff;
+    background-color: #F18800;
+    width: fit-content;
+    font-size: 2.2rem;
+    font-weight: 500;
+    position: relative;
+    border-radius: 20px 0 0 20px;
+    margin-left: -28px;
+    padding: 5px 10px 6px 0px;
+    font-family: 'Conv_FuturaStd-Medium';
+}
+
+.bck-title-6:before {
+    background-image: url(images/icono_donostiarraNew.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 24px 44px 0 24px;
+    position: relative;
+    left: -3px;
+    z-index: 100;
+    top: 12px;
+}
+
+/*Título Reading - Titulo Story*/
+.bck-title-7 {
+  	color: #ffff;
+    font-size: 2rem;
+    background: #A2C626;
+    width: fit-content;
+    position: relative;
+    text-align: left;
+    padding-left: 54px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: -97px;
+    font-weight: 700;
+    font-family: 'Conv_FuturaStd-Book';
+    margin-top: 0px;
+}
+
+/*Título Communication 8 - Titulo Quiz*/
+.bck-title-8 {
+  	color: #ffff;
+    font-size: 2rem;
+    background: #B83187;
+    width: fit-content;
+    position: relative;
+    text-align: left;
+    padding-left: 54px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: -97px;
+    font-weight: 700;
+    font-family: 'Conv_FuturaStd-Book';
+}
+
+/*Título 4 Naranja*/
 .bck-title-4 {
-	font-weight: bold;
-	font-size: 4.8rem;
-	margin-left: 20px;
-	border-bottom: none;
+    color: #ffff;
+    font-size: 2rem;
+    background: #F18800;
+    width: fit-content;
+    position: relative;
+    text-align: left;
+    padding-left: 54px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: -97px;
+    font-weight: 700;
+    font-family: 'Conv_FuturaStd-Book';
+    margin-top: 0px;
 }
 
+/*TÃ­tulo Project*/
+.bck-title-5 {
+  background-image: url(Images/project-donostiarraNew.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  font-size: 9rem;
+  margin-top: 0px;
+}
+
+/*Título 10*/
+.bck-title-10 {
+	background-color: #f0e500;
+	font-weight: 600;
+	padding: 9px 15px;
+	font-size: 1.8rem;
+	width: fit-content;
+	margin-left: -2.5%;
+	margin-top: 4%;
+}
+
+
+/*Título 11*/
+.bck-title-11 {
+	display: inline-block;
+	background-color: #353533;
+	color: #fff;
+	font-weight: 600;
+	padding: 9px 15px;
+	font-size: 1.8rem;
+	width: fit-content;
+}
+
+/*Título 12 = Culture
+.bck-title-12 {
+    color: #ffff;
+    font-size: 2rem;
+    background: #B83187;
+    width: fit-content;
+    position: relative;
+    text-align: left;
+    padding-left: 54px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: -97px;
+    font-weight: 700;
+    font-family: 'Conv_FuturaStd-Book';
+    margin-top: 0px;
+}*/
+
+
+/*título azul*/
+.bck-title-12 {
+  	color: #009FA5;
+    font-size: 2.3rem;
+    text-align: left;
+    font-family: 'Conv_FuturaStd-Medium';
+    font-weight: 500;
+    position: relative;
+    left: 7px;
+}
+
+/*título Wordlist*/
+.bck-title-13 {
+  	color: #ffffff;
+    background-color: #00ACB3;
+    font-size: 2.3rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    font-weight: 500;
+    position: relative;
+    left: 0px;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 700;
+}
+/*título GrammarReference*/
+.bck-title-14 {
+  	color: #ffffff;
+    background-color: #2E73B9;
+    font-size: 2.3rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    font-weight: 500;
+    position: relative;
+    left: 0px;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+
+/*párrafos - altura linea
+.texto_curso p{
+	font-size: 1.9;
+}*/
+
+
+/*-------------*/
+
+/*Enfasis*/
 .bck-enfasis {
-	color: #31A2C7;
-	font-weight: bold;
+  font-size: 5rem;
+  color: inherit;
 }
 
+/*Enfasis NumeroIntro*/
+.bck-enfasis-1 {
+    color: #00ACB3;
+    font-size: 8rem;
+    position: relative;
+    top: 15px;
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+/*énfasis naranja*/
 .bck-enfasis-2 {
-	color: #5888c3;
-	font-style: italic;
+    font-size: 2.3rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    color: #F18800;
+    font-weight: bold;
 }
 
+/*énfasis negro*/
 .bck-enfasis-3 {
-	color: #728fab;
+    background-color: rgb(53,53,51);
+    padding: 3px;
 }
 
+/*FontEjemplos*/
 .bck-enfasis-4 {
-	background-color: #ffcca3;
-	font-weight: bold;
+	font-family: 'Conv_TektonPro-Regular';
+    font-size: 2.2rem;
+    letter-spacing: 0.6px;
+    color: #22628C;
 }
 
+/*énfasis azul*/
 .bck-enfasis-5 {
-	font-family: 'Conv_marydale', Sans-Serif;
-	color: #415799;
+	font-weight: 500;
+    font-size: 2.1rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    color: #009FA5;
+}
+
+/*énfasis morado*/
+.bck-enfasis-6 {
+	font-weight: 500;
+    font-size: 2.1rem;
+    font-family: 'Conv_FuturaStd-Heavy';
+    color: #B83187;
+}
+
+/*Énfasis 7*/
+.bck-enfasis-7 {
+	background-color: #D8EDEE;
+	color: #009FA5;
+	padding: 5px;
+	font-weight: 600;
 	font-size: 2rem;
 }
 
-.bck-enfasis-6 {
-	font-weight: bold;
-	color: #DBBC00;
-}
-
-.bck-enfasis-7 {
-	font-weight: bold;
-	font-size: 1.4rem;
-	text-transform: uppercase;
-
-}
-
+/*Énfasis 8*/
 .bck-enfasis-8 {
-	font-weight: bold;
-	font-size: 1.4rem;
-	text-transform: uppercase;
+	background-color: #353533;
 	color: #fff;
-	background-color: #333;
+	font-weight: 600;
+	padding: 3px 5px;
+	width: fit-content;
+	font-size: 1.8rem;
+}
+
+/*Énfasis 9*/
+.bck-enfasis-9 {
+	font-size: 1.4rem;
+	color: #575656;
+	font-weight: bold;
+}
+
+/*Énfasis 10*/
+.bck-enfasis-10 {
+	font-size: 1.4rem;
+	color: #575656;
+	font-weight: bold;
+	background-color: #d4edfc;
+	border-radius: 20px;
+	padding: 7px;
+}
+
+/*énfasis verde*/
+.bck-enfasis-11 {
+	font-weight: 500;
+    font-size: 2.1rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    color: #8BBF36;
+}
+
+/*Line Height Listas*/
+.texto_curso li {
+  line-height: 1.8em!important;
 }
 
 /*LISTAS DESORDENADAS*/
-.texto_curso ul li {
-	padding-left: 20px;
+
+.texto_curso ul li,
+.popover-template .popover-content ul li {
+ padding-left: 42px;
 }
 
-.texto_curso ul li:before,
-.workspace ul li ul li:before,
-.cke_contents ul li:before,
-.preview ul li:before,
-.classify-item ul li:before,
-#actividad .workspace.multiple-choice .js-item ul li:before,
-#actividad .workspace.matching .box ul li:before,
-#actividad .workspace.ordenar .js-rank-item ul li:before {
-	height: 6px;
-	width: 6px;
-	background-color: #333;
-	color: #333;
-	border-radius: 50%;
+#actividad .popover-background.shown .popover-content > ul > li:before {
+  position: absolute;
 }
 
-/*lista desordenada por defecto, sin seleccionar estilo para la ul*/
-#actividad .content .texto_curso ul li:before,
-#actividad .content .workspace ul li ul li:before {
-	height: 9px;
-	width: 9px;
-	background-color: #fff;
-	color: #fff;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
+#actividad .texto_curso li,
+#actividad .workspace ul li li,
+#actividad .popover-content ul li {
+  position: relative;
+  margin-bottom: 10px;
 }
 
-#actividad .content .texto_curso ul li::before,
-#actividad .content .workspace ul li ul li::before,
-#actividad .content .texto_curso .bck-ul li::before,
-#actividad .content .workspace ul li .bck-ul li::before,
-#actividad .popover-background.shown .popover-content>ul>li::before {
-	content: "";
-	height: 6px;
-	width: 6px;
-	background-color: #333;
-	color: #333;
-	border-radius: 50%;
-	position: absolute;
-	margin-top: .6em;
-	margin-left: -10px;
+/*lista desordenada */
+
+#actividad .content .texto_curso .bck-ul-3 li,
+#actividad .content .workspace ul li .bck-ul-3 li ,
+#actividad .popover-background.shown .popover-content .bck-ul-3 li {
+  font-size: 2rem;
+  font-weight: 100;
 }
+
+#actividad .content .texto_curso .bck-ul-3 li:before,
+#actividad .content .workspace ul li .bck-ul-3 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-3 li:before{
+  content: "";
+  height: 6px;
+  width: 6px;
+  background-color: #333;
+  position: absolute;
+  top: 2px;
+  border-radius: 100%;
+  margin: 12px 0 0 -15px;
+  left: auto;
+}
+
+/*lista des 1*/
+
+#actividad .content .texto_curso .bck-ul-1 li,
+#actividad .content .workspace ul li .bck-ul-1 li ,
+#actividad .popover-background.shown .popover-content .bck-ul-1 li {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-left: -2px;
+}
+
+#actividad .content .texto_curso .bck-ul-1 li:before,
+#actividad .content .workspace ul li .bck-ul-1 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-1 li:before{
+      content: "";
+    color: #1D1D1B;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #1D1D1B;
+    border-radius: 0;
+    margin-top: 14px;
+    margin-left: -19px;
+}
+
+/*Lista DesNaranja*/
+
+#actividad .content .texto_curso .bck-ul-2 li,
+#actividad .content .workspace ul li .bck-ul-2 li ,
+#actividad .popover-background.shown .popover-content .bck-ul-2 li {
+  line-height: 1.8em!important;
+}
+
+#actividad .content .texto_curso .bck-ul-2 li:before,
+#actividad .content .workspace ul li .bck-ul-2 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-2 li:before {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background-color: #ec6608;
+  position: absolute;
+  top: 2px;
+  border-radius: 100%;
+  left: auto;
+  margin: 13px 0 0 -15px;
+}
+
+
+/*lista desordenada 4*/
+
+#actividad .content .texto_curso .bck-ul-4 li,
+#actividad .content .workspace ul li .bck-ul-4 li ,
+#actividad .popover-background.shown .popover-content .bck-ul-4 li {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin-left: -2px;
+  color: #009fa5;
+  margin-bottom: 0px;
+}
+
+#actividad .content .texto_curso .bck-ul-4 li:before,
+#actividad .content .workspace ul li .bck-ul-4 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #009fa5;
+    border-radius: 0;
+    margin-top: 14px;
+    margin-left: -19px;
+}
+
+/*lista desordenada 5*/
+
+#actividad .content .texto_curso .bck-ul-5 li,
+#actividad .content .workspace ul li .bck-ul-5 li ,
+#actividad .popover-background.shown .popover-content .bck-ul-5 li {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin-left: -2px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+#actividad .content .texto_curso .bck-ul-5 li:before,
+#actividad .content .workspace ul li .bck-ul-5 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-5 li:before{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: 14px;
+    margin-left: -19px;
+}
+
+/*LISTAS ORDENADAS*/
+
+/*LISTA ORDENADA General*/
 
 #actividad .content .cke_contents .bck-ol li:before,
 #actividad .content .texto_curso .bck-ol li:before,
 #actividad .popover-content .bck-ol li:before,
 #actividad .content .workspace ul li .bck-ol li:before {
-	content: counter(bck-li-counter);
-	position: relative;
-	text-align: left;
-	font-size: 1.9rem;
-	font-family: sans-serif;
-	margin-left: -10px;
+  position: relative;
+  text-align: center;
+  margin-left: -10px;
 }
 
-/*LISTA ORDENADA 1*/
+#actividad .content .cke_contents .bck-ol li {
+  margin-left: 0px;
+}
+
+
+/*LISTA 1*/
 #actividad .content .cke_contents .bck-ol-1,
 #actividad .content .texto_curso .bck-ol-1,
-#actividad .content .workspace ul li .bck-ol-1 {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
+#actividad .content .workspace ul li .bck-ol-1,
+#actividad .popover-content .bck-ol-1 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li,
@@ -573,43 +1200,46 @@ body.is_app .donostiarraNew-navbar.ocultar {
 #actividad .content .texto_curso .bck-ol-1 li,
 #actividad .popover-content .bck-ol-1 li,
 #actividad .content .workspace ul li .bck-ol-1 li {
-	counter-increment: bck-li-counter;
-	padding-left: 0px;
-	position: relative;
-	z-index: 0;
-	font-weight: 700;
+ 	counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-weight: 500;
+    margin-left: -12px;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    line-height: 1.8em!important;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
 #actividad .content .texto_curso .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
-	margin-left: -13px;
+  content: counter(bck-li-counter);
+    width: 32px;
+    height: 27px;
+    position: absolute;
+    color: #ffff;
+    background: none;
+    margin-left: -46px;
+    margin-right: 0px;
+    text-align: right;
+    font-family: 'Conv_FuturaStd-Medium';
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: normal;
+    top: 1px;
+    left: auto;
 }
 
-#actividad .content .cke_contents .bck-ol-1 li:before,
-#actividad .content .texto_curso .bck-ol-1 li:before,
-#actividad .popover-content .bck-ol-1 li:before,
-#actividad .content .workspace ul li .bck-ol-1 li:before {
-	content: counter(bck-li-counter) ".";
-	font-family: Campton;
-	font-weight: bold;
-	position: absolute;
-	text-align: right;
-	color: #333;
-	font-size: 1.8rem;
-	width: 29px;
-	margin-top: 0px;
-	left: -20px;
-	top: 0px;
-}
-
-/*LISTA ORDENADA 2*/
+/*LISTA 2*/
 #actividad .content .cke_contents .bck-ol-2,
 #actividad .content .texto_curso .bck-ol-2,
-#actividad .content .workspace ul li .bck-ol-2 {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
+#actividad .content .workspace ul li .bck-ol-2,
+#actividad .popover-content .bck-ol-2 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li,
@@ -618,33 +1248,40 @@ body.is_app .donostiarraNew-navbar.ocultar {
 #actividad .popover-content .bck-ol-2 li,
 #actividad .content .workspace ul li .bck-ol-2 li {
 	counter-increment: bck-li-counter;
-	padding-left: 0px;
-	position: relative;
-	z-index: 0;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
-#actividad .content .cke_contents .bck-ol-2 li:before,
+#actividad .content .cke_contents ol.bck-ol-2 li:before,
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter) ".";
-	position: absolute;
-	color: #333;
-	font-weight: bold;
-	margin-top: 0;
-	text-align: right;
-	left: -30px;
-	width: 29px;
-	font-family: Campton;
-
+  	content: counter(bck-li-counter)" ";
+    width: 27px;
+    height: 27px;
+    position: relative;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #009FA5;
+    background: none;
+    margin-left: -35px;
+    margin-right: 0px;
+    text-align: right;
+    font-family: 'Conv_FuturaStd-Bold';
 }
 
-/*LISTA ORDENADA 3*/
+/*LISTA 3*/
 #actividad .content .cke_contents .bck-ol-3,
 #actividad .content .texto_curso .bck-ol-3,
-#actividad .content .workspace ul li .bck-ol-3 {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
+#actividad .content .workspace ul li .bck-ol-3,
+#actividad .popover-content .bck-ol-3 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
 }
 
 #actividad .content .cke_contents .bck-ol-3 li,
@@ -652,31 +1289,45 @@ body.is_app .donostiarraNew-navbar.ocultar {
 #actividad .content .texto_curso .bck-ol-3 li,
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
-	padding-left: 0px;
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-weight: 500;
+    margin-left: 23px;
+    margin-top: 10px;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.8em!important;
 }
 
-#actividad .content .cke_contents .bck-ol-3 li:before,
+#actividad .content .cke_contents ol.bck-ol-3 li:before,
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
 #actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
-	content: counter(bck-li-counter, upper-alpha)'.';
-	position: absolute;
-	color: #000;
-	font-size: 1.8rem;
-	font-weight: bold;
-	text-align: right;
-	left: -20px;
-	font-family: inherit;
-	margin: 0px 0px 0px -10px;
-	width: inherit;
+	content: counter(bck-li-counter);
+    position: absolute;
+    margin-left: -50px;
+    margin-right: 0px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 3px;
+    top: 1px;
+    left: 14px;
+    line-height: 25px;
+    font-family: 'Conv_FuturaStd-Bold';
+
 }
 
-/*LISTA ORDENADA 4*/
+/*LISTA LetraMinus*/
 #actividad .content .cke_contents .bck-ol-4,
 #actividad .content .texto_curso .bck-ol-4,
-#actividad .content .workspace ul li .bck-ol-4 {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
+#actividad .content .workspace ul li .bck-ol-4,
+#actividad .popover-content .bck-ol-4 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+  margin-left: 20px;
 }
 
 #actividad .content .cke_contents .bck-ol-4 li,
@@ -684,1036 +1335,2805 @@ body.is_app .donostiarraNew-navbar.ocultar {
 #actividad .content .texto_curso .bck-ol-4 li,
 #actividad .popover-content .bck-ol-4 li,
 #actividad .content .workspace ul li .bck-ol-4 li {
-	counter-increment: bck-li-counter;
-	padding-left: 0px;
-	z-index: 0;
+  counter-increment: bck-li-counter;
+  padding-left: 0px;
+  position: relative;
+  z-index: 0;
+  margin-left: 0px;
 }
 
 #actividad .content .cke_contents .bck-ol-4 li:before,
 #actividad .content .texto_curso ol.bck-ol-4 li:before,
 #actividad .popover-content ol.bck-ol-4 li:before,
 #actividad .content .workspace ul li ol.bck-ol-4 li:before {
-	content: counter(bck-li-counter, lower-alpha)'.';
-	position: absolute;
-	color: #000;
-	font-size: 1.8rem;
-	font-weight: bold;
-	text-align: right;
-	left: -20px;
-	font-family: inherit;
-	margin: 0px 0px 0px -10px;
-	width: inherit;
+  content: counter(bck-li-counter, lower-alpha)".";
+  position: absolute;
+  text-align: center;
+  color: #333;
+  line-height: normal;
+  margin-left: -25px;
+  line-height: unset;
+  font-weight: 600;
+  margin-top: 0px;
 }
 
-.bck-box p {
-	display: inline-block;
+/*LISTA LetraMinusMorada*/
+#actividad .content .cke_contents .bck-ol-5,
+#actividad .content .texto_curso .bck-ol-5,
+#actividad .content .workspace ul li .bck-ol-5,
+#actividad .popover-content .bck-ol-5 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+  margin-left: 20px;
 }
 
-.bck-box .bck-content {
-	text-align: left;
-	padding: 10px;
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .texto_curso .bck-ol-5 li,
+#actividad .popover-content .bck-ol-5 li,
+#actividad .content .workspace ul li .bck-ol-5 li {
+  counter-increment: bck-li-counter;
+  padding-left: 0px;
+  position: relative;
+  z-index: 0;
+  margin-left: 0px;
 }
 
-/*CAJA1*/
-.bck-box.bck-box-1:before,
-.bck-box.bck-box-1:after {
-	display: none;
-}
-.bck-box-1 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 20px;
-	background-image: url(imagenes_difusion/img_multi.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: 10px;
-	left: 17px;
-}
-
-.bck-box .bck-box-1 {
-	min-height: 80px;
-	margin-top: 20px;
+#actividad .content .cke_contents .bck-ol-5 li:before,
+#actividad .content .texto_curso ol.bck-ol-5 li:before,
+#actividad .popover-content ol.bck-ol-5 li:before,
+#actividad .content .workspace ul li ol.bck-ol-5 li:before {
+  content: counter(bck-li-counter, lower-alpha)".";
+  position: absolute;
+  text-align: center;
+  color: #814997;
+  line-height: normal;
+  margin-left: -25px;
+  line-height: unset;
+  font-weight: 600;
+  margin-top: 0px;
 }
 
-.bck-box-1 .bck-title {
+/*Lista ordenada 6*/
+#actividad .content .cke_contents .bck-ol-6,
+#actividad .content .texto_curso .bck-ol-6,
+#actividad .content .workspace ul li .bck-ol-6,
+#actividad .popover-content .bck-ol-6 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-6 li,
+#actividad .content .cke_contents .bck-ol-6 li,
+#actividad .content .texto_curso .bck-ol-6 li,
+#actividad .popover-content .bck-ol-6 li,
+#actividad .content .workspace ul li .bck-ol-6 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-weight: 500;
+    margin-left: 23px;
+    margin-top: 10px;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.8em!important;
+}
+
+#actividad .content .cke_contents ol.bck-ol-6 li:before,
+#actividad .content .texto_curso ol.bck-ol-6 li:before,
+#actividad .popover-content ol.bck-ol-6 li:before,
+#actividad .content .workspace ul li ol.bck-ol-6 li:before {
+	content: counter(bck-li-counter);
 	color: #fff;
-	font-size: 2rem;
-	text-align: left;
-	background-color: #808080;
-	padding: 10px;
-	padding-left: 70px;
+	background-color: #333;
+    position: absolute;
+    margin-left: -45px;
+    margin-right: 0px;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 0px 6px;
+    top: 5px;
+    left: 12px;
+    line-height: 25px;
+
 }
 
-.bck-box.bck-box-1 .bck-content {
-	padding: 10px;
+/**/
+
+/*BOXES*/
+
+/*CAJA1 - CajaUnit*/
+
+.bck-box.bck-box-1 {
+    position: relative;
+    background: url(images/rich_english_U7_pg64_img_0001.png) repeat-y;
+    padding: 60px 18px 91px 83px;
+    background-size: cover;
+    top: -21px;
+    left: -97px;
+    width: 125.5%;
 }
 
-.bck-box-1 {
-	background: #E5E5E5;
+
+/*.bck-box-1 .bck-title {
+  border: 3px solid #ED155B;
+  background-color: #ED155B;
+  color: #FFF;
+  width: fit-content;
+  font-weight: 700;
+  width: -moz-fit-content;
+  height: auto;
+  font-size: 3.5rem;
+  border-radius: 10px 10px 0px 0px;
+  padding: 4px 4px 4px 4px;
+  font-family: JacobyICG;
+}*/
+
+.bck-box-1 .bck-content {
+    padding-left: 30px;
+    text-align: left;
+    padding: 0;
+    font-family: 'Conv_FuturaStd-Bold';
 }
 
-/*CAJA2*/
+.bck-box-1 .bck-content p {
+    font-size: 3.2rem;
+}
+
+/*CAJA2- CajaFondoColor = caja 2 verde */
+
 .bck-box.bck-box-2 {
-	background: transparent;
-	border: 3px dotted #9D9D9C;
-	margin-top: 20px;
-	border-radius: 0px;
-}
-
-.bck-box.bck-box-2 .bck-content {
-	font-family: 'Conv_Stag-Light';
-	color: #808285;
-	background: #fff;
-	font-size: 3.1rem;
+  margin-top: 15px;
+  border: none;
+  background: transparent;
 }
 
 .bck-box.bck-box-2 .bck-title {
-	color: #9D9D9C;
-	background: #fff;
+  color: inherit;
 }
 
-.bck-box.bck-box-2 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 23px;
-	background: url(imagenes_difusion/img_cafeteria.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: -10px;
-	left: -22px;
+
+.bck-box.bck-box-2 .bck-content {
+    padding-left: 30px;
+    background-color: #DFEFE4;
+    padding: 8px 8px 8px 19px;
+    box-shadow: 9px 10px 0px -6px #20AA72;
 }
 
-/*CAJA 3*/
+/*CAJA3 Video*/
+
 .bck-box.bck-box-3 {
-	background: #fff;
-	border: 3px dotted #9D9D9C;
-	text-align: left;
+  margin-top: 20px;
+  padding: 20px 25px 2px 80px;
+  background: #00B1B7;
 }
 
 .bck-box.bck-box-3 .bck-content {
-	padding: 4px 10px 15px;
-	width: 80%;
-	margin-left: 40px;
+  border: 0;
+    padding: 5px;
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 20px;
+    background-color: #00B1B7;
+    color: #FFF;
 }
+
 
 .bck-box.bck-box-3 .bck-title {
-	padding: 10px 25px;
-	border: 0px;
-	color: #9D9D9C;
-	font-size: 1.8rem;
-	font-weight: bold;
-	background: #fff;
+    padding: 3px 10px 3px 10px;
+    text-align: left;
+    border: 0;
+    color: #00B1B7;
+    font-size: 2.5rem;
+    font-weight: 800;
+    background-color: #ffff;
+    margin-bottom: 5px;
+    z-index: 50;
+    padding-left: 20px;
+    position: relative;
+    width: fit-content;
 }
 
-.bck-box-3 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 20px;
-	background: url(imagenes_difusion/img_campana.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: -10px;
-	left: -22px;
+.bck-box.bck-box-3 .bck-title:before {
+    background-image: url(images/rich_english_U7_pg64_img_0002.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 49px 39px 0 24px;
+    position: absolute;
+    left: -52px;
+    z-index: 100;
+    top: 0px;
+    width: 10px;
+    height: auto;
+    margin-top: -6px;
 }
 
-/*Caja 3 dentro de caja 6*/
-.bck-box-6 .bck-box-3 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 20px;
-	background: url(imagenes_difusion/img_campana.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: -10px;
-	left: -22px;
-}
+/*CAJA4- CajaNaranja*/
 
-/*CAJA4*/
 .bck-box.bck-box-4 {
-	min-height: 80px;
-	margin-top: 15px;
+	background-color: #E9510E;
+    padding: 8px 15px 8px 8px;
+    display: block;
+    padding-bottom: 10px;
+    line-height: 1.43em;
+    font-size: 1em;
+    padding-left: 10px;
+    z-index: 1;
+    transform: rotate(-3deg);
 }
 
-.bck-box-4 .bck-title {
-	padding: 10px 25px;
-	border: 0px;
-	color: #9D9D9C;
-	font-size: 1.8rem;
-	font-weight: bold;
+.bck-box.bck-box-4 .bck-title {
+    color: inherit;
+    background: transparent;
+    border: none;
 }
 
 .bck-box.bck-box-4 .bck-content {
-	padding: 4px 10px 15px;
-	width: 80%;
-	margin-left: 40px;
+  	display: block;
+    padding-bottom: 10px;
+    line-height: 1.43em;
+    font-size: 1em;
+    background-color: #FDE0CE;
+    width: 99%;
+    z-index: 1;
+    padding: 20px;
+    transform: rotate(3deg);
 }
 
-.bck-box.bck-box-4 {
-	background: #fff;
-	border: 3px dotted #9D9D9C;
-	text-align: left;
-}
+/*CAJA5- CajaInicioUnidad*/
 
-.bck-box.bck-box-4 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 24px;
-	background: url(imagenes_difusion/img_engranaje.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: -10px;
-	left: -22px;
-}
-
-.bck-box-5 .bck-box-4 .bck-title {
-	padding: 10px 25px;
-	border: 0px;
-	color: #9D9D9C;
-	background: #fff;
-	font-size: 1.8rem;
-	font-weight: bold;
-}
-
-/*CAJA5*/
 .bck-box.bck-box-5 {
-	min-height: 0;
-	margin-top: 15px;
+  margin-top: -227px !important;
+  border: 0px;
+  position: absolute !important;
 }
 
 .bck-box-5 .bck-title {
-	border-bottom: 0px solid #eee;
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background-color: #bf0811;
-	padding: 10px;
-	text-align: center;
+  
 }
 
-.bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #D1E3F0;
-	top: -20px;
+.bck-box.bck-box-5 .bck-content {
+  background-color: #FFF;
+  padding: 0px;
 }
 
-/*CAJADUO - CAJA 6*/
-.bck-box-6 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 20px;
-	background-image: url(imagenes_difusion/img_duo.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	top: 10px;
-	left: 17px;
+/*CAJA6- CajaWordPool */
+
+.bck-box.bck-box-6 {
+  margin-top: 15px;
+  border: none;
+  background: transparent;
 }
 
-.bck-box .bck-box-6 {
-	min-height: 80px;
-	margin-top: 20px;
+.bck-box.bck-box-6 .bck-title {
+  color: inherit;
 }
 
-.bck-box-6 .bck-title {
-	color: #fff;
-	font-size: 2rem;
-	font-weight: bold;
-	text-align: left;
-	background-color: #808080;
-	padding: 10px;
-	padding-left: 70px;
+
+.bck-box.bck-box-6 .bck-content {
+    padding-left: 30px;
+    background-color: #DBECF1;
+    padding: 8px 8px 8px 19px;
 }
 
-.bck-box-6 {
-	background: #E5E5E5;
-}
+/*CAJA7- CajaPunteada = caja 2 verde */
 
-/*CAJA 7*/
 .bck-box.bck-box-7 {
-	min-height: 0;
+  margin-top: 15px;
+  border: none;
+  background: transparent;
+}
+
+.bck-box.bck-box-7 .bck-title {
+  color: inherit;
+}
+
+
+.bck-box.bck-box-7 .bck-content {
+    padding-left: 30px;
+    background-color: #ffff;
+    padding: 8px 8px 8px 19px;
+    border: 3px dotted #00889E;
+}
+
+/*CAJA8- ListeningTools */
+
+.bck-box.bck-box-8 {
+    margin-top: 15px;
+    background: #ffff;
+    border: 2px solid #E9423B;
+}
+
+.bck-box.bck-box-8 .bck-title {
+  	color: #E9423B;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bck-box.bck-box-8 .bck-title p {
+    font-weight: 600;
+}
+
+.bck-box.bck-box-8 .bck-content {
+	border: 0;
+    padding: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bck-box.bck-box-8 .bck-title::after{
+    background-image: url(images/rich_english_U7_pg65_img_0001.PNG);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 27px;
+    position: absolute;
+    right: 14px;
+    /* top: 0; */
+    width: 10px;
+    height: auto;
+    margin-top: -73px;
+}
+
+/*Caja Project */
+.bck-box.bck-box-9 {
+    margin-top: 15px;
+    border: none;
+    background: transparent;
+    border: 2px solid #E50051;
+    box-shadow: 9px 10px 0px -6px #E50051;
+}
+
+.bck-box.bck-box-9 .bck-title {
+  	color: #ffff;
+    background-color: #E50051;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.bck-box.bck-box-9 .bck-content {
+	padding-left: 30px;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 19px;
+    box-shadow: 9px 10px 0px -6px #E50051;
+}
+
+/*Caja Pronunciation  */
+
+.bck-box.bck-box-10 {
+    margin-top: 20px;
+    padding: 20px;
+    background: #EFDBEA;
+}
+
+.bck-box.bck-box-10 .bck-title {
+	color: #B83187;
+    font-weight: 700;
+    font-family: 'Conv_FuturaStd-Heavy';
+}
+
+.bck-box.bck-box-10 .bck-title p {
+    font-size: 22px;
+}
+
+.bck-box.bck-box-10 .bck-content {
+	border: 0;
+    padding: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.bck-box.bck-box-10 .bck-title::after{
+	background-image: url(images/icono_pronunt.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 27px;
+    position: absolute;
+    right: 14px;
+    width: 10px;
+    height: auto;
+    margin-top: -73px;
+}
+
+/*CAJA11- ReadingsTools */
+
+.bck-box.bck-box-11 {
+    margin-top: 15px;
+    background: #ffff;
+    border: 2px solid #ACC33F;
+}
+
+.bck-box.bck-box-11 .bck-title {
+	color: #ACC33F;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bck-box.bck-box-11 .bck-title p {
+    font-weight: 600;
+}
+
+.bck-box.bck-box-11 .bck-content {
+	border: 0;
+    padding: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bck-box.bck-box-11 .bck-title::after{
+	background-image: url(images/icono_readingtools.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 27px;
+    position: absolute;
+    right: 14px;
+    width: 10px;
+    height: auto;
+    margin-top: -73px;
+}
+
+/*CAJA12- CoreValues */
+
+.bck-box.bck-box-12 {
+    margin-top: 15px;
+    background: #EEF4DC;
+}
+
+.bck-box.bck-box-12 .bck-title {
+    color: #ffff;
+    background-color: rgb(184,49,135);
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    position: relative;
+    top: -7px;
+    left: -5px;
+}
+
+.bck-box.bck-box-12 .bck-content {
+    padding-left: 30px;
+    background-color: #EEF4DC;
+    padding: 8px 8px 8px 11px;
+}
+
+/*CAJA13- WritingsTools */
+
+.bck-box.bck-box-13 {
+    margin-top: 15px;
+    background: #ffff;
+    border: 2px solid #D88E00;
+}
+
+.bck-box.bck-box-13 .bck-title {
+	color: #D88E00;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bck-box.bck-box-13 .bck-title p {
+    font-weight: 600;
+}
+
+.bck-box.bck-box-13 .bck-content {
+	border: 0;
+    padding: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bck-box.bck-box-13 .bck-title::after{
+	background-image: url(images/icono_writtingtools.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 27px;
+    position: absolute;
+    right: 14px;
+    width: 10px;
+    height: auto;
+    margin-top: -73px;
+}
+
+/*CAJA14- Speaking Tools */
+
+.bck-box.bck-box-14 {
 	margin-top: 15px;
+    background: #ffff;
+    border: 2px solid #B83187;
 }
 
-.bck-box-7 .bck-title {
-	border-bottom: 0px solid transparent;
+.bck-box.bck-box-14 .bck-title {
+    color: #B83187;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bck-box.bck-box-14 .bck-title p {
+    font-weight: 600;
+}
+
+.bck-box.bck-box-14 .bck-content {
+	border: 0;
+    padding: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bck-box.bck-box-14 .bck-title::after{
+	background-image: url(images/icono_speakingtools.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 27px;
+    position: absolute;
+    right: 14px;
+    width: 10px;
+    height: auto;
+    margin-top: -73px;
+}
+
+/*CAJA15- CajaPairWork */
+
+.bck-box.bck-box-15 {
+	margin-top: 15px;
+    border: 3px dotted #B83187;
+    padding: 0px 11px 10px 16px;
+}
+
+.bck-box.bck-box-15 .bck-title {
+  color: #B83187;
+}
+
+.bck-box.bck-box-15 .bck-title p {
+    font-weight: bold;
+}
+
+.bck-box.bck-box-15 .bck-content {
+    background-color: #ffff;
+    padding: 8px 8px 8px 0px;
+}
+
+.bck-box.bck-box-15 .bck-title::before{
+	background-image: url(images/icono_pair.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 49px 39px 0 24px;
+    position: relative;
+    left: -42px;
+    z-index: 100;
+    top: 10px;
+    width: 10px;
+    height: auto;
+    margin-top: -6px;
+}
+
+
+/*CAJA 16 pantalla completa*/
+
+.bck-box.bck-box-16 {
+    position: relative;
+    padding: 0px;
+    background-size: cover;
+    top: -22px;
+    left: -97px;
+    width: 125.5%;
+    margin-bottom: -40px;
+}
+
+
+/*.bck-box-16 .bck-title {
+  border: 3px solid #ED155B;
+  background-color: #ED155B;
+  color: #FFF;
+  width: fit-content;
+  font-weight: 700;
+  width: -moz-fit-content;
+  height: auto;
+  font-size: 3.5rem;
+  border-radius: 10px 10px 0px 0px;
+  padding: 4px 4px 4px 4px;
+  font-family: JacobyICG;
+}*/
+
+.bck-box-16 .bck-content {
+    padding: 0;
+}
+
+
+/*Caja 17*/
+.bck-box.bck-box-17 {
+  margin-top: -21px;
+  border: none;
+  background: transparent;
+  width: 387px;
+  margin-left: -55px;
+}
+
+.bck-box.bck-box-17 .bck-title {
+  color: inherit;
+}
+
+
+.bck-box.bck-box-17 .bck-content {
+    padding-left: 30px;
+    background-color: #ffff;
+    padding: 8px 8px 8px 10px;
+    border: 3px dotted #00889E;
+}
+
+/*Caja 18*/
+
+.bck-box.bck-box-18 {
+	padding: 18px;
+	padding-top: 0px;
+	background-color: #B83187;
+	width: 110%;
+	margin-left: -5%;
+}
+
+.bck-box.bck-box-18 .bck-title {
+	background-color: #B83187;
+    color: #fff;
+    font-size: 2.3rem;
+    padding-left: 29.7%;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.bck-box.bck-box-18 .bck-title:before {
+	content: "NOW YOU!";
+    background-color: #fff;
+    color: #B83187;
+    font-size: 2.9rem;
+    font-weight: bold;
+    padding: 8px 10px;
+    position: absolute;
+    letter-spacing: 2px;
+    margin-left: -34.3%;
+    margin-top: -8px;
+}
+
+.bck-box.bck-box-18 .bck-content {
+	background-color: #B83187;
 	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background-color: #D0D0D0;
-	padding: 10px;
-	text-align: center;
 }
 
-.bck-box-7 .bck-content {
-	padding: 10px;
-	background-color: #D0D0D0;
+/*Caja 19*/
+
+.bck-box.bck-box-19 {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border: 8px solid #1D1D1B;
+	border-bottom: none;
 }
 
-/*CAJA8*/
-.bck-box-8 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 17px;
-	background-image: url(imagenes_difusion/icono_video_blanco.png);
+.bck-box.bck-box-19 .bck-title {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: #ececec;
+	padding: 10px;
+}
+
+.bck-box.bck-box-19 .bck-content {
+	padding: 15px;
+}
+
+/*Caja 20*/
+.bck-box.bck-box-20 {
+	border-radius: 10px;
+	background-color: #ccc;
+}
+
+/*Caja 21*/
+.bck-box.bck-box-21 {
+	border-radius: 15px;
+	background-image: url(images/fondo_caja_whatsapp.png);
 	background-repeat: no-repeat;
-	background-size: contain;
-	top: 13px;
-	left: 17px;
+	background-size: cover;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
-.bck-box .bck-box-8 {
-	min-height: 80px;
-	margin-top: 50px;
-}
-
-.bck-box-8 .bck-title {
-	color: #fff;
-	font-size: 2rem;
-	font-weight: bold;
-	text-align: left;
-	background-color: #333;
+.bck-box.bck-box-21 .bck-title {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: #ececec;
 	padding: 10px;
-	padding-left: 70px;
 }
 
-.bck-box-8 .bck-content {
-	text-align: center;
+.bck-box.bck-box-21 .bck-content {
+	padding: 15px;
 }
 
-.bck-box-8 {
-	background: #E5E5E5;
-	margin-top: 50px;
+
+/*Caja 22*/
+.bck-box.bck-box-22 {
+	border-radius: 10px;
+	background-color: #d5e2a0;
+	border: 2px solid #a2c626;
+	-webkit-box-shadow: 0 0 4px 2px #c0cec5;
+	box-shadow: 0 0 4px 2px #c0cec5;
+	padding: 5px;
 }
 
-.bck-box-8:before {
-	content: "VIDEO";
-	color: #333;
-	padding: 40px;
-	position: absolute;
-	margin-top: -65px;
-	left: -30px;
-	font-weight: bold;
-	font-size: 2.2rem;
+.bck-box.bck-box-22 .bck-title {
+	background-color: #d5e2a0;
+	padding-left: 15px;
 }
 
-/*Arreglos cajas*/
-.bck-box-5 .bck-box-1 .bck-title {
-	color: #fff;
-	font-size: 2rem;
-	font-weight: bold;
-	text-align: left;
-	background-color: #808080;
-	padding: 10px;
-	padding-left: 70px;
+.bck-box.bck-box-22 .bck-content {
+	background-image: none;
+	padding-left: 15px;
 }
 
-.bck-box-1 .bck-content .bck-box-4 .bck-title {
-	padding: 10px 25px;
-	border: 0px;
-	color: #9D9D9C;
-	font-size: 1.8rem;
-	font-weight: bold;
-	background: transparent;
+
+/*Caja 23*/
+.bck-box.bck-box-23 {
+	border-radius: 10px;
+	background-color: #fff;
+	border: 2px solid #a2c626;
+	-webkit-box-shadow: 0 0 4px 2px #c0cec5;
+	box-shadow: 0 0 4px 2px #c0cec5;
+}
+
+.bck-box.bck-box-23 .bck-title {
+	background-color: #fff;
+	padding-left: 15px;
+}
+
+.bck-box.bck-box-23 .bck-content {
+	background-image: none;
+}
+
+/*Caja 24 = caja inicio derch*/
+
+.bck-box.bck-box-24 {
+  margin-top: -21px;
+  border: none;
+  background: #009FA5;
+  width: 387px;
+  margin-left: -55px;
+}
+
+.bck-box.bck-box-24 .bck-title {
+  color: inherit;
+}
+
+
+.bck-box.bck-box-24 .bck-content {
+    padding-left: 30px;
+    background-color: #009FA5;
+    padding: 8px 8px 8px 10px;
+}
+
+/*caja25 VocabularyTools*/
+
+.bck-box.bck-box-25 {
+	margin-top: 15px;
+    background: #ffff;
+    border: 2px solid #2E73B9;
+}
+
+.bck-box.bck-box-25 .bck-title {
+    color: #2E73B9;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bck-box.bck-box-25 .bck-title p {
+    font-weight: 600;
+}
+
+.bck-box.bck-box-25 .bck-content {
+	border: 0;
+    padding: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bck-box.bck-box-25 .bck-title::after{
+	background-image: url(images/icono_vocabularytools.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 27px;
+    position: absolute;
+    right: 14px;
+    width: 10px;
+    height: auto;
+    margin-top: -73px;
+}
+
+/*CAJA26- UsefulLenguage = caja 2 verde */
+.bck-box.bck-box-26 {
+	margin-top: 15px;
+    border: 3px solid #06B5DA;
+    background: #ffff;
+    padding-top: 10px;
+}
+
+.bck-box.bck-box-26 .bck-title {
+    color: inherit;
+    background-color: #06B5DA;
+    padding: 10px;
+    width: fit-content;
+}
+
+
+.bck-box.bck-box-26 .bck-content {
+    background-color: #ffff;
+    border: none;
+}
+
+/*caja 27*/
+.bck-box.bck-box-27 {
+  margin-top: 15px;
+  border: none;
+  background: transparent;
+}
+
+.bck-box.bck-box-27 .bck-title {
+  color: inherit;
+}
+
+
+.bck-box.bck-box-27 .bck-content {
+    padding-left: 30px;
+    background-color: #FFEBBE;
+    padding: 8px 8px 8px 19px;
+}
+
+/*caja 28*/
+.bck-box.bck-box-28 {
+  margin-top: 15px;
+  border: none;
+  background: transparent;
+}
+
+.bck-box.bck-box-28 .bck-title {
+  color: inherit;
+}
+
+
+.bck-box.bck-box-28 .bck-content {
+    padding-left: 30px;
+    background-color: #F5AEA4;
+    padding: 8px 8px 8px 19px;
+}
+
+/*caja 29*/
+.bck-box.bck-box-29 {
+  margin-top: 15px;
+  border: none;
+  background: transparent;
+}
+
+.bck-box.bck-box-29 .bck-title {
+  color: inherit;
+}
+
+
+.bck-box.bck-box-29 .bck-content {
+    padding-left: 30px;
+    background-color: #DAE49B;
+    padding: 8px 8px 8px 19px;
+}
+
+/*caja 30*/
+.bck-box.bck-box-30 {
+  margin-top: 15px;
+  border: none;
+  background: transparent;
+}
+
+.bck-box.bck-box-30 .bck-title {
+  color: inherit;
+}
+
+
+.bck-box.bck-box-30 .bck-content {
+    padding-left: 30px;
+    background-color: #E8DFEF;
+    padding: 8px 8px 8px 19px;
+}
+
+
+/*Caja ExamTip*/
+.bck-box.bck-box-32 {
+    margin-top: 15px;
+    border: none;
+    background: transparent;
+    border: 2px solid #009FA5;
+    box-shadow: 9px 10px 0px -6px #009FA5;
+}
+
+.bck-box.bck-box-32 .bck-title {
+  	color: #ffff;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.bck-box.bck-box-32 .bck-content {
+	padding-left: 30px;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 19px;
+    box-shadow: 9px 10px 0px -6px #009FA5;
+}
+
+/*Caja 33*/
+.bck-box.bck-box-33 {
+	border-radius: 10px;
+	background-color: #f6f6f6;
+}
+
+/*caja imagen pantalla completa
+.bck-box.bck-box-31{
+	position: relative;
+    width: 127.9%;
+    left: -107px;
+    margin-top: -4.1%;
+}
+
+.bck-box.bck-box-31 .bck-content{
+	padding: 0;
+	background-color: #ffffff00;
+}*/
+	
+/*caja Mail*/	
+.bck-box.bck-box-34 .bck-title::before {
+	background-image: url(images/iconos_cajaMail.png);
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 36px 0px 11px;
+    position: relative;
+    left: -2px;
+    z-index: 100;
+    top: -35px;
+    width: 10px;
+}
+
+.bck-box.bck-box-34 .bck-title {
+    color: #747579;
+    padding: 10PX;
+    BACKGROUND-COLOR: #DADADA;
+}
+
+.bck-box.bck-box-34{
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 25px solid #678CC8;
+    border-left: 2px solid #678CC8;
+    border-right: 2px solid #678CC8;
+    border-bottom: 2px solid #678CC8;
+}
+
+.bck-box.bck-box-34 .bck-content{
+	background-color: #ffff;
+    padding: 8px 8px 8px 0px;
+    padding: 10PX;
+}
+
+/*CAJA35 - CajaCabProj*/
+.bck-box.bck-box-35 {
+    position: relative;
+    background: url(images/cabecera_project.png) repeat-y;
+    padding: 60px 18px 91px 83px;
+    background-size: cover;
+    top: -21px;
+    left: -97px;
+    width: 125.5%;
+}
+
+.bck-box-35 .bck-content {
+    padding-left: 30px;
+    text-align: left;
+    padding: 0;
+    font-family: 'Conv_FuturaStd-Bold';
+}
+
+.bck-box-35 .bck-content p {
+    font-size: 3.2rem;
+    position: relative;
+    left: 100px;
+    color: #ffff;
+    text-shadow: #1E1E1C 3px 3px 0px;
+    font-family: 'Conv_FuturaStd-Medium';
+}
+
+/*Caja TASK */
+.bck-box.bck-box-36 {
+    margin-top: 15px;
+    border: none;
+    background: transparent;
+    border: 2px solid #E50051;
+    box-shadow: 9px 10px 0px -6px #E50051;
+}
+
+.bck-box.bck-box-36 .bck-title {
+  	color: #ffff;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bck-box.bck-box-9 .bck-title p {
+    background-color: #E50051;
+    width: fit-content;
+    padding: 0px 20px 0px 10px;
+    position: relative;
+    position: r;
+    left: -10px;
+}
+
+.bck-box.bck-box-36 .bck-content {
+	padding-left: 30px;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 19px;
+    box-shadow: 9px 10px 0px -6px #E50051;
+}
+/**/
+
+/*seccion tÃ­tulo inicio unidad margin-top*/
+#actividad .content .iniciounidad .header .title h3 {
+  margin-top: 150px;
+}
+
+#actividad .content .iniciounidad .header .title h3:after {
+     margin-top: 120px;
+}
+
+.iniciounidad .bck-i-fullscreen-wrapper {
+  padding: 0px;
 }
 
 
 /*CAJA POP-UP*/
-.info-popover .popover-title:before,
-.popover-template .popover-title:before {
-	color: #728fa6;
+
+.info-popover .popover-title:before, .popover-template .popover-title:before {
+  color: #728fa6;
 }
 
-.info-popover .popover-title,
-.popover-template .popover-title {
-	background: #728fa6;
+.info-popover .popover-title, .popover-template .popover-title {
+  background: #728fa6;
 }
 
 .info-template .info-title {
-	color: #333;
-}
-
-.info-template .info-title.shown {
-	margin: 0 3px 12px 0;
+  color: #728fa6;
 }
 
 .info-template .info-title.shown:before {
-	display: none;
+  color: #728fa6;
 }
 
-/*icono info*/
-.fa-info:before {
-	content: "+";
-	font-weight: bold;
-	font-family: Campton;
-	font-size: 2.2rem;
-	line-height: 20px;
-	color: #333;
+/**/
+
+/*Iconos*/
+
+/*icono Hablar*/
+.icon-hablar:before {
+  background-image: url(images/rich_english_U7_pg64_img_0003.png);
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 33px;
+  margin-right: 10px;
 }
 
-#actividad .info-button {
-	display: block;
-	width: 24px;
-	height: 24px;
-	margin: 0px;
-	-webkit-box-shadow: 0 0 2px #555;
-	-moz-box-shadow: 0 0 2px #555;
-	box-shadow: 0 0 2px #555;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	background: #fff;
-	color: #1a171b;
-	font-family: 'FontAwesome';
-	font-size: 18px;
-	line-height: 24px;
-	text-align: center;
+/*icono Nivel1*/
+.icon-nivel1:before {
+  background-image: url(images/icono_nivel1.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 205px;
+    margin-right: 3px;
 }
 
-/*Pop-up flotante*/
-.info-template {
-	position: fixed;
-	top: 100px;
-	right: 0;
-	-webkit-transform: translateX(105%);
-	-moz-transform: translateX(105%);
-	-ms-transform: translateX(105%);
-	-o-transform: translateX(105%);
-	transform: translateX(105%);
-	z-index: 1000;
-	width: 135px;
-	height: auto;
-	-webkit-box-shadow: 0 0 2px #555;
-	-moz-box-shadow: 0 0 2px #555;
-	box-shadow: 0 0 2px #555;
-	-webkit-border-radius: 5px 0 0 5px;
-	-moz-border-radius: 5px 0 0 5px;
-	border-radius: 5px 0 0 5px;
-	background: #fff;
-	padding: 15px 5px 0;
-	-webkit-transition: all ease-in-out .5s;
-	-o-transition: all ease-in-out .5s;
-	-moz-transition: all ease-in-out .5s;
-	transition: all ease-in-out .5s;
+/*icono Nivel2*/
+.icon-nivel2:before {
+	background-image: url(images/icono_nivel2.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 205px;
+    margin-right: 3px;
+}
+
+/*icono Nivel13*/
+.icon-nivel3:before {
+    background-image: url(images/icono_nivel3.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 205px;
+    margin-right: 3px;
+}
+
+/*icono Focus*/
+.icon-focus:before {
+    background-image: url(images/icono_focus.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 33px;
+    margin-right: 3px;
 }
 
 
-/*AJUSTES ACTIVIDADES*/
-/*Verdadero y falso*/
-#actividad .workspace.true-false .tf-option {
-	display: inline-block;
-	margin-left: 50px;
+
+/*icono Musica*/
+.icon-musica:before {
+  background-image: url(images/rich_english_U7_pg64_img_0004.png);
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 33px;
+  margin-right: 10px;
 }
 
-/*Fill in the blanks*/
-.fillblanks-draggable-wrapper {
-	text-align: left;
-	margin-bottom: 20px;
-	margin-left: 47px;
+/*icono Lupa*/
+.icon-lupa:before {
+  background-image: url(images/icono_lupa.png);
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 33px;
+  margin-right: 3px;
 }
 
-/*clasificar*/
-#actividad .workspace.clasificar .clasificar_lista>ul {
-	display: inline-block;
-	min-height: 70px;
-	text-align: left;
-	margin-left: 47px;
+/*icono lápiz*/
+.icon-lapiz:before {
+  	background-image: url(images/icono_lapiz.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 33px;
+    margin-right: 3px;
 }
 
-#actividad .workspace.clasificar .clasificar_lista .classify-item {
-	background: #fff;
-	padding-left: 10px;
-	padding-right: 10px;
+/*icono libro*/
+.icon-libro:before {
+  	background-image: url(images/icono_libro.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 33px;
+    margin-right: 3px;
 }
 
-/*tipo test*/
-
-#actividad .workspace.test .checkbox-option label.filter-label,
-#actividad .workspace.test .radio-option label.filter-label,
-#actividad .workspace.true-false .checkbox-option label.filter-label,
-#actividad .workspace.true-false .radio-option label.filter-label {
-	font-size: 1.8rem;
-	font-weight: 300;
-	margin-left: 20px;
+/*icono Play*/
+.icon-play:before {
+  background-image: url(images/rich_english_U7_pg64_img_0005.png);
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 33px;
+  margin-right: 3px;
 }
 
-/*parejas cartas*/
-
-#actividad .workspace.memory .flip-container p {
-	font-size: 1.5rem;
+/*icono Fast*/
+.icon-fast:before {
+  background-image: url(images/rich_english_U7_pg64_img_0009.PNG);
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  width: 33px;
+  margin-right: 3px;
 }
 
-/*botonera general*/
-#actividad .class_slide .review {
-	margin-top: 40px;
-	text-align: left;
-	margin-left: 40px;
-}
 
-.btn-danger,
-.btn-danger[disabled] {
-	color: #fff;
-	border-color: transparent;
-	border-radius: 0px;
-}
+/**Iconos anterioresÂ¿?**/
 
-/* modo correcion/revision */
-.info-alumno .nombre-alumno {
-	max-width: 189px;
-}
-
-/**Iconos**/
 .item-container .icon:before {
-	vertical-align: top;
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: text-bottom;
+  /*height: 28px;
+  width: 30px;*/
 }
 
-.item-container .icon-critical:before {
-	background-image: url(imagenes_difusion/critical_thinking_dark.png);
-}
-
-.item-container .icon-critical-gold:before {
-	background-image: url(imagenes_difusion/critical_thinking_gold.png);
-}
-
-.item-container .icon-critical-verde:before {
-	background-image: url(imagenes_difusion/critical_thinking_verde.png);
-}
-
-.item-container .icon-critical-negro:before {
-	background-image: url(imagenes_difusion/critical_thinking_negro.png);
-}
-
-.item-container .icon-video-oscuro:before {
-	background-image: url(imagenes_difusion/icono_video_oscuro.png);
-	height: 20px;
-	width: 33px;
-}
-
-.item-container .icon-bocadillo-blanco:before {
-	background-image: url(imagenes_difusion/bocadillo_blanco.png);
-}
-
-/**TABLA**/
-table,
-.bck-table {
-	border: 1px solid #ccc;
-}
+/**TABLA y Celdas**/
 
 table td,
 .bck-table td {
-	border-color: #ccc;
+  padding: 10px;
+  border-color: #ccc;
 }
 
-td,
-th {
-	padding-left: 10px;
+table td.bck-td-1 {
+    color: inherit;
+    background-color: transparent;
 }
+
+td, th {
+  padding-left: 10px;
+}
+
+table,
+.bck-table {
+  border: 0px solid #ccc;
+}
+
+/*tabla azul y celda azul*/
+.bck-table-2 {
+  border: 1px solid #2E73B9;
+}
+
+.bck-table-2 td {
+  border: 1px solid #2E73B9;
+}
+
+/*celda azul*/
+table td.bck-td-2 {
+  color: #ffffff;
+  background: #2E73B9;
+  text-align: center;
+}
+
+/*Tabla 3*/
+.bck-table-3 {
+  border: 2px solid #B83187;
+}
+
+.bck-table-3 td {
+  border: 2px solid #B83187;
+  background-color: #fff;
+  color: #333;
+  font-size: 1.9rem;
+}
+
+/*tabla verde y celda verde*/
+
+.bck-table-4 {
+  border: 1px solid #8BBF36;
+}
+
+.bck-table-4 td {
+  border: 1px solid #8BBF36;
+}
+
+/*celda verde*/
+table td.bck-td-4 {
+  color: #ffffff;
+  background: #8BBF36;
+  text-align: center;
+}
+
+/*tablas sin bordes*/
+.bck-table-5 {
+  border: 1px solid #1B1B18;
+}
+
+/*celda SinBorderTop*/
+table td.bck-td-5 {
+	border-top: 1px solid transparent;
+}
+
+/*celda SinBorderLeft*/
+table td.bck-td-6 {
+	border-left: 1px solid transparent;
+}
+
+/*celda SinBorderBottom*/
+table td.bck-td-7 {
+	border-bottom: 1px solid transparent;
+}
+
+/*celda SinBorderRight*/
+table td.bck-td-8 {
+	border-right: 1px solid transparent;
+}
+
+
+/*tabla y celda morada*/
+.bck-table-6 {
+  border: 1px solid #80539D;
+}
+
+.bck-table-6 td {
+  border: 1px solid #80539D;
+}
+
+table td.bck-td-9 {
+  background: #80539D;
+  color: #ffffff;
+}
+
+/*tabla y celda azulOscuro*/
+.bck-table-7 {
+  border: 1px solid #5A75B8;
+}
+
+.bck-table-7 td {
+  border: 1px solid #5A75B8;
+}
+
+table td.bck-td-10 {
+  background: #5A75B8;
+  color: #ffffff;
+}
+
+
+/**/
+
+/*actividades*/
+/*slide test*/
+#actividad .workspace.test .respuestas li{
+	width: 32%;
+}
+
+.shortanswer-container textarea:focus, 
+.shortanswer-container input:focus, 
+.shortanswer-container .preview:focus {
+-webkit-box-shadow: 0 0 2px #009FA5;
+-moz-box-shadow: 0 0 2px #009FA5;
+box-shadow: 0 0 2px #009FA5;
+border-color: #009FA5;
+}
+
+.textarea-container {
+  width: 100%;
+}
+
+#actividad .workspace.multiple-choice .opcion {
+  background-color: white;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+  border-color: #0cb9ea;
+  background-color: #e8e8e800;
+}
+
+#actividad .workspace h5 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+#actividad .workspace h5:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  position: absolute;
+  /* height: 7px; */
+  /* width: 10px; */
+  color: #ef7d00;
+  padding: 2px;
+  background: none;
+  margin-top: 2px;
+  margin-left: -15px;
+}
+
+/*aumentar padding espacio respuestas*/
+.slide_main input.solucion.multiple-solution{
+	padding-right: 6px !important;
+}
+
+.cke_reset {
+  background: white;
+}
+
 
 /*Boton toc - boton reininciar ejercicio*/
+
 .btn-primary {
-	background-color: #428bcac9;
+  background-color: #ea5b0c;
 }
 
-.btn-primary,
-.btn-primary.disabled,
-.btn-primary.disabled:focus {
-	background-color: #31A2C7;
-	border-radius: 0;
+.btn-primary, .btn-primary.disabled {
+  background-color: #ea5b0c;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-	background-color: #ac0910;
+.btn-danger, .btn-danger[disabled] {
+  color: #fff;
+  background-color: #3ab2dc;
+  border-color: transparent;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #0b9dcf;
+  border-color: transparent;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
+  background-color: #0cb9ea;
+}
+
+.btn-primary[disabled], .btn-primary[disabled]:focus {
+  background-color: #1098be;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+  background-color: #0091ba;
+}
+
+.btn-primary.disabled:hover, .btn-primary.disabled:focus {
+  background-color: #0091ba;
+}
+
+#actividad .content .review .attemps span {
+  background-color: #08a9d7;
 }
 
 /*portada*/
+
 #actividad .portada .class_slide {
-	padding: 0px 97px 0px;
-	margin-top: -2%;
+  padding: 0px 97px 0px;
+ margin-top: -2%;
 }
 
 #actividad .carousel-inner .portada .item-container {
-	padding-bottom: 0px;
-}
-#actividad .carousel-inner .item-container.aux-bckg .class_slide {
-	background-color: transparent;
+  padding-bottom: 0px;
 }
 
 #actividad .content .portada img:not(.bck-cam-button) {
-	margin-top: 0px;
-	margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-/*TAGS*/
-/*Tag verde*/
-.activitytag_verde_donostiarraNew #actividad .content .header .title h3 {
-	background: #556F35;
-}
-
-.activitytag_verde_donostiarraNew .bck-title-1 {
-	color: #556F35;
-}
-
-.activitytag_verde_donostiarraNew .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #556F35;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_verde_donostiarraNew .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #556f3526;
-}
-
-.activitytag_verde_donostiarraNew .bck-box.bck-box-3 {
-	border: 3px dotted #556F35;
-}
-
-.activitytag_verde_donostiarraNew .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_verde.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_verde_donostiarraNew .bck-box.bck-box-3 .bck-title {
-	color: #556F35;
-}
-
-.activitytag_verde_donostiarraNew .bck-box.bck-box-4 {
-	border: 3px dotted #556F35;
-}
-
-.activitytag_verde_donostiarraNew .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_verde.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_verde_donostiarraNew .bck-box.bck-box-4 .bck-title {
-	color: #556F35;
-}
-
-.activitytag_verde_donostiarraNew .bck-enfasis-8 {
-	background-color: #556F35;
-}
-
-/*Tag negra*/
-.activitytag_negra_donostiarraNew #actividad .content .header .title h3 {
-	background: #333;
-}
-
-.activitytag_negra_donostiarraNew .bck-box.bck-box-3 {
-	border: 3px dotted #000000;
-}
-
-.activitytag_negra_donostiarraNew .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_negra.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_negra_donostiarraNew .bck-box.bck-box-3 .bck-title {
-	color: #000000;
-}
-
-.activitytag_negra_donostiarraNew .bck-box.bck-box-4 {
-	border: 3px dotted #000000;
-}
-
-.activitytag_negra_donostiarraNew .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_negra.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_negra_donostiarraNew .bck-box.bck-box-4 .bck-title {
-	color: #000000;
-}
-
-/*Tag gold*/
-.activitytag_gold_donostiarraNew .bck-box.bck-box-3 {
-	border: 3px dotted #E2C95F;
-}
-
-.activitytag_gold_donostiarraNew .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_gold.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_gold_donostiarraNew .bck-box.bck-box-3 .bck-title {
-	color: #E2C95F;
-}
-
-.activitytag_gold_donostiarraNew .bck-box.bck-box-4 {
-	border: 3px dotted #E2C95F;
-}
-
-.activitytag_gold_donostiarraNew .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_gold.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_gold_donostiarraNew .bck-box.bck-box-4 .bck-title {
-	color: #E2C95F;
-}
-
-/*Tag azul*/
-
-.activitytag_azul_donostiarraNew #actividad .content .header .title h3 {
-	background: #3B5A65;
-}
-
-.activitytag_azul_donostiarraNew .bck-title-1 {
-	color: #3B5A65;
-}
-
-.activitytag_azul_donostiarraNew .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #3B5A65;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_azul_donostiarraNew .bck-box.bck-box-3 {
-	border: 3px dotted #385963;
-}
-
-.activitytag_azul_donostiarraNew .bck-box-3 .bck-title:before {
-	background: url(imagenes_difusion/campana_azul.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_azul_donostiarraNew .bck-box.bck-box-3 .bck-title {
-	color: #385963;
-}
-
-.activitytag_azul_donostiarraNew .bck-box.bck-box-4 {
-	border: 3px dotted #385963;
-}
-
-.activitytag_azul_donostiarraNew .bck-box-4 .bck-title:before {
-	background: url(imagenes_difusion/engranajes_azul.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.activitytag_azul_donostiarraNew .bck-box.bck-box-4 .bck-title {
-	color: #385963;
-}
-
-.activitytag_azul_donostiarraNew .bck-enfasis-8 {
-	background-color: #385963;
-}
-
-/*Tag verde claro*/
-.activitytag_verdeclaro_donostiarraNew #actividad .content .header .title h3 {
-	background: #00943C;
-}
-
-.activitytag_verdeclaro_donostiarraNew .bck-title-1 {
-	color: #00943C;
-}
-
-.activitytag_verdeclaro_donostiarraNew .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #00943C;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_verdeclaro_donostiarraNew .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #00943c40;
-	top: -20px;
-}
-
-/*tag rojo*/
-.activitytag_rojo_donostiarraNew #actividad .content .header .title h3 {
-	background: #D73534;
-}
-
-.activitytag_rojo_donostiarraNew .bck-title-1 {
-	color: #D73534;
-}
-
-.activitytag_rojo_donostiarraNew .bck-title-preparate {
-	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background: #333;
-	padding: 12px;
-	padding-left: 25px;
-}
-
-.activitytag_rojo_donostiarraNew .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #d7353430;
-	top: -20px;
-}
-
-/*activity tag morado*/
-.activitytag_morado_donostiarraNew #actividad .content .header .title h3 {
-	background: #853F57;
-}
-
-.activitytag_morado_donostiarraNew .bck-title-1 {
-	color: #853F57;
-	font-size: 2.3rem;
-	padding-bottom: 5px;
-	margin-left: 0;
-}
-
-.activitytag_morado_donostiarraNew .bck-title-preparate {
-	background: #853F57;
-}
-
-
-.activitytag_morado_donostiarraNew .bck-box.bck-box-5 {
-	background-color: #853f5754;
-
-}
-
-/*tag naranja*/
-.activitytag_naranja_donostiarraNew #actividad .content .header .title h3 {
-	background: #E07C3E;
-}
-
-/*WB*/
-.activitytag_wb_donostiarraNew #actividad .content .header .title h3 {
-	background: #50748A;
-}
-
-/*secciÃ³n intro*/
-#actividad .content .intro .header .title h3 {
-	color: #333;
-	font-size: 2.5rem;
-	font-weight: 400;
-	background: #fff;
-	width: 100%;
-	padding: 13px;
-}
-
-.intro .texto_curso ul li:before,
-.intro .workspace ul li ul li:before,
-.intro .cke_contents ul li:before,
-.intro .preview ul li:before,
-.intro .classify-item ul li:before,
-#actividad .workspace.multiple-choice .intro .js-item ul li:before,
-#actividad .workspace.matching .intro .box ul li:before,
-#actividad .workspace.ordenar .intro .js-rank-item ul li:before {
-	background-color: #fff;
-	color: #fff;
-}
-
-/**iframe**/
-#iframe_div.scorm {
-	width: 100% ! important;
-	height: 100% ! important;
-	top: 0px ! important;
-	left: 0px ! important;
-	background-color: #CCCCCC;
-}
-
-#iframe_div.scorm iframe#class_iframe {
-	width: 100% ! important;
-	height: 100% ! important;
-}
-
-#iframe_div.scorm .btn-close-iframe {
-	right: 0px;
-	top: 15px;
-	margin-top: 20px;
-}
-
-#iframe_div.scorm .btn-close-iframe span {
-	display: none;
-}
-
-#iframe_div.scorm .btn-close-iframe a {
-	padding: 16px;
-	background-color: #E9E9E9;
-	-webkit-border-bottom-left-radius: 10px;
-	-moz-border-radius-bottomleft: 10px;
-	border-bottom-left-radius: 10px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-box-shadow: 0px 1px 5px #aaa;
-	-moz-box-shadow: 0px 1px 5px #aaa;
-	box-shadow: 0px 1px 5px #aaa;
-}
-
-#iframe_div.scorm .btn-close-iframe a .fa {
-	font-size: 2rem;
-}
+/**/
 
 /*Dropdown 1*/
+
 .bck-dropdown.bck-dropdown-1 {
-	background-color: #9D9D9C;
+  background-color: #00adee;
+  border: 1px solid #DDDDDD;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon {
-	background-color: #9D9D9C;
+  background-color: #00adee;
+  width: 25px;
+  height: 10px;
+}
+
+/**/
+
+/*Dropdown 2*/
+
+.bck-dropdown-2 .bck-dropdown-button {
+  margin-top: 20px;
+  background: #00adee;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #dcdada;
+  -webkit-border-top-left-radius: 5px;
+      -moz-border-radius-topleft: 5px;
+          border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+      -moz-border-radius-topright: 5px;
+          border-top-right-radius: 5px;
 }
 
 /*Dropdown 3*/
-.bck-dropdown.bck-dropdown-3 {
-	background-color: #00A4CC;
-	margin-top: 10px;
+.bck-dropdown-3 .bck-dropdown-icon>.fa{
+	border: 3px solid #2E72B7;
 }
 
-.bck-dropdown-3 .bck-dropdown-button {
-	margin-top: 0px;
-	font-size: 1.2rem;
-}
-
-.bck-dropdown-3 .bck-dropdown-icon {
-	background-color: transparent;
-	width: 35px;
-	height: 10px;
-	float: right;
-}
-
-.bck-dropdown-3 .bck-dropdown-icon>.fa {
-	border: 0px solid white;
-}
-
-.bck-dropdown-3 .fa-chevron-up:before,
 .bck-dropdown-3 .fa-chevron-down:before {
-	font-size: 1.8rem;
+    color: #2E72B7;
 }
 
-.bck-dropdown-3 .bck-dropdown-titulo {
-	font-size: 1.8rem;
-	padding-left: 8px;
-	font-weight: 800;
+.bck-dropdown-3 .fa-chevron-up:before{
+	color: #2E72B7;
 }
 
-.bck-dropdown-3 .bck-dropdown-titulo:before {
-	content: " ";
+.bck-dropdown-3 .bck-dropdown-titulo{
+	color: #2E72B7;
+}
+
+/**/
+
+/*Activities Dropdown*/
+
+.bck-dropdown-2.activities-dropdown .fa-chevron-up:before,
+.bck-dropdown-2.activities-dropdown .fa-chevron-down:before {
+  content: "\f0ae";
+}
+
+.bck-dropdown-2.activities-dropdown .bck-dropdown-content {
+  position: relative;
+  border: 0;
+  padding-left: 120px;
+  padding-right: 0;
+}
+
+.bck-dropdown-2.activities-dropdown .bck-box p,
+.bck-box .chooseblanks p,
+.bck-box .fillblanks p {
+  display: block;
+}
+
+.bck-dropdown-content{
+	background-color: #f1f1f1;
+	    max-height: none;
+}
+/**/
+
+/**TABS**/
+
+.activities-dropdown .nav-tabs {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100px;
+  height: auto;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  border: 1px solid #dcdada;
+}
+
+.activities-dropdown .nav-tabs > li {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  border: 0;
+}
+
+.activities-dropdown .nav-tabs > li:not(:last-of-type),
+.activities-dropdown .nav-tabs > li:not(.active) {
+  border-bottom: 1px solid #dcdada;
+}
+
+.activities-dropdown .nav-tabs > li > a {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  border: 0;
+  background: transparent;
+  color: #414141;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 4.0rem;
+}
+
+.activities-dropdown .nav-tabs > li.active > a,
+.activities-dropdown .nav-tabs > li.active > a:hover,
+.activities-dropdown .nav-tabs > li.active > a:focus {
+  border: 0;
+  background: #ea5b0c;
+  color: #fff;
+}
+
+.activities-dropdown .tab-content {
+  height: auto;
+  overflow: hidden;
+}
+
+.activities-dropdown .tab-content .tab-pane {
+  padding: 20px 0;
+}
+
+.slide_main input:focus {
+  border-color: #11b2ef;
+}
+
+/*--------------------------------------------------TAGS--------------------------------------------*/
+/*--------------------------------------------------Unittag-----------------------------------------*/
+
+#list-units .unittag_activities_donostiarraNew {
+	padding-left: 20px;
+}
+
+
+
+/*----------------------------Tag Libro 2 - coursetag_donostiarraNew_2----------------------------*/
+
+/*-----------------Títulos - coursetag_donostiarraNew_2----------------*/
+
+/*Título 3*/
+/*Título 2 - Verde*/
+.coursetag_donostiarraNew_2 .bck-title-2 {
+  color: #80539D;
+}
+
+.coursetag_donostiarraNew_2 .bck-title-3 {
+	color: #80539D;
+    background-color: #E4DCEE;
+}
+
+.coursetag_donostiarraNew_2 .bck-title-12 {
+  color: #8BBF36;
+}
+
+/*título Wordlist*/
+.coursetag_donostiarraNew_2 .bck-title-13 {
+  	color: #ffffff;
+    background-color: #926CAD;
+    font-size: 2.3rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    font-weight: 500;
+    position: relative;
+    left: 0px;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+/*-------------Listas ordenadas - coursetag_donostiarraNew_2------------*/
+
+/*Lista 2*/
+.coursetag_donostiarraNew_2 #actividad .content .cke_contents ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_2 #actividad .content .texto_curso ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_2 #actividad .popover-content ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_2 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+    color: #80539D;
+}
+
+/*------------Listas desordenadas - coursetag_donostiarraNew_2-----------*/
+
+/*Lista desordenada 4*/
+
+.coursetag_donostiarraNew_2 #actividad .content .texto_curso .bck-ul-4 li,
+.coursetag_donostiarraNew_2 #actividad .content .workspace ul li .bck-ul-4 li ,
+.coursetag_donostiarraNew_2 #actividad .popover-background.shown .popover-content .bck-ul-4 li {
+  color: #80539D;
+}
+
+.coursetag_donostiarraNew_2 #actividad .content .texto_curso .bck-ul-4 li:before,
+.coursetag_donostiarraNew_2 #actividad .content .workspace ul li .bck-ul-4 li:before ,
+.coursetag_donostiarraNew_2 #actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
+    background-color: #80539D;
+}
+
+/*-------------------Cajas - coursetag_donostiarraNew_2------------------*/
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-1 {
+    position: relative;
+    background: url(images/img_inicio_morado.png) repeat-y;
+    padding: 60px 18px 91px 83px;
+    background-size: cover;
+    top: -21px;
+    left: -97px;
+    width: 125.5%;
+}
+
+/*caja 3*/
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-3 {
+  background: #9774B1;
+}
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-3 .bck-content {
+    background-color: #9774B1;
+}
+
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-3 .bck-title {
+	color: #80539D;
+}
+
+/*caja 6*/
+.coursetag_donostiarraNew_2 .bck-box.bck-box-6 .bck-content{
+	background-color: rgb(214, 203, 229);
+}
+
+
+/*caja 7*/
+.coursetag_donostiarraNew_2 .bck-box.bck-box-7 .bck-content {
+    border: 3px dotted #8BBF36;
+}
+
+/*Caja 17*/
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-17 .bck-content {
+    border: 3px dotted #6D307E;
+}
+
+/*Caja 24 */
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-24 {
+  background: #82c44c;
+}
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-24 .bck-content {
+   background-color: #82c44c;
+}
+
+
+/*caja UseFulLenguage*/
+.coursetag_donostiarraNew_2 .bck-box.bck-box-26 {
+    border: 3px solid #9774B1;
+}
+
+.coursetag_donostiarraNew_2 .bck-box.bck-box-26 .bck-title {
+    background-color: #9774B1;
+}
+
+
+/*-------------------Énfasis - coursetag_donostiarraNew_2------------------*/
+
+/*Énfasis 1*/
+.coursetag_donostiarraNew_2 .bck-enfasis-1 {
+	color: #926CAD;
+}
+
+/*Énfasis donostiarraNew*/
+.coursetag_donostiarraNew_2 .bck-enfasis-7 {
+	color: #80539D;
+    background-color: #E4DCEE
+
+}
+
+/*.coursetag_donostiarraNew_3 .bck-enfasis-5{
+	background-color: #8BBF36;
+}*/
+
+/*------------------Iconos - coursetag_donostiarraNew_2--------------------*/
+
+/*Icono lápiz*/
+.coursetag_donostiarraNew_2 .icon-lapiz:before {
+  background-image: url(images/icono_lapiz_morado.png);
+}
+
+/*Icono audio*/
+.coursetag_donostiarraNew_2 #actividad .player.audio {
+  background-image: url(images/icono_audio_morado.png);
+}
+
+/*Icono hablar*/
+.coursetag_donostiarraNew_2 .icon-hablar:before {
+  background-image: url(images/icono_pronunt_morado.png);
+}
+
+/*icono Fast*/
+.coursetag_donostiarraNew_2 .icon-fast:before {
+  background-image: url(images/icon_fast_morado.png);
+}
+
+/*Dropdown 3*/
+.coursetag_donostiarraNew_2 .bck-dropdown-3-icon>.fa{
+	border: 3px solid #6F3181 !important;
+}
+
+.coursetag_donostiarraNew_2 .bck-dropdown-3 .fa-chevron-down:before {
+    color: #6F3181;
+}
+
+.coursetag_donostiarraNew_2 .bck-dropdown-3 .fa-chevron-up:before{
+	color: #6F3181;
+}
+
+.coursetag_donostiarraNew_2 .bck-dropdown-3 .bck-dropdown-titulo{
+	color: #6F3181;
+}
+
+
+/*actividades*/
+/*Classify activities*/
+.coursetag_donostiarraNew_2 #actividad .workspace.clasificar .clasificar_lista .classify-item {
+  border-color: #a27aada1;
+  padding: 6px 6px 10px 6px;
+}
+
+.coursetag_donostiarraNew_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+  border: 3px solid #a27aada1;
+    padding-top: 15px;
+}
+
+.coursetag_donostiarraNew_2 #actividad .workspace.clasificar .clasificar_conjuntos .row .col-centered{
+	margin-top: 15px;
+}
+
+/*******************************/
+/*Título toc*/
+.coursetag_donostiarraNew_2 #indice .unit-content .header .title{
+	color: #6f3181;
+}
+
+/*TOC*/
+.coursetag_donostiarraNew_2 #indice .units ul li.active:not(.disabled){
+	background: #6f3181 !important;
+}
+
+.coursetag_donostiarraNew_2 #indice .units ul li:hover:not(.disabled){
+	background: #6f3181 !important;
+}
+
+
+.coursetag_donostiarraNew_2 #indice .units ul li:focus:not(.disabled){
+	background: #7ba21b !important;
+}
+
+.coursetag_donostiarraNew_2 #indice .units ul li.hover:not(.disabled), 
+.coursetag_donostiarraNew_2 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+.coursetag_donostiarraNew_2 #indice .units ul li:hover:not(.disabled){
+	background: #6f3181 !important;
+}
+
+.coursetag_donostiarraNew_2 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_donostiarraNew_2 #book-index #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_2 #book-index #indice .unit-content .actividades .item.current{
+	background: #6f3181 !important;
+}
+
+
+/*índice lateral*/
+.coursetag_donostiarraNew_2  #indice .unit-content .actividades .item:active, 
+.coursetag_donostiarraNew_2  #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_2 #indice .unit-content .actividades .item.current{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.coursetag_donostiarraNew_2 #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_donostiarraNew_2 #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_2 #indice .unit-content .actividades .item.current{
+	border-bottom: 2px solid #3e1b49 !important;
+}
+
+.coursetag_donostiarraNew_2  #indice .unit-content .actividades .item:focus, 
+.coursetag_donostiarraNew_2 #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_2 #indice .unit-content .actividades .item.current{
+	border-bottom: 2px solid #3e1b49;
+}
+
+.coursetag_donostiarraNew_2 #book-index .col-main{
+	background: #6F3181;
+}
+
+
+ .coursetag_donostiarraNew_2 #indice .units ul li:not(.disabled) a:hover, 
+ .coursetag_donostiarraNew_2 #indice .units ul li.active a{
+	background: #6f3181 !important;
+}
+
+
+
+/*enlaces*/
+.coursetag_donostiarraNew_2 #indice .actividades a:hover, 
+.coursetag_donostiarraNew_2 #indice .actividades a:active, 
+.coursetag_donostiarraNew_2 #indice .actividades a:focus{
+	color: #6f3181;
+}
+
+/*btn*/
+.coursetag_donostiarraNew_2 .btn-primary, 
+.coursetag_donostiarraNew_2 .btn-primary.disabled, 
+.coursetag_donostiarraNew_2 .btn-primary.disabled:focus{
+	background: #6f3181;
+}
+
+.coursetag_donostiarraNew_2 .btn-danger, 
+.coursetag_donostiarraNew_2 .btn-danger[disabled]{
+	background: #6f3181;
+}
+
+.coursetag_donostiarraNew_2  #actividad .content .review .attemps span {
+    background-color: #6f3181;
+}
+
+/*----------------------------Tag Libro 3 - coursetag_donostiarraNew_3----------------------------*/
+
+/*-----------------Títulos - coursetag_donostiarraNew_3----------------*/
+
+/*Título 3*/
+/*Título 2 - Verde*/
+.coursetag_donostiarraNew_3 .bck-title-2 {
+  color: #8BBF36;
+}
+
+.coursetag_donostiarraNew_3 .bck-title-3 {
+    color: #8bbf36;
+    background-color: #ebf3dc;
+}
+
+.coursetag_donostiarraNew_3 .bck-title-12 {
+  color: #8BBF36;
+}
+
+/*título Wordlist*/
+.coursetag_donostiarraNew_3 .bck-title-13 {
+  	color: #ffffff;
+    background-color: #A0C857;
+    font-size: 2.3rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    font-weight: 500;
+    position: relative;
+    left: 0px;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 700;
+}
+/*-------------Listas ordenadas - coursetag_donostiarraNew_3------------*/
+
+/*Lista 2*/
+.coursetag_donostiarraNew_3 #actividad .content .cke_contents ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_3 #actividad .content .texto_curso ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_3 #actividad .popover-content ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_3 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+    color: #8bbf36;
+}
+
+/*------------Listas desordenadas - coursetag_donostiarraNew_3-----------*/
+
+/*Lista desordenada 4*/
+
+.coursetag_donostiarraNew_3 #actividad .content .texto_curso .bck-ul-4 li,
+.coursetag_donostiarraNew_3 #actividad .content .workspace ul li .bck-ul-4 li ,
+.coursetag_donostiarraNew_3 #actividad .popover-background.shown .popover-content .bck-ul-4 li {
+  color: #8bbf36;
+}
+
+.coursetag_donostiarraNew_3 #actividad .content .texto_curso .bck-ul-4 li:before,
+.coursetag_donostiarraNew_3 #actividad .content .workspace ul li .bck-ul-4 li:before ,
+.coursetag_donostiarraNew_3 #actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
+    background-color: #8bbf36;
+}
+
+/*-------------------Cajas - coursetag_donostiarraNew_3------------------*/
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-1 {
+    position: relative;
+    background: url(images/img_inicio_verde.png) repeat-y;
+    padding: 60px 18px 91px 83px;
+    background-size: cover;
+    top: -21px;
+    left: -97px;
+    width: 125.5%;
+}
+
+/*caja 3*/
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-3 {
+  background: #A7CB62;
+}
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-3 .bck-content {
+    background-color: #A7CB62;
+}
+
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-3 .bck-title {
+	color: #A7CB62;
+}
+
+/*CAJA6- CajaWordPool*/
+.coursetag_donostiarraNew_3 .bck-box.bck-box-6 .bck-content{
+    background-color: #E0ECC9 !important;
+}
+
+/*Caja 17*/
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-17 .bck-content {
+    border: 3px dotted #8bbf36;
+}
+
+/*Caja 24 */
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-24 {
+  background: #82c44c;
+}
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-24 .bck-content {
+   background-color: #82c44c;
+}
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-7 .bck-content {
+    border: 3px dotted #8BBF36;
+}
+
+/*caja UseFulLenguage*/
+.coursetag_donostiarraNew_3 .bck-box.bck-box-26 {
+    border: 3px solid #8BBF36;
+}
+
+.coursetag_donostiarraNew_3 .bck-box.bck-box-26 .bck-title {
+    background-color: #8BBF36;
+}
+
+
+
+/*-------------------Énfasis - coursetag_donostiarraNew_3------------------*/
+
+/*Énfasis 1*/
+.coursetag_donostiarraNew_3 .bck-enfasis-1 {
+	color: #a0c857;
+}
+
+/*Énfasis donostiarraNew*/
+.coursetag_donostiarraNew_3 .bck-enfasis-7 {
+	color: #8bbf36;
+    background-color: #ebf3dc;
+
+}
+
+/*.coursetag_donostiarraNew_3 .bck-enfasis-5{
+	background-color: #8BBF36;
+}*/
+
+/*------------------Iconos - coursetag_donostiarraNew_3--------------------*/
+
+/*Icono lápiz*/
+.coursetag_donostiarraNew_3 .icon-lapiz:before {
+  background-image: url(images/icono_lapiz_verde.png);
+}
+
+/*Icono audio*/
+.coursetag_donostiarraNew_3 #actividad .player.audio {
+  background-image: url(images/icono_audio_verde.png);
+}
+
+/*Icono hablar*/
+.coursetag_donostiarraNew_3 .icon-hablar:before {
+  background-image: url(images/icono_pronunt_verde.png);
+}
+
+/*icono Fast*/
+.coursetag_donostiarraNew_3 .icon-fast:before {
+  background-image: url(images/icon_fast_verde.png);
+}
+
+/*Dropdown 3*/
+.coursetag_donostiarraNew_3 .bck-dropdown-3-icon>.fa{
+	border: 3px solid #8BBF36;
+}
+
+.coursetag_donostiarraNew_3 .bck-dropdown-3 .fa-chevron-down:before {
+    color: #8BBF36;
+}
+
+.coursetag_donostiarraNew_3 .bck-dropdown-3 .fa-chevron-up:before{
+	color: #8BBF36;
+}
+
+.coursetag_donostiarraNew_3 .bck-dropdown-3 .bck-dropdown-titulo{
+	color: #8BBF36;
+}
+/*******************************/
+/*Título toc*/
+.coursetag_donostiarraNew_3 #indice .unit-content .header .title{
+	color: #8ebb1e;
+}
+
+/*TOC*/
+.coursetag_donostiarraNew_3 #indice .units ul li.active:not(.disabled){
+	background: #7ba21b !important;
+}
+
+.coursetag_donostiarraNew_3 #indice .units ul li:hover:not(.disabled){
+	background: #7ba21b !important;
+}
+
+
+.coursetag_donostiarraNew_3 #indice .units ul li:focus:not(.disabled){
+	background: #7ba21b !important;
+}
+
+.coursetag_donostiarraNew_3 #indice .units ul li.hover:not(.disabled), 
+.coursetag_donostiarraNew_3 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+.coursetag_donostiarraNew_3 #indice .units ul li:hover:not(.disabled){
+	background: #8ebb1e !important;
+}
+
+.coursetag_donostiarraNew_3 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_donostiarraNew_3 #book-index #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_3 #book-index #indice .unit-content .actividades .item.current{
+	background: #8ebb1e !important;
+}
+
+
+/*índice lateral*/
+.coursetag_donostiarraNew_3  #indice .unit-content .actividades .item:active, 
+.coursetag_donostiarraNew_3  #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_3 #indice .unit-content .actividades .item.current{
+	    border-bottom: 2px solid #597514;
+}
+
+.coursetag_donostiarraNew_3 #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_donostiarraNew_3 #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_3 #indice .unit-content .actividades .item.current{
+	border-bottom: 2px solid #597514 !important;
+}
+
+.coursetag_donostiarraNew_3  #indice .unit-content .actividades .item:focus, 
+.coursetag_donostiarraNew_3 #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_3 #indice .unit-content .actividades .item.current{
+	border-bottom: 2px solid #597514;
+}
+
+.coursetag_donostiarraNew_3 #book-index .col-main{
+	background: #8ebb1e;
+}
+
+.coursetag_donostiarraNew_3 #indice .units ul li:not(.disabled) a:hover, 
+.coursetag_donostiarraNew_3 #indice .units ul li.active a{
+	background: #8BBF36 !important;
+}
+
+.coursetag_donostiarraNew_3 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
+.coursetag_donostiarraNew_3 #book-index #indice .units ul li.active a{
+	background: #8BBF36;
+}
+
+
+
+/*enlaces*/
+.coursetag_donostiarraNew_3 #indice .actividades a:hover, 
+.coursetag_donostiarraNew_3 #indice .actividades a:active, 
+.coursetag_donostiarraNew_3 #indice .actividades a:focus{
+	color: #8BBF36;
+}
+
+/*btn*/
+.coursetag_donostiarraNew_3 .btn-primary, 
+.coursetag_donostiarraNew_3 .btn-primary.disabled, 
+.coursetag_donostiarraNew_3 .btn-primary.disabled:focus{
+	background: #8BBF36;
+}
+
+.coursetag_donostiarraNew_3 .btn-danger, 
+.coursetag_donostiarraNew_3 .btn-danger[disabled]{
+	background: #8BBF36;
+}
+
+.coursetag_donostiarraNew_3  #actividad .content .review .attemps span {
+    background-color: #8BBF36;
+}
+
+/*actividades*/
+/*Classify activities*/
+.coursetag_donostiarraNew_3 #actividad .workspace.clasificar .clasificar_lista .classify-item {
+  border-color: #8bbf3687;
+  padding: 6px 6px 10px 6px;
+}
+
+.coursetag_donostiarraNew_3 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+  border: 3px solid #8bbf3687;
+    padding-top: 15px;
+}
+
+.coursetag_donostiarraNew_3 #actividad .workspace.clasificar .clasificar_conjuntos .row .col-centered{
+	margin-top: 15px;
+}
+
+/*----------------------------Tag Libro 4 - coursetag_donostiarraNew_4----------------------------*/
+
+/*-----------------Títulos - coursetag_donostiarraNew_4----------------*/
+
+/*Título 3*/
+/*Título 2 - Verde*/
+.coursetag_donostiarraNew_4 .bck-title-2 {
+  color: #5A75B8;
+}
+
+.coursetag_donostiarraNew_4 .bck-title-3 {
+	color: #5A75B8;
+    background-color: #E0E2F3;
+}
+
+.coursetag_donostiarraNew_4 .bck-title-12 {
+  color: #8BBF36;
+}
+
+/*título Wordlist*/
+.coursetag_donostiarraNew_4 .bck-title-13 {
+  	color: #ffffff;
+    background-color: #7588C3;
+    font-size: 2.3rem;
+    font-family: 'Conv_FuturaStd-Medium';
+    font-weight: 500;
+    position: relative;
+    left: 0px;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+/*-------------Listas ordenadas - coursetag_donostiarraNew_4------------*/
+
+/*Lista 2*/
+.coursetag_donostiarraNew_4 #actividad .content .cke_contents ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_4 #actividad .content .texto_curso ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_4 #actividad .popover-content ol.bck-ol-2 li:before,
+.coursetag_donostiarraNew_4 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+    color: #5A75B8;
+}
+
+/*------------Listas desordenadas - coursetag_donostiarraNew_4-----------*/
+
+/*Lista desordenada 4*/
+
+.coursetag_donostiarraNew_4 #actividad .content .texto_curso .bck-ul-4 li,
+.coursetag_donostiarraNew_4 #actividad .content .workspace ul li .bck-ul-4 li ,
+.coursetag_donostiarraNew_4 #actividad .popover-background.shown .popover-content .bck-ul-4 li {
+  color: #7588c3;
+}
+
+.coursetag_donostiarraNew_4 #actividad .content .texto_curso .bck-ul-4 li:before,
+.coursetag_donostiarraNew_4 #actividad .content .workspace ul li .bck-ul-4 li:before ,
+.coursetag_donostiarraNew_4 #actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
+    background-color: #7588c3;
+}
+
+/*-------------------Cajas - coursetag_donostiarraNew_4------------------*/
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-1 {
+    position: relative;
+    background: url(images/img_inicio_azul.png) repeat-y;
+    padding: 60px 18px 91px 83px;
+    background-size: cover;
+    top: -21px;
+    left: -97px;
+    width: 125.5%;
+}
+
+/*caja 3*/
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-3 {
+  background: #7C8FC7;
+}
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-3 .bck-content {
+    background-color: #7C8FC7;
+}
+
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-3 .bck-title {
+	color: #7C8FC7;
+}
+
+/*caja 6*/
+.coursetag_donostiarraNew_4 .bck-box.bck-box-6 .bck-content{
+	background-color: #D6CBE5;
+}
+
+
+/*caja 7*/
+.coursetag_donostiarraNew_4 .bck-box.bck-box-7 .bck-content {
+    border: 3px dotted #8BBF36;
+}
+
+/*Caja 17*/
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-17 .bck-content {
+    border: 3px dotted #214B8E;
+}
+
+/*Caja 24 */
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-24 {
+  background: #82c44c;
+}
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-24 .bck-content {
+   background-color: #82c44c;
+}
+
+
+/*caja UseFulLenguage*/
+.coursetag_donostiarraNew_4 .bck-box.bck-box-26 {
+    border: 3px solid #5A75B8;
+}
+
+.coursetag_donostiarraNew_4 .bck-box.bck-box-26 .bck-title {
+    background-color: #5A75B8;
+}
+
+
+/*-------------------Énfasis - coursetag_donostiarraNew_4------------------*/
+
+/*Énfasis 1*/
+.coursetag_donostiarraNew_4 .bck-enfasis-1 {
+	color: #7588C3;
+}
+
+/*Énfasis donostiarraNew*/
+.coursetag_donostiarraNew_4 .bck-enfasis-7 {
+	color: #5A75B8;
+    background-color: #E0E2F3;
+}
+
+/*.coursetag_donostiarraNew_4 .bck-enfasis-5{
+	background-color: #8BBF36;
+}*/
+
+/*------------------Iconos - coursetag_donostiarraNew_4--------------------*/
+
+/*Icono lápiz*/
+.coursetag_donostiarraNew_4 .icon-lapiz:before {
+  background-image: url(images/icono_lapiz_azul.png);
+}
+
+/*Icono audio*/
+.coursetag_donostiarraNew_4 #actividad .player.audio {
+  background-image: url(images/icono_audio_azul.png);
+}
+
+/*Icono hablar*/
+.coursetag_donostiarraNew_4 .icon-hablar:before {
+  background-image: url(images/icono_pronunt_azul.png);
+}
+
+/*icono Fast*/
+.coursetag_donostiarraNew_4 .icon-fast:before {
+  background-image: url(images/icon_fast_azul.png);
+}
+
+/*Dropdown 3*/
+.coursetag_donostiarraNew_4 .bck-dropdown-3-icon>.fa{
+	border: 3px solid #7588c3;
+}
+
+.coursetag_donostiarraNew_4 .bck-dropdown-3 .fa-chevron-down:before {
+    color: #7588c3;
+}
+
+.coursetag_donostiarraNew_4 .bck-dropdown-3 .fa-chevron-up:before{
+	color: #7588c3;
+}
+
+.coursetag_donostiarraNew_4 .bck-dropdown-3 .bck-dropdown-titulo{
+	color: #7588c3;
+}
+
+
+/*******************************/
+/*Título toc*/
+.coursetag_donostiarraNew_4 #indice .unit-content .header .title{
+	color: #7588c3;
+}
+
+/*TOC*/
+.coursetag_donostiarraNew_4 #indice .units ul li.active:not(.disabled){
+	background: #7588c3 !important;
+}
+
+.coursetag_donostiarraNew_4 #indice .units ul li:hover:not(.disabled){
+	background: #7588c3 !important;
+}
+
+
+.coursetag_donostiarraNew_4 #indice .units ul li:focus:not(.disabled){
+	background: #7588c3 !important;
+}
+
+.coursetag_donostiarraNew_4 #indice .units ul li.hover:not(.disabled), 
+.coursetag_donostiarraNew_4 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+.coursetag_donostiarraNew_4 #indice .units ul li:hover:not(.disabled){
+	background: #7588c3 !important;
+}
+
+.coursetag_donostiarraNew_4 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_donostiarraNew_4 #book-index #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_4 #book-index #indice .unit-content .actividades .item.current{
+	background: #7588C3 !important;
+}
+
+
+/*índice lateral*/
+.coursetag_donostiarraNew_4  #indice .unit-content .actividades .item:active, 
+.coursetag_donostiarraNew_4  #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_4 #indice .unit-content .actividades .item.current{
+	border-bottom: 1px solid #434e6f;
+}
+
+.coursetag_donostiarraNew_4 #book-index #indice .unit-content .actividades .item:hover, 
+.coursetag_donostiarraNew_4 #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_4 #indice .unit-content .actividades .item.current{
+	border-bottom: 2px solid #434e6f !important;
+}
+
+.coursetag_donostiarraNew_4  #indice .unit-content .actividades .item:focus, 
+.coursetag_donostiarraNew_4 #indice .unit-content .actividades .item.active, 
+.coursetag_donostiarraNew_4 #indice .unit-content .actividades .item.current{
+	border-bottom: 2px solid #434e6f;
+}
+
+.coursetag_donostiarraNew_4 #book-index .col-main{
+	background: #7588C3;
+}
+
+
+ .coursetag_donostiarraNew_4 #indice .units ul li:not(.disabled) a:hover, 
+ .coursetag_donostiarraNew_4 #indice .units ul li.active a{
+	background: #7588C3 !important;
+}
+
+
+
+/*enlaces*/
+.coursetag_donostiarraNew_4 #indice .actividades a:hover, 
+.coursetag_donostiarraNew_4 #indice .actividades a:active, 
+.coursetag_donostiarraNew_4 #indice .actividades a:focus{
+	color: #5A75B8;
+}
+
+/*btn*/
+.coursetag_donostiarraNew_4 .btn-primary, 
+.coursetag_donostiarraNew_4 .btn-primary.disabled, 
+.coursetag_donostiarraNew_4 .btn-primary.disabled:focus{
+	background: #5A75B8;
+}
+
+.coursetag_donostiarraNew_4 .btn-danger, 
+.coursetag_donostiarraNew_4 .btn-danger[disabled]{
+	background: #5A75B8;
+}
+
+.coursetag_donostiarraNew_4 #actividad .content .review .attemps span {
+    background-color: #5A75B8;
+}
+
+/****/
+@media screen and (max-width: 375px) {
+
+#actividad .box p{
+	font-size: 1.5rem;
+}
+
+.btn-primary[disabled], .btn-primary[disabled]:focus{
+	margin-bottom: 10px;
+}
+
+.btn-danger, .btn-danger[disabled]{
+	margin-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 450px) {
+
+#actividad .class_slide {
+	padding: 20px 15px 10px;
+}
+
+.bck-box.bck-box-1{
+	left: -32px;
+	width: 111.5%;
+}
+
+.bck-box.bck-box-24{
 	position: relative;
-	top: 13px;
-	left: 0;
-	padding: 22px;
-	margin-right: 20px;
-	background-size: contain;
-	background-image: url(imagenes_difusion/img_casablanca.png);
-	background-repeat: no-repeat;
+    left: 50px;
 }
 
-.bck-dropdown-3 .bck-dropdown-content {
-	background-color: #D1E3F0;
-	padding-left: 17px;
-	max-height: 800%;
+.bck-title-1{
+	left: -52px;
+	/*left: -97px;*/
 }
 
-/*Dropdown 4*/
-.bck-dropdown.bck-dropdown-4 {
-	background-color: #808080;
-	margin-top: 10px;
+.bck-title-7{
+	left: -52px;
 }
 
-.bck-dropdown-4 .bck-dropdown-button {
-	margin-top: 0px;
-	font-size: 1.2rem;
+.bck-title-8{
+	left: -52px;
 }
 
-.bck-dropdown-4 .bck-dropdown-icon {
-	background-color: transparent;
-	width: 35px;
-	height: 10px;
-	float: right;
+.bck-box.bck-box-16{
+	top: -7px;
+    left: -19px;
+    width: 108.2%;
 }
 
-.bck-dropdown-4 .bck-dropdown-icon>.fa {
-	border: 0px solid white;
+.bck-title-6{
+	margin-left: -20px;
 }
 
-.bck-dropdown-4 .fa-chevron-up:before,
-.bck-dropdown-4 .fa-chevron-down:before {
-	font-size: 1.8rem;
+.bck-title-6:before{
+	padding: 24px 30px 0 24px;
+    left: -3px;
 }
 
-.bck-dropdown-4 .bck-dropdown-titulo {
-	font-size: 1.8rem;
-	padding-left: 8px;
-	font-weight: 800;
+#actividad .content .cke_contents .bck-ol-2 li, 
+#actividad .content .cke_contents .bck-ol-2 li, 
+#actividad .content .texto_curso .bck-ol-2 li, 
+#actividad .popover-content .bck-ol-2 li, 
+#actividad .content .workspace ul li .bck-ol-2 li{
+	margin-left: -20px;
 }
 
-.bck-dropdown-4 .bck-dropdown-titulo:before {
-	content: " ";
+#actividad .carousel-inner .item-container.aux-fullscreen, 
+#actividad .carousel-inner .item-container.aux-bckg{
+	padding-left: 0;
+}
+
+.bck-box.bck-box-18 .bck-title:before{
+	margin-left: -23.3%;
+    margin-top: -40px;
+}
+
+.bck-box.bck-box-18 .bck-title{
+	padding-top: 40px;
 	position: relative;
-	top: 15px;
-	left: 0;
-	padding: 20px;
-	margin-right: 20px;
-	background-size: contain;
-	background-image: url(imagenes_difusion/img_multi.png);
-	background-repeat: no-repeat;
+    left: -83px;
 }
 
-.bck-dropdown-4 .bck-dropdown-content {
-	background-color: #E5E5E5;
-	padding-left: 25px;
-	max-height: 800%;
+.bck-box-1 .bck-content p{
+	font-size: 2.5rem;
 }
 
-/*Dropdown 5*/
-.bck-dropdown.bck-dropdown-5 {
-	background-color: #333;
-	margin-top: 10px;
+.bck-enfasis-1{
+	top: 6px;
 }
 
-.bck-dropdown-5 .bck-dropdown-button {
-	margin-top: 0px;
-	font-size: 1.2rem;
 }
 
-.bck-dropdown-5 .bck-dropdown-icon {
-	background-color: transparent;
+
+@media screen and (max-width: 500px) {
+
+#actividad .class_slide{
+	padding: 20px 60px 10px;
+}	
+
+#actividad .carousel-inner .item-container {
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
+  -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
+  box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
+}
+
+#actividad .content .header .title h3:after {
+  display: none;
+}
+
+.bck-dropdown-titulo{
+	padding-left: 0px;
+}
+
+.bck-dropdown-icon{
 	width: 35px;
-	height: 10px;
-	float: right;
+    height: 35px;
 }
 
-.bck-dropdown-5 .bck-dropdown-icon>.fa {
-	border: 0px solid white;
+.bck-dropdown-icon>.fa{
+	padding: 4px;
 }
 
-.bck-dropdown-5 .fa-chevron-up:before,
-.bck-dropdown-5 .fa-chevron-down:before {
-	font-size: 1.8rem;
+#actividad .content .cke_contents .bck-ol-2 li, 
+#actividad .content .cke_contents .bck-ol-2 li, 
+#actividad .content .texto_curso .bck-ol-2 li, 
+#actividad .popover-content .bck-ol-2 li, 
+#actividad .content .workspace ul li .bck-ol-2 li{
+	margin-left: -20px;
 }
 
-.bck-dropdown-5 .bck-dropdown-titulo {
-	font-size: 1.8rem;
-	padding-left: 8px;
-	font-weight: 800;
+.bck-box.bck-box-3{
+	padding: 20px 1px 17px 60px;
 }
 
-.bck-dropdown-5 .bck-dropdown-content {
-	background-color: #E5E5E5;
-	padding-left: 25px;
-	max-height: 800%;
+.bck-box.bck-box-3 .bck-content{
+	position: relative;
+    left: -26px;
+    top: 10px;
 }
 
-.fa-times:before {
-	color: #333;
+.bck-box.bck-box-16{
+	left: -60px;
+    width: 132.5%;
+}
 }
 
-@media screen and (max-width: 1024px){
-	.libro-left ul li .title:before {
-		left: 48%;
-	}
+
+@media screen and (max-width: 768px) {
+
+      #actividad .content .header .title h3:after {
+      background-image: url(Images/triangulo-blanco2.png);
+      content: '';
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding: 22px;
+      position: absolute;
+      width: 0px;
+      height: auto;
+      margin-left: 21.5px;
+      top: 65.5px;
 }
+      /*seccion inicio de unidad*/
+      #actividad .content .iniciounidad .header .title h3 {
+      margin-top: 104px;
+      }
+
+      #actividad .content .iniciounidad .header .title h3:after {
+          margin-top: 99px;
+      }
+
+      #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
+      display: inline-block;
+      background-image: url(images/rich_english_U7_pg64_img_0004.png);
+      background-color: rgba(0, 128, 0, 0)!important;
+      background-repeat: no-repeat;
+      background-size: contain;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      margin: 0 5px;
+      vertical-align: sub;
+  }
+
+  #actividad .carousel-inner .item-container {
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
+  -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
+  box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
+}
+
+/*CAJA12- CoreValues */
+.bck-box.bck-box-12 {
+    margin-top: 15px;
+    background: #EEF4DC;
+    position: relative;
+    width: 133%;
+    left: -93px;
+}
+
+.bck-box.bck-box-12 .bck-title {
+    color: #ffff;
+    background-color: rgb(184,49,135);
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    position: relative;
+    top: -7px;
+    left: -1px;
+}
+
+/*iconos niveles*/
+.icon-nivel1:before{
+	position: relative;
+    left: -86px;
+}
+
+.icon-nivel2:before{
+	position: relative;
+    left: -86px;
+}
+
+.icon-nivel3:before{
+	position: relative;
+    left: -86px;
+}
+
+.icon-nivel4:before{
+	position: relative;
+    left: -86px;
+}
+
+.icon-nivel5:before{
+	position: relative;
+    left: -86px;
+}
+
+.icon-nivel6:before{
+	position: relative;
+    left: -86px;
+}
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px)  {
+  #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
+      display: inline-block;
+      background-image: url(images/rich_english_U7_pg64_img_0004.png);
+      background-color: rgba(0, 128, 0, 0)!important;
+      background-repeat: no-repeat;
+      background-size: contain;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      margin: 0 5px;
+      vertical-align: sub;
+}
+
+#actividad .carousel-inner .item-container {
+      -webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
+      -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
+      box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
+}
+
+}
+
