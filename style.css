@@ -1410,7 +1410,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*BOXES*/
 
-/*CAJA1 - CajaActividades*/
 /*caja actividades*/
 .bck-box.box-1{
 	background-color: #ffffff;
@@ -1427,7 +1426,11 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-box.box-1 .bck-title{
 	color: #E5BA6B;
     position: relative;
-    top: -61px;
+    top: -84px;
+    left: 5px;
+    font-family: 'Conv_ProximaNova-Bold';
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .bck-box.box-1 .bck-content{
@@ -1438,8 +1441,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-box.box-1 .bck-title:before {
     content: " ";
     padding: 32px;
-    left: -57px;
-    top: 16px;
+    left: -61px;
+    top: 32px;
     background-repeat: no-repeat;
     position: relative;
     background-color: transparent;
