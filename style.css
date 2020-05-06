@@ -1,3 +1,468 @@
+/*estilo DONOSTIARRANEW*/
+/***/
+/*Estilo NuevoDonostiarra*/
+/*unittag*/
+/*body*/
+body{
+	font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+/*titulo1*/
+.bck-title1 {
+    background-color: #ffffff;
+    padding: 3px 6px;
+    text-shadow: red;
+    text-shadow: none;
+    font-weight: bold;
+    position: relative;
+    left: -45px;
+}
+
+/*titulo2*/
+.bck-title2:before{
+	content: " ";
+    padding: 32px 21px 1px 10px;
+    left: 2px;
+    top: 11px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(/useruploads/r/a/166834106/activity_other_imported/donos_tec_u1_pg19_0001_173343.png);
+}
+
+.bck-title2 {
+	position: relative;
+    border-bottom: 2px solid #93D5F6;
+    font-weight: bold;
+    text-indent: -41px;
+    margin-left: 28px;
+    width: fit-content;
+}
+
+.bck-title3 {
+    background-color: #6DAEE0;
+    text-shadow: none;
+    text-align: center;
+    background-color: #85CEE4;
+    border-top: 2px solid #4DB4E7;
+    border-bottom: 2px solid #4DB4E7;
+    color: #fff;
+}
+
+.bck-title3:before{
+	content: none;
+}
+
+/*enfasis 1*/
+.bck-enfasis-1 {
+	background-size: contain;
+    content: " ";
+    padding: 9px 17px 13px 27px;
+    left: 0px;
+    top: -1px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(/useruploads/r/a/166805736/activity_other_imported/TPR1ESO_Unidad1-3.png);
+    color: #ffff;
+    text-shadow: none;
+    font-size: 2.8rem;
+}
+
+/*pop up*/
+.info-template .info-icon{
+	    position: absolute;
+    top: -10px;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 2px #9dcde2;
+    border-radius: 6px;
+    background: #fff;
+    border-color: #fff;
+    color: #ffffff;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.fa-info:before {
+    background-size: contain;
+    content: " ";
+    padding: 9px 23px 13px 32px;
+    left: 0;
+    top: 7px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(/useruploads/r/a/166813806/activity_other_imported/donos_tec_u1_pg18_0002.png);
+}
+
+.info-template .info-title{
+	color: #9dcde2;
+}
+.info-template.shown{
+	background: -webkit-linear-gradient(315deg,#fff 0,#fff 100%);
+}
+.info-template{
+	box-shadow: 0 0 2px #a9d3e6;
+}
+.info-template .info-title.shown{
+	font-weight: bold;
+	font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+.info-popover .popover-title, .popover-template .popover-title{
+	display: block;
+    position: relative;
+    background: #9dcde2;
+    padding-left: 17px;
+    padding-top: 13px;
+    color: #ffffff;
+    font-size: 2rem;
+    min-height: 35px;
+    font-weight: bold;
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+.fa-times:before {
+    content: "\f00d";
+    color: #ffff;
+}
+.popover-template .popover-title:before{
+	content: "";
+}
+.popover-template .popover-content{
+	color: #007BCD;
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+
+/*lista numeros*/
+.content .bck-ol li:before{
+	content: counter(bck-li-counter)'. ';
+    position: absolute;
+    margin-left: -27px;
+    /* text-align: right; */
+    color: #007bc4;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: -0.8px;
+}
+
+.content ol, .content ul{
+	margin-left: 27px;
+}
+
+/*lista numeros 2*/
+.content .bck-ol.bck-upper li:before{
+	content: counter(bck-li-counter)'.';
+	color: #D7B471;
+	margin-top: -0.8px;
+}
+
+/*caja actividades*/
+.bck-box.box-1{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-top: 3px solid #F4E8D1;
+    border-left: 3px solid #F4E8D1;
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.bck-box.box-1 .bck-title{
+	color: #E5BA6B;
+    position: relative;
+    top: -61px;
+}
+
+.bck-box.box-1 .bck-content{
+	position: relative;
+    top: -55px;
+}
+
+.bck-box.box-1 .bck-title:before {
+    content: " ";
+    padding: 32px;
+    left: -57px;
+    top: 16px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(/useruploads/r/a/166943066/activity_other_imported/donos_tec_u1_pg21_0002_553693.png);
+}
+
+/*caja ejemploMemoria*/
+.bck-box.box-2{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-top: 3px solid #F4E8D1;
+    border-left: 3px solid #F4E8D1;
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.bck-box.box-2 .bck-title{
+	color: #E5BA6B;
+    position: relative;
+    top: -61px;
+}
+
+.bck-box.box-2 .bck-content{
+	position: relative;
+    top: -55px;
+}
+
+.bck-box.box-2 .bck-title:before {
+    content: " ";
+    padding: 40px 40px 0 px41px;
+    left: -57px;
+    top: 16px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(/useruploads/r/a/168974686/activity_other_imported/donos_tec_u1_pg22_0001.png);
+}
+
+
+/*icono  lista*/
+.bck-ico-star:before{
+	display: inline-block;
+    width: 10px;
+    height: 14px;
+    background-color: #F7A828;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 0px;
+    left: -7px;
+    background-image: none;
+}
+
+
+/*---------------------------.unittag_activities_donostiarra--------------------------------*/
+body .unittag_activities_donostiarra{
+	font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+.unittag_activities_donostiarra p {
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+/*titulo1*/
+.unittag_activities_donostiarra .bck-title1 {
+    background-color: #ffffff;
+    padding: 3px 6px;
+    text-shadow: red;
+    text-shadow: none;
+    font-weight: bold;
+    position: relative;
+    left: -45px;
+font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+/*titulo2*/
+.unittag_activities_donostiarra .bck-title2:before{
+	content: " ";
+    padding: 32px 21px 1px 10px;
+    left: 2px;
+    top: 11px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(/useruploads/r/a/166834106/activity_other_imported/donos_tec_u1_pg19_0001_173343.png);
+}
+
+.unittag_activities_donostiarra .bck-title2 {
+	position: relative;
+    border-bottom: 2px solid #93D5F6;
+    font-weight: bold;
+    text-indent: -41px;
+    margin-left: 28px;
+    width: fit-content;
+font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+.unittag_activities_donostiarra .bck-title3 {
+    background-color: #6DAEE0;
+    text-shadow: none;
+    text-align: center;
+    background-color: #85CEE4;
+    border-top: 2px solid #4DB4E7;
+    border-bottom: 2px solid #4DB4E7;
+    color: #fff;
+}
+
+.unittag_activities_donostiarra .bck-title3:before{
+	content: none;
+}
+
+/*enfasis 1*/
+.unittag_activities_donostiarra .bck-enfasis-1 {
+	background-size: contain;
+    content: " ";
+    padding: 9px 17px 13px 27px;
+    left: 0px;
+    top: -1px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(/useruploads/r/a/166805736/activity_other_imported/TPR1ESO_Unidad1-3.png);
+    color: #ffff;
+    text-shadow: none;
+    font-size: 2.8rem;
+}
+
+/*pop up*/
+.unittag_activities_donostiarra .info-template .info-icon{
+	    position: absolute;
+    top: -10px;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 2px #9dcde2;
+    border-radius: 6px;
+    background: #fff;
+    border-color: #fff;
+    color: #ffffff;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.unittag_activities_donostiarra .fa-info:before {
+    background-size: contain;
+    content: " ";
+    padding: 9px 23px 13px 32px;
+    left: 0;
+    top: 7px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(/useruploads/r/a/166813806/activity_other_imported/donos_tec_u1_pg18_0002.png);
+}
+
+.unittag_activities_donostiarra .info-template .info-title{
+	color: #9dcde2;
+}
+.unittag_activities_donostiarra .info-template.shown{
+	background: -webkit-linear-gradient(315deg,#fff 0,#fff 100%);
+}
+.unittag_activities_donostiarra .info-template{
+	box-shadow: 0 0 2px #a9d3e6;
+}
+.unittag_activities_donostiarra .info-template .info-title.shown{
+	font-weight: bold;
+	font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+.unittag_activities_donostiarra .info-popover .popover-title, .popover-template .popover-title{
+	display: block;
+    position: relative;
+    background: #9dcde2;
+    padding-left: 17px;
+    padding-top: 13px;
+    color: #ffffff;
+    font-size: 2rem;
+    min-height: 35px;
+    font-weight: bold;
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+.unittag_activities_donostiarra .fa-times:before {
+    content: "\f00d";
+    color: #ffff;
+}
+.unittag_activities_donostiarra .popover-template .popover-title:before{
+	content: "";
+}
+.unittag_activities_donostiarra .popover-template .popover-content{
+	color: #007BCD;
+    font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+
+/*lista numeros*/
+.unittag_activities_donostiarra .content .bck-ol li:before{
+	content: counter(bck-li-counter)'. ';
+    position: absolute;
+    margin-left: -27px;
+    /* text-align: right; */
+    color: #007bc4;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: -0.8px;
+}
+
+.unittag_activities_donostiarra .content ol, 
+.unittag_activities_donostiarra .content ul{
+	margin-left: 27px;
+font-family: 'MyriadPro-Regular', sans-serif;
+}
+
+/*lista numeros 2*/
+.unittag_activities_donostiarra .content .bck-ol.bck-upper li:before{
+	content: counter(bck-li-counter)'.';
+	color: #D7B471;
+	margin-top: -0.8px;
+}
+
+/*caja actividades*/
+.unittag_activities_donostiarra .bck-box.box-1{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-top: 3px solid #F4E8D1;
+    border-left: 3px solid #F4E8D1;
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.unittag_activities_donostiarra .bck-box.box-1 .bck-title{
+	color: #E5BA6B;
+    position: relative;
+    top: -61px;
+}
+
+.unittag_activities_donostiarra .bck-box.box-1 .bck-content{
+	position: relative;
+    top: -55px;
+}
+
+.unittag_activities_donostiarra .bck-box.box-1 .bck-title:before {
+    content: " ";
+    padding: 32px;
+    left: -57px;
+    top: 16px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(/useruploads/r/a/166943066/activity_other_imported/donos_tec_u1_pg21_0002_553693.png);
+}
+
+/*icono  lista*/
+.unittag_activities_donostiarra .bck-ico-star:before{
+	display: inline-block;
+    width: 10px;
+    height: 14px;
+    background-color: #F7A828;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 0px;
+    left: -7px;
+    background-image: none;
+}
+
+/*span titulo slide*/
+<span class="index">
+
+
+/***/
+
 /* Fonts */
 
 @font-face {
@@ -74,15 +539,15 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 	color: #fff;
 }
 
-#list-units .unittag_textbook_proyectos {
+#list-units .unittag_textbook_donostiarraNew {
 	background: #31a2c7 !important;
 }
 
-#list-units .unittag_textbook_proyectos:hover {
+#list-units .unittag_textbook_donostiarraNew:hover {
 	background: #3333337d !important;
 }
 
-.units ul#list-units .unittag_textbook_proyectos a .title {
+.units ul#list-units .unittag_textbook_donostiarraNew a .title {
 	color: #ffffff;
 }
 
@@ -249,7 +714,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	background: #ccc;
 }
 
-.proyectos-navbar h3 {
+.donostiarraNew-navbar h3 {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
@@ -277,7 +742,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     background: #fff;
 }
 
-.proyectos-navbar {
+.donostiarraNew-navbar {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -293,25 +758,25 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	background: none;
 }
 
-body.is_app .proyectos-navbar {
+body.is_app .donostiarraNew-navbar {
 	-webkit-transition: top 0.5s linear;
 	-o-transition: top 0.5s linear;
 	-moz-transition: top 0.5s linear;
 	transition: top 0.5s linear;
 }
 
-body.is_app .proyectos-navbar.ocultar {
+body.is_app .donostiarraNew-navbar.ocultar {
 	top: -136px;
 }
 
-.proyectos-navbar .navbar-content {
+.donostiarraNew-navbar .navbar-content {
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
 	text-align: center;
 }
 
-.proyectos-navbar .copyright {
+.donostiarraNew-navbar .copyright {
 	color: #fff;
 	line-height: 5.0rem;
 }
@@ -1245,15 +1710,15 @@ th {
 
 /*TAGS*/
 /*Tag verde*/
-.activitytag_verde_proyectos #actividad .content .header .title h3 {
+.activitytag_verde_donostiarraNew #actividad .content .header .title h3 {
 	background: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-title-1 {
+.activitytag_verde_donostiarraNew .bck-title-1 {
 	color: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-title-preparate {
+.activitytag_verde_donostiarraNew .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1262,116 +1727,116 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-5 {
+.activitytag_verde_donostiarraNew .bck-box.bck-box-5 {
 	padding: 10px;
 	background-color: #556f3526;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-3 {
+.activitytag_verde_donostiarraNew .bck-box.bck-box-3 {
 	border: 3px dotted #556F35;
 }
 
-.activitytag_verde_proyectos .bck-box-3 .bck-title:before {
+.activitytag_verde_donostiarraNew .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_verde.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_verde_donostiarraNew .bck-box.bck-box-3 .bck-title {
 	color: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-4 {
+.activitytag_verde_donostiarraNew .bck-box.bck-box-4 {
 	border: 3px dotted #556F35;
 }
 
-.activitytag_verde_proyectos .bck-box-4 .bck-title:before {
+.activitytag_verde_donostiarraNew .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_verde.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_verde_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_verde_donostiarraNew .bck-box.bck-box-4 .bck-title {
 	color: #556F35;
 }
 
-.activitytag_verde_proyectos .bck-enfasis-8 {
+.activitytag_verde_donostiarraNew .bck-enfasis-8 {
 	background-color: #556F35;
 }
 
 /*Tag negra*/
-.activitytag_negra_proyectos #actividad .content .header .title h3 {
+.activitytag_negra_donostiarraNew #actividad .content .header .title h3 {
 	background: #333;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-3 {
+.activitytag_negra_donostiarraNew .bck-box.bck-box-3 {
 	border: 3px dotted #000000;
 }
 
-.activitytag_negra_proyectos .bck-box-3 .bck-title:before {
+.activitytag_negra_donostiarraNew .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_negra.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_negra_donostiarraNew .bck-box.bck-box-3 .bck-title {
 	color: #000000;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-4 {
+.activitytag_negra_donostiarraNew .bck-box.bck-box-4 {
 	border: 3px dotted #000000;
 }
 
-.activitytag_negra_proyectos .bck-box-4 .bck-title:before {
+.activitytag_negra_donostiarraNew .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_negra.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_negra_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_negra_donostiarraNew .bck-box.bck-box-4 .bck-title {
 	color: #000000;
 }
 
 /*Tag gold*/
-.activitytag_gold_proyectos .bck-box.bck-box-3 {
+.activitytag_gold_donostiarraNew .bck-box.bck-box-3 {
 	border: 3px dotted #E2C95F;
 }
 
-.activitytag_gold_proyectos .bck-box-3 .bck-title:before {
+.activitytag_gold_donostiarraNew .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_gold.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_gold_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_gold_donostiarraNew .bck-box.bck-box-3 .bck-title {
 	color: #E2C95F;
 }
 
-.activitytag_gold_proyectos .bck-box.bck-box-4 {
+.activitytag_gold_donostiarraNew .bck-box.bck-box-4 {
 	border: 3px dotted #E2C95F;
 }
 
-.activitytag_gold_proyectos .bck-box-4 .bck-title:before {
+.activitytag_gold_donostiarraNew .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_gold.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_gold_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_gold_donostiarraNew .bck-box.bck-box-4 .bck-title {
 	color: #E2C95F;
 }
 
 /*Tag azul*/
 
-.activitytag_azul_proyectos #actividad .content .header .title h3 {
+.activitytag_azul_donostiarraNew #actividad .content .header .title h3 {
 	background: #3B5A65;
 }
 
-.activitytag_azul_proyectos .bck-title-1 {
+.activitytag_azul_donostiarraNew .bck-title-1 {
 	color: #3B5A65;
 }
 
-.activitytag_azul_proyectos .bck-title-preparate {
+.activitytag_azul_donostiarraNew .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1380,48 +1845,48 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-3 {
+.activitytag_azul_donostiarraNew .bck-box.bck-box-3 {
 	border: 3px dotted #385963;
 }
 
-.activitytag_azul_proyectos .bck-box-3 .bck-title:before {
+.activitytag_azul_donostiarraNew .bck-box-3 .bck-title:before {
 	background: url(imagenes_difusion/campana_azul.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-3 .bck-title {
+.activitytag_azul_donostiarraNew .bck-box.bck-box-3 .bck-title {
 	color: #385963;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-4 {
+.activitytag_azul_donostiarraNew .bck-box.bck-box-4 {
 	border: 3px dotted #385963;
 }
 
-.activitytag_azul_proyectos .bck-box-4 .bck-title:before {
+.activitytag_azul_donostiarraNew .bck-box-4 .bck-title:before {
 	background: url(imagenes_difusion/engranajes_azul.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-.activitytag_azul_proyectos .bck-box.bck-box-4 .bck-title {
+.activitytag_azul_donostiarraNew .bck-box.bck-box-4 .bck-title {
 	color: #385963;
 }
 
-.activitytag_azul_proyectos .bck-enfasis-8 {
+.activitytag_azul_donostiarraNew .bck-enfasis-8 {
 	background-color: #385963;
 }
 
 /*Tag verde claro*/
-.activitytag_verdeclaro_proyectos #actividad .content .header .title h3 {
+.activitytag_verdeclaro_donostiarraNew #actividad .content .header .title h3 {
 	background: #00943C;
 }
 
-.activitytag_verdeclaro_proyectos .bck-title-1 {
+.activitytag_verdeclaro_donostiarraNew .bck-title-1 {
 	color: #00943C;
 }
 
-.activitytag_verdeclaro_proyectos .bck-title-preparate {
+.activitytag_verdeclaro_donostiarraNew .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1430,22 +1895,22 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_verdeclaro_proyectos .bck-box.bck-box-5 {
+.activitytag_verdeclaro_donostiarraNew .bck-box.bck-box-5 {
 	padding: 10px;
 	background-color: #00943c40;
 	top: -20px;
 }
 
 /*tag rojo*/
-.activitytag_rojo_proyectos #actividad .content .header .title h3 {
+.activitytag_rojo_donostiarraNew #actividad .content .header .title h3 {
 	background: #D73534;
 }
 
-.activitytag_rojo_proyectos .bck-title-1 {
+.activitytag_rojo_donostiarraNew .bck-title-1 {
 	color: #D73534;
 }
 
-.activitytag_rojo_proyectos .bck-title-preparate {
+.activitytag_rojo_donostiarraNew .bck-title-preparate {
 	color: #fff;
 	font-size: 2.1rem;
 	font-weight: bold;
@@ -1454,41 +1919,41 @@ th {
 	padding-left: 25px;
 }
 
-.activitytag_rojo_proyectos .bck-box.bck-box-5 {
+.activitytag_rojo_donostiarraNew .bck-box.bck-box-5 {
 	padding: 10px;
 	background-color: #d7353430;
 	top: -20px;
 }
 
 /*activity tag morado*/
-.activitytag_morado_proyectos #actividad .content .header .title h3 {
+.activitytag_morado_donostiarraNew #actividad .content .header .title h3 {
 	background: #853F57;
 }
 
-.activitytag_morado_proyectos .bck-title-1 {
+.activitytag_morado_donostiarraNew .bck-title-1 {
 	color: #853F57;
 	font-size: 2.3rem;
 	padding-bottom: 5px;
 	margin-left: 0;
 }
 
-.activitytag_morado_proyectos .bck-title-preparate {
+.activitytag_morado_donostiarraNew .bck-title-preparate {
 	background: #853F57;
 }
 
 
-.activitytag_morado_proyectos .bck-box.bck-box-5 {
+.activitytag_morado_donostiarraNew .bck-box.bck-box-5 {
 	background-color: #853f5754;
 
 }
 
 /*tag naranja*/
-.activitytag_naranja_proyectos #actividad .content .header .title h3 {
+.activitytag_naranja_donostiarraNew #actividad .content .header .title h3 {
 	background: #E07C3E;
 }
 
 /*WB*/
-.activitytag_wb_proyectos #actividad .content .header .title h3 {
+.activitytag_wb_donostiarraNew #actividad .content .header .title h3 {
 	background: #50748A;
 }
 
@@ -1715,4 +2180,3 @@ th {
 		left: 48%;
 	}
 }
-
