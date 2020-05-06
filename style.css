@@ -2408,6 +2408,17 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /**/
 
 /*Iconos*/
+/*icono lista*/
+.icon-lista:before{
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    background-color: #F7A828;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 0px;
+    left: -7px;
+    background-image: none;
+}
 
 /*icono Hablar*/
 .icon-hablar:before {
@@ -2424,52 +2435,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   height: 30px;
   width: 33px;
   margin-right: 10px;
-}
-
-/*icono lista*/
-.icon-lista{
-	display: inline-block;
-    width: 10px;
-    height: 14px;
-    background-color: #F7A828;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    top: 0px;
-    left: -7px;
-    background-image: none;
-}
-
-/*icono Nivel2*/
-.icon-nivel2:before {
-	background-image: url(images/icono_nivel2.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    width: 205px;
-    margin-right: 3px;
-}
-
-/*icono Nivel13*/
-.icon-nivel3:before {
-    background-image: url(images/icono_nivel3.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    width: 205px;
-    margin-right: 3px;
 }
 
 /*icono Focus*/
