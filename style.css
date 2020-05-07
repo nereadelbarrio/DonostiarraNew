@@ -1540,29 +1540,32 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding: 20px;
     border: none;
     border-radius: 20px;
-    /* padding-bottom: 0; */
-    /* margin-bottom: 20px; */
     box-shadow: -2px 2px 17px -3px #c8c8c8;
     position: relative;
-    width: 70%;
+    width: 80%;
     margin: 20px 0;
-    border-radius: 27% 73% / 58% 56%;
+    border-radius: 17% 22% / 85% 25%;
 }
 
 .bck-box.bck-box-4 .bck-title{
 	color: #0080D6;
     position: relative;
-    top: -33px;
-    left: 25px;
+    top: -43px;
+    left: 58px;
     font-family: 'Conv_ProximaNova-Bold';
     letter-spacing: 1px;
     font-size: 2rem;
+}
+
+.bck-box.bck-box-4 .bck-title p {
+    font-size: 3rem;
 }
 
 .bck-box.bck-box-4 .bck-content{
 	position: relative;
     top: -30px;
     left: 26px;
+    padding-left: 10px;
 }
 
 .bck-box.bck-box-4 .bck-title:before {
