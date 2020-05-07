@@ -1488,54 +1488,43 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-image: url(images/donos_tec_u1_pg22_0001.png);
 }
 
-/*CAJA3 Video*/
-
-.bck-box.bck-box-3 {
-  margin-top: 20px;
-  padding: 20px 25px 2px 80px;
-  background: #00B1B7;
+/*CAJA 3- ActiIniciacion*/
+.bck-box.box-3{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-top: 3px solid #539BCF;
+    border-left: 3px solid #539BCF;
+    border-bottom: 3px solid #539BCF;
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
 }
 
-.bck-box.bck-box-3 .bck-content {
-  border: 0;
-    padding: 5px;
-    font-size: 2.5rem;
-    text-align: left;
-    font-weight: 600;
-    padding-left: 20px;
-    background-color: #00B1B7;
-    color: #FFF;
-}
-
-
-.bck-box.bck-box-3 .bck-title {
-    padding: 3px 10px 3px 10px;
-    text-align: left;
-    border: 0;
-    color: #00B1B7;
-    font-size: 2.5rem;
-    font-weight: 800;
-    background-color: #ffff;
-    margin-bottom: 5px;
-    z-index: 50;
-    padding-left: 20px;
+.bck-box.box-3 .bck-title{
+	color: #007BC4;
     position: relative;
-    width: fit-content;
+    top: -84px;
+    left: 17px;
+    font-family: 'Conv_ProximaNova-Bold';
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
-.bck-box.bck-box-3 .bck-title:before {
-    background-image: url(images/rich_english_U7_pg64_img_0002.png);
-    content: '';
-    background-size: contain;
+.bck-box.box-3 .bck-content{
+	position: relative;
+    top: -55px;
+}
+
+.bck-box.box-3 .bck-title:before {
+	content: " ";
+    padding: 30px 30px 8px 32px;
+    left: -68px;
+    top: 50px;
     background-repeat: no-repeat;
-    padding: 49px 39px 0 24px;
-    position: absolute;
-    left: -52px;
-    z-index: 100;
-    top: 0px;
-    width: 10px;
-    height: auto;
-    margin-top: -6px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg17_0001.png);
 }
 
 /*CAJA4- CajaNaranja*/
