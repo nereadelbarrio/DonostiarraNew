@@ -721,6 +721,18 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-size: 2.1rem;
 }
 
+/*Título 4*/
+.bck-title-4 {
+	position: relative;
+    border-bottom: 2px solid #93D5F6;
+    font-weight: bold;
+    text-indent: -30px;
+    margin-left: 28px;
+    font-size: 2.1rem;
+    width: fit-content;
+    font-family: 'Conv_MyriadPro-Bold';
+}
+
 /*Título 6 - Título DonostiarraNewNaranja*/
 .bck-title-6 {
 	display: inline-block;
@@ -783,23 +795,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Conv_FuturaStd-Book';
 }
 
-/*Título 4 Naranja*/
-.bck-title-4 {
-    color: #ffff;
-    font-size: 2rem;
-    background: #F18800;
-    width: fit-content;
-    position: relative;
-    text-align: left;
-    padding-left: 54px;
-    padding-right: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    left: -97px;
-    font-weight: 700;
-    font-family: 'Conv_FuturaStd-Book';
-    margin-top: 0px;
-}
 
 /*TÃ­tulo Project*/
 .bck-title-5 {
