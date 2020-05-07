@@ -1188,7 +1188,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 	content: counter(bck-li-counter)'. ';
     position: absolute;
-    margin-left: -27px;
+    margin-left: -30px;
     color: #007BD1;
     font-weight: bold;
     font-size: 2rem;
@@ -1227,7 +1227,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
     content: counter(bck-li-counter)'. ';
     position: absolute;
-    margin-left: -20px;
+    margin-left: -26px;
     color: #D7B471;
     font-weight: bold;
     font-size: 2rem;
