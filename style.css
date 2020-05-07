@@ -1420,7 +1420,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*BOXES*/
 
 /*caja actividades*/
-.bck-box.box-1{
+.bck-box.bck-box-1{
 	background-color: #ffffff;
     padding: 20px;
     border: none;
@@ -1432,7 +1432,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     box-shadow: none;
 }
 
-.bck-box.box-1 .bck-title{
+.bck-box.bck-box-1 .bck-title{
 	color: #E5BA6B;
     position: relative;
     top: -84px;
@@ -1442,12 +1442,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     letter-spacing: 3px;
 }
 
-.bck-box.box-1 .bck-content{
+.bck-box.bck-box-1 .bck-content{
 	position: relative;
     top: -55px;
 }
 
-.bck-box.box-1 .bck-title:before {
+.bck-box.bck-box-1 .bck-title:before {
     content: " ";
     padding: 32px;
     left: -61px;
@@ -1459,7 +1459,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 /*CAJA 2- Ejemplo memoria*/
-.bck-box.box-2{
+.bck-box.bck-box-2{
 	background-color: #ffffff;
     padding: 20px;
     border: none;
@@ -1471,7 +1471,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-bottom: 20px;
 }
 
-.bck-box.box-2 .bck-title{
+.bck-box.bck-box-2 .bck-title{
 	color: #007BC4;
     position: relative;
     top: -84px;
@@ -1481,12 +1481,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     letter-spacing: 3px;
 }
 
-.bck-box.box-2 .bck-content{
+.bck-box.bck-box-2 .bck-content{
 	position: relative;
     top: -55px;
 }
 
-.bck-box.box-2 .bck-title:before {
+.bck-box.bck-box-2 .bck-title:before {
 	content: " ";
     padding: 30px 30px 8px 32px;
     left: -68px;
@@ -1498,7 +1498,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 /*CAJA 3- ActiIniciacion*/
-.bck-box.box-3{
+.bck-box.bck-box-3{
 	background-color: #ffffff;
     padding: 20px;
     border: none;
@@ -1508,7 +1508,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     box-shadow: -2px 2px 17px -3px #c8c8c8;
 }
 
-.bck-box.box-3 .bck-title{
+.bck-box.bck-box-3 .bck-title{
 	color: #ffffff;
     position: relative;
     top: -84px;
@@ -1518,12 +1518,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     text-shadow: 3px 1px 10px #333333;
 }
 
-.bck-box.box-3 .bck-content{
+.bck-box.bck-box-3 .bck-content{
 	position: relative;
     top: -55px;
 }
 
-.bck-box.box-3 .bck-title:before {
+.bck-box.bck-box-3 .bck-title:before {
 	padding: 46px 1px 32px 32px;
     content: 'Descubre';
     left: -175px;
