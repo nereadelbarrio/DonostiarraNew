@@ -688,7 +688,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*Título 2*/
 .bck-title-2:before{
 	content: " ";
-    padding: 32px 21px 1px 10px;
+    padding: 14px 21px 1px 10px;
     left: -2px;
     top: 11px;
     background-repeat: no-repeat;
