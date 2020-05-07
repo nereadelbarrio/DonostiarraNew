@@ -32,7 +32,7 @@
 				
 				{ name: 'NumeroIntro', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'NumInicio Unidad', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Énfasis negro', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Énfasis Amarillo', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
 				{ name: 'FontEjemplos', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 				{ name: 'Énfasis azul', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 				{ name: 'Énfasis morado', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
