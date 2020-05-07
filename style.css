@@ -1550,24 +1550,25 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 }
 
 .bck-box.bck-box-4 .bck-title{
-	color: #ffffff;
+	color: #0080D6;
     position: relative;
     top: -33px;
     left: 25px;
     font-family: 'Conv_ProximaNova-Bold';
-    letter-spacing: 3px;
-    text-shadow: 3px 1px 10px #333333;
+    letter-spacing: 1px;
+    font-size: 2rem;
 }
 
 .bck-box.bck-box-4 .bck-content{
 	position: relative;
-    top: -55px;
+    top: -30px;
+    left: 26px;
 }
 
 .bck-box.bck-box-4 .bck-title:before {
-	padding: 36px 85px 54px 32px;
-	content: '';
-    left: -100px;
+	padding: 36px 49px 21px 32px;
+    content: '';
+    left: -83px;
     top: 32px;
     background-repeat: no-repeat;
     position: relative;
