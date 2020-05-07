@@ -928,9 +928,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*énfasis NumInicio Unidad*/
 .bck-enfasis-2 {
-	background-size: contain;
+    background-size: contain;
     content: " ";
-    padding: 16px 17px 13px 27px;
+    padding: 9px 17px 13px 27px;
     left: 0px;
     top: -3px;
     background-repeat: no-repeat;
