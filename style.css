@@ -954,29 +954,22 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding: 9px 0px;
 }
 
-/*énfasis azul*/
+/*énfasis letras azul*/
 .bck-enfasis-5 {
-	font-weight: 500;
-    font-size: 2.1rem;
-    font-family: 'Conv_FuturaStd-Medium';
-    color: #009FA5;
+	font-weight: 700;
+    color: #007BC9;
 }
 
-/*énfasis morado*/
+/*énfasis letras rosa*/
 .bck-enfasis-6 {
-	font-weight: 500;
-    font-size: 2.1rem;
-    font-family: 'Conv_FuturaStd-Heavy';
-    color: #B83187;
+	font-weight: 700;
+    color: #E6007D;
 }
 
-/*Énfasis 7*/
-.bck-enfasis-7 {
-	background-color: #D8EDEE;
-	color: #009FA5;
-	padding: 5px;
-	font-weight: 600;
-	font-size: 2rem;
+/*énfasis letras verde*/
+.bck-enfasis-6 {
+	font-weight: 700;
+    color: rgb(125,164,43);
 }
 
 /*Énfasis 8*/
