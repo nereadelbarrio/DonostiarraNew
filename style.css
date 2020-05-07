@@ -1534,37 +1534,45 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-image: url(images/donos_tec_u1_pg17_0001.png);
 }
 
-
-/*CAJA4- CajaNaranja*/
-
-.bck-box.bck-box-4 {
-	background-color: #E9510E;
-    padding: 8px 15px 8px 8px;
-    display: block;
-    padding-bottom: 10px;
-    line-height: 1.43em;
-    font-size: 1em;
-    padding-left: 10px;
-    z-index: 1;
-    transform: rotate(-3deg);
-}
-
-.bck-box.bck-box-4 .bck-title {
-    color: inherit;
-    background: transparent;
-    border: none;
-}
-
-.bck-box.bck-box-4 .bck-content {
-  	display: block;
-    padding-bottom: 10px;
-    line-height: 1.43em;
-    font-size: 1em;
-    background-color: #FDE0CE;
-    width: 99%;
-    z-index: 1;
+/*CAJA4- Caja Contenidos Unidad*/
+.bck-box.bck-box-4{
+	background-color: #ffffff;
     padding: 20px;
-    transform: rotate(3deg);
+    border: none;
+    border-radius: 20px;
+    /* padding-bottom: 0; */
+    /* margin-bottom: 20px; */
+    box-shadow: -2px 2px 17px -3px #c8c8c8;
+    position: relative;
+    width: 70%;
+    margin: 20px 0;
+    border-radius: 27% 73% / 58% 56%;
+}
+
+.bck-box.bck-box-4 .bck-title{
+	color: #ffffff;
+    position: relative;
+    top: -33px;
+    left: 25px;
+    font-family: 'Conv_ProximaNova-Bold';
+    letter-spacing: 3px;
+    text-shadow: 3px 1px 10px #333333;
+}
+
+.bck-box.bck-box-4 .bck-content{
+	position: relative;
+    top: -55px;
+}
+
+.bck-box.bck-box-4 .bck-title:before {
+	padding: 36px 85px 54px 32px;
+	content: '';
+    left: -100px;
+    top: 32px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg16_0002.png);
 }
 
 /*CAJA5- CajaInicioUnidad*/
