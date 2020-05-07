@@ -44,8 +44,8 @@
 
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
-				{ name: 'Lista des 1', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
-				{ name: 'Lista DesNaranja', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'Lista des 1 azul', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
+				{ name: 'Lista des 1 negro', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
 				{ name: 'Lista Desordenada 4', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
 				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
 							
