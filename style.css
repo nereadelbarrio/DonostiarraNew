@@ -942,10 +942,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-size: 2.8rem;
 }
 
-/*énfasis negro*/
+/*énfasis amarillo*/
 .bck-enfasis-3 {
-    background-color: rgb(53,53,51);
-    padding: 3px;
+	background-color: #FFF6A7;
+    padding: 9px 0px;
 }
 
 /*FontEjemplos*/
