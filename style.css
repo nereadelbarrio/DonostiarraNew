@@ -1526,7 +1526,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-box.box-3 .bck-title:before {
 	padding: 46px 1px 32px 32px;
     content: 'Descubre';
-    left: -61px;
+    left: -175px;
     top: 32px;
     background-repeat: no-repeat;
     position: relative;
