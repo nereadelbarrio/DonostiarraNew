@@ -1070,26 +1070,26 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: -19px;
 }
 
-/*Lista DesNaranja*/
-
+/*lista des 2 Negra */
 #actividad .content .texto_curso .bck-ul-2 li,
 #actividad .content .workspace ul li .bck-ul-2 li ,
 #actividad .popover-background.shown .popover-content .bck-ul-2 li {
-  line-height: 1.8em!important;
+	font-size: 2rem;
+    font-weight: 100;
+    margin-left: 5px;
 }
 
 #actividad .content .texto_curso .bck-ul-2 li:before,
 #actividad .content .workspace ul li .bck-ul-2 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul-2 li:before {
-  content: "";
-  height: 7px;
-  width: 7px;
-  background-color: #ec6608;
-  position: absolute;
-  top: 2px;
-  border-radius: 100%;
-  left: auto;
-  margin: 13px 0 0 -15px;
+#actividad .popover-background.shown .popover-content .bck-ul-2 li:before{
+	color: #007BD1;
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-left: -19px;
 }
 
 
