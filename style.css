@@ -1556,21 +1556,35 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-image: url(images/donos_tec_u1_pg16_0002.png);
 }
 
-/*CAJA5- CajaInicioUnidad*/
-
-.bck-box.bck-box-5 {
-  margin-top: -227px !important;
-  border: 0px;
-  position: absolute !important;
+/*CAJA 5- Normas*/
+.bck-box.bck-box-5{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    border-top: 3px solid #539BCF;
+    border-left: 3px solid #539BCF;
+    border-bottom: 3px solid #539BCF;
+    border-radius: 20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
 }
 
-.bck-box-5 .bck-title {
-  
+.bck-box.bck-box-5 .bck-title{
+	color: #85CEE4;
+    background-color: #ffff;
+    width: fit-content;
+    position: relative;
+    top: -80px;
+    left: 71px;
+    padding: 0 5px;
+    font-family: 'Conv_Bleeker-Regular';
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.bck-box.bck-box-5 .bck-content {
-  background-color: #FFF;
-  padding: 0px;
+.bck-box.bck-box-5 .bck-content{
+	position: relative;
+    top: -55px;
 }
 
 /*CAJA6- CajaWordPool */
