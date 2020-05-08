@@ -1272,14 +1272,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-top: 0px;
 }
 
-/*LISTA LetraMinus*/
+/*LISTA 3 circulos*/
 #actividad .content .cke_contents .bck-ol-4,
 #actividad .content .texto_curso .bck-ol-4,
-#actividad .content .workspace ul li .bck-ol-4,
-#actividad .popover-content .bck-ol-4 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-  margin-left: 20px;
+#actividad .content .workspace ul li .bck-ol-4 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
 }
 
 #actividad .content .cke_contents .bck-ol-4 li,
@@ -1287,26 +1285,33 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .texto_curso .bck-ol-4 li,
 #actividad .popover-content .bck-ol-4 li,
 #actividad .content .workspace ul li .bck-ol-4 li {
-  counter-increment: bck-li-counter;
-  padding-left: 0px;
-  position: relative;
-  z-index: 0;
-  margin-left: 0px;
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-weight: 700;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 
+
 #actividad .content .cke_contents .bck-ol-4 li:before,
-#actividad .content .texto_curso ol.bck-ol-4 li:before,
-#actividad .popover-content ol.bck-ol-4 li:before,
-#actividad .content .workspace ul li ol.bck-ol-4 li:before {
-  content: counter(bck-li-counter, lower-alpha)".";
-  position: absolute;
-  text-align: center;
-  color: #333;
-  line-height: normal;
-  margin-left: -25px;
-  line-height: unset;
-  font-weight: 600;
-  margin-top: 0px;
+#actividad .content .texto_curso .bck-ol-4 li:before,
+#actividad .popover-content .bck-ol-4 li:before,
+#actividad .content .workspace ul li .bck-ol-4 li:before {
+    content: counter(bck-li-counter);
+    width: 26px;
+    height: auto;
+    position: absolute;
+    color: #ffffff;
+    background: #ec6608;
+    margin-left: -30px;
+    margin-right: 0px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: BauhausStd-Demi;
+    font-weight: normal;
 }
 
 /*LISTA LetraMinusMorada*/
