@@ -38,7 +38,7 @@
 				{ name: 'Énfasis letras rosa', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
 				{ name: 'Énfasis letras verde', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
 				{ name: 'Énfasis Bleeker', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
-				{ name: 'Énfasis 9', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
+				{ name: 'Énfasis naranja', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
 				{ name: 'Énfasis 10', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
 				{ name: 'Énfasis verde', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
 				
