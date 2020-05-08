@@ -2673,13 +2673,15 @@ table,
 
 .bck-table-2 td {
   background-color: #F2E3CA;
+  padding: 0px 0px 0px 10px;
 }
 
-/*celda azul*/
 table td.bck-td-2 {
-  color: #ffffff;
-  background: #2E73B9;
-  text-align: center;
+    color: #262e2a;
+    background: #2E73B9;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px;
 }
 
 /*Tabla 3*/
