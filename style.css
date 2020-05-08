@@ -963,11 +963,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	font-family: 'Conv_Bleeker-Regular';
 }
 
-/*Énfasis 9*/
+/*énfasis naranja*/
 .bck-enfasis-9 {
-	font-size: 1.4rem;
-	color: #575656;
-	font-weight: bold;
+	background-color: rgb(236,216,179);
+    padding: 9px 0px;
 }
 
 /*Énfasis 10*/
