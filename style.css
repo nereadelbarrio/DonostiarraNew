@@ -753,11 +753,11 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*Título 6*/
 .bck-title-6 {
-	color: #D7B46A;
+    color: #D7B46A;
     font-size: 2.3rem;
     font-weight: 700;
     position: relative;
-    margin-left: -41px;
+    margin-left: 25px;
     font-family: 'Conv_ProximaNova-Bold';
 }
 
@@ -796,24 +796,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Conv_FuturaStd-Book';
 }
 
-/*Título acti refuerzo*/
-.bck-title-5 {
-    background-image: url(images/donos_tec_u1_pg28_0001.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    font-size: 4rem;
-    margin-top: 0px;
-    position: relative;
-    padding: 81px 18px 108px 125px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    color: #ffff;
-    font-family: 'Conv_MyriadPro-Bold';
-    width: 125.5%;
-}
+
 
 /*Título 10*/
 .bck-title-10 {
