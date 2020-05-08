@@ -2672,13 +2672,13 @@ table,
 }
 
 .bck-table-2 td {
-  background-color: #F2E3CA;
-  padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    border: 2px solid #D7B46A;
 }
 
 table td.bck-td-2 {
     color: #262e2a;
-    background: #D7B46A;
+    background: #F2E3CA;
     text-align: center;
     text-transform: uppercase;
     padding: 0px;
