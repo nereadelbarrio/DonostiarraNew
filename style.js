@@ -41,11 +41,10 @@
 				{ name: 'Énfasis 9', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
 				{ name: 'Énfasis 10', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
 				{ name: 'Énfasis verde', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
-
 				
-				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
 				{ name: 'Lista des 1 azul', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
 				{ name: 'Lista des 1 negro', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'Lista des 1 naranja', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
 				{ name: 'Lista Desordenada 4', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
 				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
 							
