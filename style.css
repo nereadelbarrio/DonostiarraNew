@@ -2666,13 +2666,13 @@ table,
   border: 0px solid #ccc;
 }
 
-/*tabla azul y celda azul*/
+/*tabla naranja y celda naranja*/
 .bck-table-2 {
-  border: 1px solid #2E73B9;
+    border: 2px solid #D7B46A;
 }
 
 .bck-table-2 td {
-  border: 1px solid #2E73B9;
+  background-color: #F2E3CA;
 }
 
 /*celda azul*/
