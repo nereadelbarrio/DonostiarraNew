@@ -1239,7 +1239,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .cke_contents .bck-ol-3,
 #actividad .content .texto_curso .bck-ol-3,
 #actividad .content .workspace ul li .bck-ol-3,
-#actividad .popover-content .bck-ol-4 {
+#actividad .popover-content .bck-ol-3 {
   list-style-type: none;
   counter-reset: bck-li-counter;
   margin-left: 20px;
@@ -1259,7 +1259,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 #actividad .content .cke_contents .bck-ol-3 li:before,
 #actividad .content .texto_curso ol.bck-ol-3 li:before,
-#actividad .popover-content ol.bck-ol-4 li:before,
+#actividad .popover-content ol.bck-ol-3 li:before,
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
 	content: counter(bck-li-counter, lower-alpha)")";
     position: absolute;
