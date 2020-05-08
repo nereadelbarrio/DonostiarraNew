@@ -1293,8 +1293,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .popover-content .bck-ol-4 li:before,
 #actividad .content .workspace ul li .bck-ol-4 li:before {
     content: counter(bck-li-counter);
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     color: #ffffff;
     background: #85CEE4;
@@ -1304,7 +1304,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     line-height: initial;
     font-size: 1.9rem;
     font-weight: 700;
-    padding: 5px 0px 0px 9px;
+    padding: 5px 0px 0px 1px;
+    text-align: center;
 }
 
 /*LISTA circulos verde*/
@@ -1328,14 +1329,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-top: 10px;
 }
 
-
 #actividad .content .cke_contents .bck-ol-5 li:before,
 #actividad .content .texto_curso .bck-ol-5 li:before,
 #actividad .popover-content .bck-ol-5 li:before,
 #actividad .content .workspace ul li .bck-ol-5 li:before {
-    content: counter(bck-li-counter);
-    width: 28px;
-    height: 28px;
+	content: counter(bck-li-counter);
+    width: 30px;
+    height: 30px;
     position: absolute;
     color: #ffffff;
     background: #9CC21C;
@@ -1345,7 +1345,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     line-height: initial;
     font-size: 1.9rem;
     font-weight: 700;
-    padding: 5px 0px 0px 9px;
+    padding: 5px 0px 0px 1px;
+    text-align: center;;
 }
 
 /*Lista ordenada 6*/
