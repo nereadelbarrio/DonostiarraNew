@@ -966,14 +966,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     color: rgb(125,164,43);
 }
 
-/*Énfasis 8*/
+/*Énfasis Bleeker*/
 .bck-enfasis-8 {
-	background-color: #353533;
-	color: #fff;
-	font-weight: 600;
-	padding: 3px 5px;
-	width: fit-content;
-	font-size: 1.8rem;
+	font-family: 'Conv_Bleeker-Regular';
 }
 
 /*Énfasis 9*/
