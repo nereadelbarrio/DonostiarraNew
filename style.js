@@ -61,7 +61,7 @@
 				{ name: 'Caja EjemploMemoria', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
 				{ name: 'Caja ActiIniciacion', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-3' } },
 				{ name: 'Caja Contenidos Unidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
-				{ name: 'CajaInicioUnidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
+				{ name: 'Caja Normas', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'Caja WordPool', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
 				{ name: 'Caja Punteada', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
 				{ name: 'Caja ListeningsTools', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
