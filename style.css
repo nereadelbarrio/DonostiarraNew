@@ -1307,14 +1307,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding: 5px 0px 0px 9px;
 }
 
-/*LISTA LetraMinusMorada*/
+/*LISTA circulos verde*/
 #actividad .content .cke_contents .bck-ol-5,
 #actividad .content .texto_curso .bck-ol-5,
-#actividad .content .workspace ul li .bck-ol-5,
-#actividad .popover-content .bck-ol-5 {
-  list-style-type: none;
-  counter-reset: bck-li-counter;
-  margin-left: 20px;
+#actividad .content .workspace ul li .bck-ol-5 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li,
@@ -1322,26 +1320,32 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 #actividad .content .texto_curso .bck-ol-5 li,
 #actividad .popover-content .bck-ol-5 li,
 #actividad .content .workspace ul li .bck-ol-5 li {
-  counter-increment: bck-li-counter;
-  padding-left: 0px;
-  position: relative;
-  z-index: 0;
-  margin-left: 0px;
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 9px;
+    margin-top: 10px;
 }
 
+
 #actividad .content .cke_contents .bck-ol-5 li:before,
-#actividad .content .texto_curso ol.bck-ol-5 li:before,
-#actividad .popover-content ol.bck-ol-5 li:before,
-#actividad .content .workspace ul li ol.bck-ol-5 li:before {
-  content: counter(bck-li-counter, lower-alpha)".";
-  position: absolute;
-  text-align: center;
-  color: #814997;
-  line-height: normal;
-  margin-left: -25px;
-  line-height: unset;
-  font-weight: 600;
-  margin-top: 0px;
+#actividad .content .texto_curso .bck-ol-5 li:before,
+#actividad .popover-content .bck-ol-5 li:before,
+#actividad .content .workspace ul li .bck-ol-5 li:before {
+    content: counter(bck-li-counter);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    color: #ffffff;
+    background: #9CC21C;
+    margin-left: -36px;
+    margin-right: 0px;
+    border-radius: 100%;
+    line-height: initial;
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding: 5px 0px 0px 9px;
 }
 
 /*Lista ordenada 6*/
