@@ -144,7 +144,7 @@
 body {
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Conv_MyriadPro-Regular';
+  font-family: 'Conv_ProximaNova-Regular';
 }
 
 .body_clase .content-wrapper,
@@ -673,7 +673,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding: 3px 6px;
     position: relative;
     left: -45px;
-    font-family: 'Conv_MyriadPro-Bold';
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 
@@ -682,7 +682,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding: 3px 6px;
     position: relative;
     left: -45px;
-    font-family: 'Conv_MyriadPro-Bold';
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 /*Título 2*/
@@ -705,7 +705,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: 28px;
     font-size: 2.1rem;
     width: fit-content;
-    font-family: 'Conv_MyriadPro-Bold';
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 /*Título 3*/
@@ -729,7 +729,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-size: 2.1rem;
     left: 27px;
     width: fit-content;
-    font-family: 'Conv_MyriadPro-Bold';
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 /*Título acti refuerzo*/
@@ -747,35 +747,18 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     top: -21px;
     left: -97px;
     color: #ffff;
-    font-family: 'Conv_MyriadPro-Bold';
+    font-family: 'Conv_ProximaNova-Bold';
     width: 125.5%;
 }
 
-/*Título 6 - Título DonostiarraNewNaranja*/
+/*Título 6*/
 .bck-title-6 {
-	display: inline-block;
-	color: #ffffff;
-    background-color: #F18800;
-    width: fit-content;
-    font-size: 2.2rem;
-    font-weight: 500;
+	color: #D7B46A;
+    font-size: 2.3rem;
+    font-weight: 700;
     position: relative;
-    border-radius: 20px 0 0 20px;
-    margin-left: -28px;
-    padding: 5px 10px 6px 0px;
-    font-family: 'Conv_FuturaStd-Medium';
-}
-
-.bck-title-6:before {
-    background-image: url(images/icono_DonostiarraNew.png);
-    content: '';
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 24px 44px 0 24px;
-    position: relative;
-    left: -3px;
-    z-index: 100;
-    top: 12px;
+    margin-left: -41px;
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 /*Título Reading - Titulo Story*/
