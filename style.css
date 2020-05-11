@@ -970,14 +970,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding: 9px 4px;
 }
 
-/*Énfasis 10*/
+/*énfasis letras naranja*/
 .bck-enfasis-10 {
-	font-size: 1.4rem;
-	color: #575656;
-	font-weight: bold;
-	background-color: #d4edfc;
-	border-radius: 20px;
-	padding: 7px;
+	font-weight: 700;
+    color: rgb(236,216,179);
 }
 
 /*énfasis verde*/
