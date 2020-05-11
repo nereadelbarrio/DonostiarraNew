@@ -1648,26 +1648,26 @@ background-color: #ffffff;
     background-image: url(images/1donos_tec_u1_pg32_0006.png);
 }
 
-/*CAJA8- fíjate */
+/*CAJA8- ListeningTools */
 .bck-box.bck-box-8{
 	background-color: #ffffff;
     padding: 20px;
-    border: none;
-    padding-bottom: 0;
-    margin-bottom: 20px;
-    box-shadow: none;
+ 	border: 3px solid #F8FAEE;
+    border-radius: 20px;
+	margin-bottom: 20px;
 }
 
 .bck-box.bck-box-8 .bck-title{
-	color: #A2C617;
+    color: #A2C617;
     background-color: #ffff;
     padding-left: 17px;
     position: relative;
-    top: -84px;
+    top: -79px;
     left: 5px;
     font-family: 'Conv_ProximaNova-Bold';
     text-transform: uppercase;
     letter-spacing: 3px;
+    width: fit-content;
 }
 
 .bck-box.bck-box--8.bck-content{
@@ -1685,6 +1685,7 @@ background-color: #ffffff;
     background-color: transparent;
     background-image: url(images/donos_tec_u1_pg32_0007.png);
 }
+
 
 /*Caja Project */
 .bck-box.bck-box-9 {
