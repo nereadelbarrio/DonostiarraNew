@@ -932,13 +932,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*énfasis amarillo*/
 .bck-enfasis-3 {
 	background-color: #FFF6A7;
-    padding: 9px 0px;
+    padding: 9px 4px;
 }
 
 /*énfasis azul*/
 .bck-enfasis-4 {
 	background-color: #CAE8F3;
-    padding: 9px 0px;
+    padding: 9px 4px;
 }
 
 /*énfasis letras azul*/
@@ -967,7 +967,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 /*énfasis naranja*/
 .bck-enfasis-9 {
 	background-color: rgb(236,216,179);
-    padding: 9px 0px;
+    padding: 9px 4px;
 }
 
 /*Énfasis 10*/
