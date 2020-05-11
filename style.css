@@ -1647,44 +1647,42 @@ background-color: #ffffff;
     background-image: url(images/donos_tec_u1_pg32_0006.png);
 }
 
-/*CAJA8- ListeningTools */
-
-.bck-box.bck-box-8 {
-    margin-top: 15px;
-    background: #ffff;
-    border: 2px solid #E9423B;
+/*CAJA8- fíjate */
+.bck-box.bck-box-8{
+	background-color: #ffffff;
+    padding: 20px;
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
 }
 
-.bck-box.bck-box-8 .bck-title {
-  	color: #E9423B;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+.bck-box.bck-box-8 .bck-title{
+	color: #A2C617;
+    background-color: #ffff;
+    padding-left: 17px;
+    position: relative;
+    top: -84px;
+    left: 5px;
+    font-family: 'Conv_ProximaNova-Bold';
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
-.bck-box.bck-box-8 .bck-title p {
-    font-weight: 600;
+.bck-box.bck-box--8.bck-content{
+	position: relative;
+    top: -55px;
 }
 
-.bck-box.bck-box-8 .bck-content {
-	border: 0;
-    padding: 5px;
-    text-align: left;
-    padding-left: 10px;
-}
-
-.bck-box.bck-box-8 .bck-title::after{
-    background-image: url(images/rich_english_U7_pg65_img_0001.PNG);
-    content: '';
-    background-size: contain;
+.bck-box.bck-box--8.bck-title:before {
+	content: " ";
+    padding: 32px 32px 8px 32px;
+    left: -39px;
+    top: 50px;
     background-repeat: no-repeat;
-    padding: 27px;
-    position: absolute;
-    right: 14px;
-    /* top: 0; */
-    width: 10px;
-    height: auto;
-    margin-top: -73px;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg32_0007.png);
 }
 
 /*Caja Project */
