@@ -1576,22 +1576,39 @@ background-color: #ffffff;
     top: -40px;
 }
 
-/*CAJA6- CajaWordPool */
-
+/*CAJA6 - prácticas*/
 .bck-box.bck-box-6 {
-  margin-top: 15px;
-  border: none;
-  background: transparent;
+	margin-top: 15px;
+    background: transparent;
+    border-radius: 15px;
+    border-left: 2px solid #D9E5A6;
+    border-right: 2px solid #3a4ed500;
+    border-bottom: 1px solid #D9E5A6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 20px;
+    background-image: linear-gradient(to right, #D9E5A6 0%, #3a4ed500 100%), linear-gradient(to right, #D9E5A6 0%, #3a4ed500 100%);
 }
 
 .bck-box.bck-box-6 .bck-title {
-  color: inherit;
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(213,229,150,1) 100%);
+    position: relative;
+    top: 2px;
+    left: 10px;
+    padding-left: 10px;
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
+.bck-box.bck-box-6 .bck-title p {
+    font-size: 2.2rem;
+}
 
 .bck-box.bck-box-6 .bck-content {
-    padding-left: 30px;
-    background-color: #DBECF1;
     padding: 8px 8px 8px 19px;
 }
 
