@@ -1625,10 +1625,11 @@ background-color: #ffffff;
     width: fit-content;
     position: relative;
     top: -76px;
-    left: 5px;
+    left: -23px;
     font-family: 'Conv_ProximaNova-Bold';
     text-transform: uppercase;
     letter-spacing: 3px;
+    padding-left: 19px;
 }
 
 .bck-box.bck-box-7 .bck-content{
@@ -1637,14 +1638,14 @@ background-color: #ffffff;
 }
 
 .bck-box.bck-box-7 .bck-title:before {
-    content: " ";
-	padding: 46px;
-    left: -61px;
-    top: 53px;
+	content: " ";
+    padding: 46px;
+    left: -49px;
+    top: 54px;
     background-repeat: no-repeat;
     position: relative;
     background-color: transparent;
-    background-image: url(images/donos_tec_u1_pg32_0006.png);
+    background-image: url(images/1donos_tec_u1_pg32_0006.png);
 }
 
 /*CAJA8- fíjate */
