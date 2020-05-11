@@ -1577,9 +1577,9 @@ background-color: #ffffff;
     box-sizing: border-box;
     background-position: 0 0, 0 100%;
     background-repeat: no-repeat;
-    -webkit-background-size: 100% 20px;
-    -moz-background-size: 100% 20px;
-    background-size: 100% 20px;
+    -webkit-background-size: 100% 2px;
+    -moz-background-size: 100% 2px;
+    background-size: 100% 2px;
     background-image: linear-gradient(to right, #D9E5A6 0%, #3a4ed500 100%), linear-gradient(to right, #D9E5A6 0%, #3a4ed500 100%);
 }
 
@@ -1587,9 +1587,10 @@ background-color: #ffffff;
 	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(213,229,150,1) 100%);
     position: relative;
     top: 2px;
-    left: 10px;
-    padding-left: 10px;
+    left: 0px;
+    padding-left: 19px;
     font-family: 'Conv_ProximaNova-Bold';
+    border-radius: 45px 0px 0px 29px;
 }
 
 .bck-box.bck-box-6 .bck-title p {
@@ -1598,6 +1599,12 @@ background-color: #ffffff;
 
 .bck-box.bck-box-6 .bck-content {
     padding: 8px 8px 8px 19px;
+    border-bottom: 3px solid white;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 15px;
 }
 
 /*CAJA7- CajaPunteada = caja 2 verde */
