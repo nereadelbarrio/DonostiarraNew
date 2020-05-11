@@ -48,12 +48,12 @@
 				{ name: 'Lista des 1 verde', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
 				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
 							
-				{ name: 'Lista 1', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
-				{ name: 'Lista 2', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
+				{ name: 'Lista 1 num', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
+				{ name: 'Lista 2 num', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 				{ name: 'Lista Letras 1', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
 				{ name: 'Lista circulos azul', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
 				{ name: 'Lista circulos verde', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
-				{ name: 'Lista Ordenada 6', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
+				{ name: 'Lista 3 num', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
 				
 										
 				{ name: 'Caja Actividades', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-1' } },
