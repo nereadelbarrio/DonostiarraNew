@@ -23,7 +23,7 @@
 				{ name: 'Título 6', element: 'h2', attributes: { 'class': 'bck-title-6'} },
 				{ name: 'Título Aprende taller', element: 'h2', attributes: { 'class': 'bck-title-7'} },
 				{ name: 'Título 8 verde', element: 'h2', attributes: { 'class': 'bck-title-8'} },
-				{ name: 'Título 1-Izquierda', element: 'h2', attributes: { 'class': 'bck-title-9'} },
+				{ name: 'Título Aprende rosa', element: 'h2', attributes: { 'class': 'bck-title-9'} },
 				{ name: 'Título 10', element: 'h2', attributes: { 'class': 'bck-title-10'} },
 				{ name: 'Título 11', element: 'h2', attributes: { 'class': 'bck-title-11'} },
 				{ name: 'Título azul', element: 'h2', attributes: { 'class': 'bck-title-12'} },
