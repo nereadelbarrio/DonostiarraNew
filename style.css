@@ -780,24 +780,28 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: 125.5%;
 }
 
-/*Título Communication 8 - Titulo Quiz*/
-.bck-title-8 {
-  	color: #ffff;
-    font-size: 2rem;
-    background: #B83187;
-    width: fit-content;
+/*Título 8 verde*/
+.bck-title-8:before{
+	content: " ";
+    padding: 14px 21px 1px 10px;
+    left: -2px;
+    top: 11px;
+    background-repeat: no-repeat;
     position: relative;
-    text-align: left;
-    padding-left: 54px;
-    padding-right: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    left: -97px;
-    font-weight: 700;
-    font-family: 'Conv_FuturaStd-Book';
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg34_0002.png);
 }
 
-
+.bck-title-8{
+	position: relative;
+    border-bottom: 2px solid #C9D4A0;
+    font-weight: bold;
+    text-indent: -30px;
+    margin-left: 28px;
+    font-size: 2.3rem;
+    width: fit-content;
+    font-family: 'Conv_ProximaNova-Bold';
+}
 
 /*Título 10*/
 .bck-title-10 {
