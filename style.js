@@ -62,7 +62,7 @@
 				{ name: 'Caja Contenidos Unidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
 				{ name: 'Caja Normas', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'Caja Prácticas', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
-				{ name: 'Caja Punteada', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
+				{ name: 'Caja Desafío', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
 				{ name: 'Caja ListeningsTools', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
 				{ name: 'Caja Project', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
 				{ name: 'Caja Pronunciation', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
