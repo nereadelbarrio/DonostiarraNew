@@ -1763,7 +1763,7 @@ background-color: #ffffff;
 }
 
 .bck-box.bck-box-9 .bck-title{
-	color: rgb(230,0,125);
+    color: rgb(230,0,125);
     background: #ffff;
     width: fit-content;
     position: relative;
@@ -1775,14 +1775,24 @@ background-color: #ffffff;
     padding-left: 19px;
 }
 
+.bck-box.bck-box-9 .bck-title p{
+	 background-color: #ffff;
+    width: fit-content;
+    padding: 0px 20px 0px 10px;
+    position: relative;
+    position: r;
+    left: -10px;
+}
+
+
 .bck-box.bck-box-9 .bck-content{
 	position: relative;
     top: -55px;
 }
 
 .bck-box.bck-box-9 .bck-title:before {
-	content: " ";
-    padding: 46px;
+    content: " ";
+    padding: 46px 25px 3px 46px;
     left: -49px;
     top: 54px;
     background-repeat: no-repeat;
