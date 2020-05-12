@@ -26,7 +26,7 @@
 				{ name: 'Título Aprende rosa', element: 'h2', attributes: { 'class': 'bck-title-9'} },
 				{ name: 'Título Prácticas', element: 'h2', attributes: { 'class': 'bck-title-10'} },
 				{ name: 'Título 11 rosa', element: 'h2', attributes: { 'class': 'bck-title-11'} },
-				{ name: 'Título azul', element: 'h2', attributes: { 'class': 'bck-title-12'} },
+				{ name: 'Pie de imagen', element: 'h2', attributes: { 'class': 'bck-title-12'} },
 				{ name: 'Título Wordlist', element: 'h2', attributes: { 'class': 'bck-title-13'} },
 				{ name: 'Título GrammarReference', element: 'h2', attributes: { 'class': 'bck-title-14'} },
 				
