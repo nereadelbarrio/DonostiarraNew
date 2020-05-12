@@ -1717,7 +1717,7 @@ background-color: #ffffff;
 	background-color: #ffffff;
     padding: 20px;
     border: none;
-	border: 3px solid #E4ECBF;
+	border: 3px solid #E4EDC1;
     border-radius: 20px;
     padding-bottom: 0;
     margin-bottom: 20px;
@@ -1744,9 +1744,9 @@ background-color: #ffffff;
 
 .bck-box.bck-box-8 .bck-title:before {
 	content: " ";
-    padding: 46px;
+    padding: 46px 21px 1px 46px;
     left: -49px;
-    top: 54px;
+    top: 63px;
     background-repeat: no-repeat;
     position: relative;
     background-color: transparent;
