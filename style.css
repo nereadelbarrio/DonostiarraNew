@@ -834,15 +834,27 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border-radius: 20px;
 }
 
-/*Título 11*/
-.bck-title-11 {
-	display: inline-block;
-	background-color: #353533;
-	color: #fff;
-	font-weight: 600;
-	padding: 9px 15px;
-	font-size: 1.8rem;
-	width: fit-content;
+/*Título 11 rosa*/
+.bck-title-11:before{
+	content: " ";
+    padding: 14px 21px 1px 10px;
+    left: -2px;
+    top: 11px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    background-image: url(images/1donos_tec_u1_pg36_0001.png);
+}
+
+.bck-title-11{
+	position: relative;
+    border-bottom: 2px solid #C9D4A0;
+    font-weight: bold;
+    text-indent: -30px;
+    margin-left: 28px;
+    font-size: 2.3rem;
+    width: fit-content;
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 /*título azul*/
