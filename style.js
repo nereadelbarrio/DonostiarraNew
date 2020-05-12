@@ -54,6 +54,7 @@
 				{ name: 'Lista circulos azul', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
 				{ name: 'Lista circulos verde', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
 				{ name: 'Lista 3 num', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
+				{ name: 'Lista 4 num', element: 'ol', attributes: { 'class': 'bck-ol-7' } },
 				
 										
 				{ name: 'Caja Actividades', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-1' } },
