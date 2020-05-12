@@ -2778,16 +2778,22 @@ table td.bck-td-2 {
     padding: 0px;
 }
 
-/*Tabla 3*/
+/*tabla rosa y celda rosa*/
 .bck-table-3 {
-  border: 2px solid #B83187;
+    border: 2px solid #E6007D;
 }
 
 .bck-table-3 td {
-  border: 2px solid #B83187;
-  background-color: #fff;
-  color: #333;
-  font-size: 1.9rem;
+    padding: 0px 0px 0px 10px;
+    border: 2px solid #E6007D;
+}
+
+table td.bck-td-3 {
+    color: #262e2a;
+    background: #F7BFD9;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px;
 }
 
 /*tabla verde y celda verde*/
