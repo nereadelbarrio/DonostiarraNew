@@ -1387,6 +1387,45 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Conv_ProximaNova-Bold';
 }
 
+/*LISTA ord num 4*/
+#actividad .content .cke_contents .bck-ol-7,
+#actividad .content .texto_curso .bck-ol-7,
+#actividad .content .workspace ul li .bck-ol-7,
+#actividad .popover-content .bck-ol-7 {
+  list-style-type: none;
+  counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-7 li,
+#actividad .content .cke_contents .bck-ol-7 li,
+#actividad .content .texto_curso .bck-ol-7 li,
+#actividad .popover-content .bck-ol-7 li,
+#actividad .content .workspace ul li .bck-ol-7 li {
+	counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-weight: 500;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 2rem;
+    line-height: 1.8em!important;
+}
+
+#actividad .content .cke_contents ol.bck-ol-7 li:before,
+#actividad .content .texto_curso ol.bck-ol-7 li:before,
+#actividad .popover-content ol.bck-ol-7 li:before,
+#actividad .content .workspace ul li ol.bck-ol-7 li:before {
+    content: counter(bck-li-counter)'. ';
+    position: absolute;
+    margin-left: -26px;
+    color: #E6007D;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 0.2px;
+    font-family: 'Conv_ProximaNova-Bold';
+}
+
 /**/
 
 /*BOXES*/
