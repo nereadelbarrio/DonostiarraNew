@@ -872,7 +872,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-title-13:before{
 	content: " ";
     padding: 94px 75px 94px 94px;
-    left: -2px;
+    left: -146px;
     top: 79px;
     background-repeat: no-repeat;
     position: relative;
