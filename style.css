@@ -1011,13 +1011,18 @@ content: " ";
     color: rgb(236,216,179);
 }
 
-/*énfasis verde*/
+/*énfasis doble*/
 .bck-enfasis-11 {
-	font-weight: 500;
-    font-size: 2.1rem;
-    font-family: 'Conv_FuturaStd-Medium';
-    color: #8BBF36;
+    text-align: center;
+    border-top: 2px solid #4DB4E7;
+    border-bottom: 2px solid #4DB4E7;
+    color: #333;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    font-size: 1.9rem;
 }
+
+/**/
 
 /*Line Height Listas*/
 .texto_curso li {
