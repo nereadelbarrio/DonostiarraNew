@@ -870,18 +870,18 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*título 13 Zona Web*/
 .bck-title-13:before{
-	content: " ";
-    padding: 94px 75px 94px 94px;
-    left: -16px;
-    top: 79px;
+content: " ";
+    padding: 0px 75px 94px 94px;
+    left: 54px;
+    top: -10px;
     background-repeat: no-repeat;
     position: relative;
     background-color: transparent;
-    background-image: url(images/donos_tec_u1_pg50_0001.png);
+    background-image: url(images/2donos_tec_u1_pg50_0001.png);
 }
 
 .bck-title-13 {
-	position: relative;
+    position: relative;
     font-weight: bold;
     text-indent: -168px;
     margin-left: -97px;
@@ -889,7 +889,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: 125.4%;
     font-family: 'Conv_ProximaNova-Bold';
     background-color: #EF5AAB;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-bottom: 10px;
     padding-top: 20px;
     padding-right: 10px;
