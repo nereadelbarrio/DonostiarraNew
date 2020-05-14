@@ -872,7 +872,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-title-13:before{
 	content: " ";
     padding: 94px 75px 94px 94px;
-    left: -146px;
+    left: -16px;
     top: 79px;
     background-repeat: no-repeat;
     position: relative;
@@ -883,10 +883,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 .bck-title-13 {
 	position: relative;
     font-weight: bold;
-    text-indent: -30px;
+    text-indent: -168px;
     margin-left: -97px;
     font-size: 2rem;
-    width: 125.3%;
+    width: 125.4%;
     font-family: 'Conv_ProximaNova-Bold';
     background-color: #EF5AAB;
     padding-left: 200px;
