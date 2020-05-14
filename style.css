@@ -2839,21 +2839,22 @@ table td.bck-td-3 {
     padding: 0px;
 }
 
-/*tabla verde y celda verde*/
-
+/*tabla azul y celda azul*/
 .bck-table-4 {
-  border: 1px solid #8BBF36;
+    border: 2px solid #4DB4E7;
 }
 
 .bck-table-4 td {
-  border: 1px solid #8BBF36;
+    padding: 0px 0px 0px 10px;
+    border: 2px solid #4DB4E7;
 }
 
-/*celda verde*/
 table td.bck-td-4 {
-  color: #ffffff;
-  background: #8BBF36;
-  text-align: center;
+    color: #262e2a;
+    background: #E5F4FA;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px;
 }
 
 /*tablas sin bordes*/
