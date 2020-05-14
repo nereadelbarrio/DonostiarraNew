@@ -3022,20 +3022,41 @@ border-color: #009FA5;
 /**/
 
 /*Dropdown 1*/
-
-.bck-dropdown.bck-dropdown-1 {
-  background-color: #00adee;
-  border: 1px solid #DDDDDD;
-  margin-top: 10px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+.bck-dropdown-1 .bck-dropdown-titulo:before {
+	content: "";
+	padding: 15px 18px;
+	background: url(images/Lapiz-sabias-quen.png);
+	background-size: cover;
+	margin-left: 10px;
 }
 
-.bck-dropdown-1 .bck-dropdown-icon {
-  background-color: #00adee;
-  width: 25px;
-  height: 10px;
+.bck-dropdown-1 .bck-dropdown-titulo {
+	line-height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 25px;
+	font-family: 'Conv_BerlinSansFBDemi-Bold';
+	color: #7FD200;
+	padding-left: 0px;
+}
+
+.bck-dropdown-1 .bck-dropdown-icon>.fa {
+	color: #7FD200;
+	border: 0px;
+}
+
+.bck-dropdown-1 .bck-dropdown-content {
+	overflow-y: auto;
+	display: none;
+	max-height: 100%;
+	padding: 10px;
+	background-color: #fff;
+	border: 4px solid #9BD114;
+	border-radius: 20px;
+}
+
+.bck-dropdown-1 .bck-dropdown-button {
+	padding: 10px 0px;
 }
 
 /**/
