@@ -73,23 +73,15 @@
 				{ name: 'Tabla naranja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla rosa', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
 				{ name: 'Tabla azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-4'} },
-				{ name: 'Tabla morada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-6'} },
 				
 				{ name: 'Celda naranja', element: 'td', attributes: { 'class': 'bck-td-2'} },
 				{ name: 'Celda rosa', element: 'td', attributes: { 'class': 'bck-td-3'} },
 				{ name: 'Celda azul', element: 'td', attributes: { 'class': 'bck-td-4'} },
-				{ name: 'Celda SinBorderTop', element: 'td', attributes: { 'class': 'bck-td-5'} },
-				{ name: 'Celda SinBorderLeft', element: 'td', attributes: { 'class': 'bck-td-6'} },
-				{ name: 'Celda SinBorderBottom', element: 'td', attributes: { 'class': 'bck-td-7'} },
-				{ name: 'Celda SinBorderRight', element: 'td', attributes: { 'class': 'bck-td-8'} },
-				{ name: 'Celda morada', element: 'td', attributes: { 'class': 'bck-td-9'} },
 				
 				{ name: 'Icono lista', element: 'span', attributes: { 'class': 'icon icon-lista' } },
 				{ name: 'Icono estrella', element: 'span', attributes: { 'class': 'icon icon-estrella' } },
 
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-2' } },
-				{ name: 'Desplegable 3', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-3' } }
+				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } }
 			]
 		},
 		slidesTitle: {},
