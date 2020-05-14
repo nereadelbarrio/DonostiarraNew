@@ -1929,26 +1929,9 @@ background-color: #ffffff;
     position: relative;
 }
 
-/*icono Hablar*/
-.icon-hablar:before {
-  background-image: url(images/rich_english_U7_pg64_img_0003.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 30px;
-  width: 33px;
-  margin-right: 10px;
-}
-
-/*icono Focus*/
-.icon-focus:before {
-    background-image: url(images/icono_focus.png);
+/*icono estrella*/
+.icon-estrella:before {
+    background-image: url(images/donos_tec_u1_pg53_0002.png);
     content: "";
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -1962,111 +1945,6 @@ background-color: #ffffff;
     width: 33px;
     margin-right: 3px;
 }
-
-
-
-/*icono Musica*/
-.icon-musica:before {
-  background-image: url(images/rich_english_U7_pg64_img_0004.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 30px;
-  width: 33px;
-  margin-right: 10px;
-}
-
-/*icono Lupa*/
-.icon-lupa:before {
-  background-image: url(images/icono_lupa.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 30px;
-  width: 33px;
-  margin-right: 3px;
-}
-
-/*icono lápiz*/
-.icon-lapiz:before {
-  	background-image: url(images/icono_lapiz.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    width: 33px;
-    margin-right: 3px;
-}
-
-/*icono libro*/
-.icon-libro:before {
-  	background-image: url(images/icono_libro.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 30px;
-    width: 33px;
-    margin-right: 3px;
-}
-
-/*icono Play*/
-.icon-play:before {
-  background-image: url(images/rich_english_U7_pg64_img_0005.png);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 30px;
-  width: 33px;
-  margin-right: 3px;
-}
-
-/*icono Fast*/
-.icon-fast:before {
-  background-image: url(images/rich_english_U7_pg64_img_0009.PNG);
-  content: "";
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-position: center center;
-  display: inline-block;
-  vertical-align: middle;
-  height: 30px;
-  width: 33px;
-  margin-right: 3px;
-}
-
 
 /**Iconos anterioresÂ¿?**/
 
