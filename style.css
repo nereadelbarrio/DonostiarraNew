@@ -1,7 +1,6 @@
 /*estilo DonostiarraNew*/
 
 /* Fonts */
-
 @font-face {
 	font-family: 'Conv_AkzidenzGrotesk-BoldCond';
 	src: url('fonts/AkzidenzGrotesk-BoldCond.eot');
@@ -183,8 +182,6 @@ body {
 #actividad .content .header {
 	border-bottom: none;
 }
-
-
 
 /* modo correcion/revision */
 
@@ -663,19 +660,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
   box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
 }
 
-.bck-title-intro {
-  font-size: 5rem;
-  color: #ea5b0c;
-}
-
-/*Titulo 1*/
-.bck-title1 {
-    padding: 3px 6px;
-    position: relative;
-    left: -45px;
-    font-family: 'Conv_ProximaNova-Bold';
-}
-
+/**/
 
 /*Titulo 1*/
 .bck-title-1 {
@@ -1838,7 +1823,6 @@ background-color: #ffffff;
     left: -10px;
 }
 
-
 .bck-box.bck-box-9 .bck-content{
 	position: relative;
     top: -55px;
@@ -1944,9 +1928,7 @@ background-color: #ffffff;
   padding: 0px;
 }
 
-
 /*CAJA POP-UP*/
-
 .info-popover .popover-title:before, .popover-template .popover-title:before {
   color: #728fa6;
 }
@@ -2080,8 +2062,6 @@ background-color: #ffffff;
     font-family: 'MyriadPro-Regular', sans-serif;
 }
 
-
-
 /**TABLA y Celdas**/
 
 table td,
@@ -2157,61 +2137,6 @@ table td.bck-td-4 {
     text-transform: uppercase;
     padding: 0px;
 }
-
-/*tablas sin bordes*/
-.bck-table-5 {
-  border: 1px solid #1B1B18;
-}
-
-/*celda SinBorderTop*/
-table td.bck-td-5 {
-	border-top: 1px solid transparent;
-}
-
-/*celda SinBorderLeft*/
-table td.bck-td-6 {
-	border-left: 1px solid transparent;
-}
-
-/*celda SinBorderBottom*/
-table td.bck-td-7 {
-	border-bottom: 1px solid transparent;
-}
-
-/*celda SinBorderRight*/
-table td.bck-td-8 {
-	border-right: 1px solid transparent;
-}
-
-
-/*tabla y celda morada*/
-.bck-table-6 {
-  border: 1px solid #80539D;
-}
-
-.bck-table-6 td {
-  border: 1px solid #80539D;
-}
-
-table td.bck-td-9 {
-  background: #80539D;
-  color: #ffffff;
-}
-
-/*tabla y celda azulOscuro*/
-.bck-table-7 {
-  border: 1px solid #5A75B8;
-}
-
-.bck-table-7 td {
-  border: 1px solid #5A75B8;
-}
-
-table td.bck-td-10 {
-  background: #5A75B8;
-  color: #ffffff;
-}
-
 
 /**/
 
@@ -2376,39 +2301,6 @@ border-color: #009FA5;
     border-top: 2px solid #EF5AAB;
 }
 
-/*Dropdown 2*/
-
-.bck-dropdown-2 .bck-dropdown-button {
-  margin-top: 20px;
-  background: #00adee;
-  color: #fff;
-  text-align: center;
-  border: 1px solid #dcdada;
-  -webkit-border-top-left-radius: 5px;
-      -moz-border-radius-topleft: 5px;
-          border-top-left-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-      -moz-border-radius-topright: 5px;
-          border-top-right-radius: 5px;
-}
-
-/*Dropdown 3*/
-.bck-dropdown-3 .bck-dropdown-icon>.fa{
-	border: 3px solid #2E72B7;
-}
-
-.bck-dropdown-3 .fa-chevron-down:before {
-    color: #2E72B7;
-}
-
-.bck-dropdown-3 .fa-chevron-up:before{
-	color: #2E72B7;
-}
-
-.bck-dropdown-3 .bck-dropdown-titulo{
-	color: #2E72B7;
-}
-
 /**/
 
 /*Activities Dropdown*/
@@ -2499,855 +2391,6 @@ border-color: #009FA5;
   border-color: #11b2ef;
 }
 
-/*--------------------------------------------------TAGS--------------------------------------------*/
-/*--------------------------------------------------Unittag-----------------------------------------*/
-
-#list-units .unittag_activities_DonostiarraNew {
-	padding-left: 20px;
-}
-
-
-
-/*----------------------------Tag Libro 2 - coursetag_DonostiarraNew_2----------------------------*/
-
-/*-----------------Títulos - coursetag_DonostiarraNew_2----------------*/
-
-/*Título 3*/
-/*Título 2 - Verde*/
-.coursetag_DonostiarraNew_2 .bck-title-2 {
-  color: #80539D;
-}
-
-.coursetag_DonostiarraNew_2 .bck-title-3 {
-	color: #80539D;
-    background-color: #E4DCEE;
-}
-
-.coursetag_DonostiarraNew_2 .bck-title-12 {
-  color: #8BBF36;
-}
-
-/*título Wordlist*/
-.coursetag_DonostiarraNew_2 .bck-title-13 {
-  	color: #ffffff;
-    background-color: #926CAD;
-    font-size: 2.3rem;
-    font-family: 'Conv_FuturaStd-Medium';
-    font-weight: 500;
-    position: relative;
-    left: 0px;
-    width: fit-content;
-    border-radius: 50px;
-    padding: 10px;
-    font-weight: 700;
-}
-
-/*-------------Listas ordenadas - coursetag_DonostiarraNew_2------------*/
-
-/*Lista 2*/
-.coursetag_DonostiarraNew_2 #actividad .content .cke_contents ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_2 #actividad .content .texto_curso ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_2 #actividad .popover-content ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_2 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    color: #80539D;
-}
-
-/*------------Listas desordenadas - coursetag_DonostiarraNew_2-----------*/
-
-/*Lista desordenada 4*/
-
-.coursetag_DonostiarraNew_2 #actividad .content .texto_curso .bck-ul-4 li,
-.coursetag_DonostiarraNew_2 #actividad .content .workspace ul li .bck-ul-4 li ,
-.coursetag_DonostiarraNew_2 #actividad .popover-background.shown .popover-content .bck-ul-4 li {
-  color: #80539D;
-}
-
-.coursetag_DonostiarraNew_2 #actividad .content .texto_curso .bck-ul-4 li:before,
-.coursetag_DonostiarraNew_2 #actividad .content .workspace ul li .bck-ul-4 li:before ,
-.coursetag_DonostiarraNew_2 #actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
-    background-color: #80539D;
-}
-
-/*-------------------Cajas - coursetag_DonostiarraNew_2------------------*/
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-1 {
-    position: relative;
-    background: url(images/img_inicio_morado.png) repeat-y;
-    padding: 60px 18px 91px 83px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    width: 125.5%;
-}
-
-/*caja 3*/
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-3 {
-  background: #9774B1;
-}
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-3 .bck-content {
-    background-color: #9774B1;
-}
-
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-3 .bck-title {
-	color: #80539D;
-}
-
-/*caja 6*/
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-6 .bck-content{
-	background-color: rgb(214, 203, 229);
-}
-
-
-/*caja 7*/
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-7 .bck-content {
-    border: 3px dotted #8BBF36;
-}
-
-/*Caja 17*/
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-17 .bck-content {
-    border: 3px dotted #6D307E;
-}
-
-/*Caja 24 */
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-24 {
-  background: #82c44c;
-}
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-24 .bck-content {
-   background-color: #82c44c;
-}
-
-
-/*caja UseFulLenguage*/
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-26 {
-    border: 3px solid #9774B1;
-}
-
-.coursetag_DonostiarraNew_2 .bck-box.bck-box-26 .bck-title {
-    background-color: #9774B1;
-}
-
-
-/*-------------------Énfasis - coursetag_DonostiarraNew_2------------------*/
-
-/*Énfasis 1*/
-.coursetag_DonostiarraNew_2 .bck-enfasis-1 {
-	color: #926CAD;
-}
-
-/*Énfasis DonostiarraNew*/
-.coursetag_DonostiarraNew_2 .bck-enfasis-7 {
-	color: #80539D;
-    background-color: #E4DCEE
-
-}
-
-/*.coursetag_DonostiarraNew_3 .bck-enfasis-5{
-	background-color: #8BBF36;
-}*/
-
-/*------------------Iconos - coursetag_DonostiarraNew_2--------------------*/
-
-/*Icono lápiz*/
-.coursetag_DonostiarraNew_2 .icon-lapiz:before {
-  background-image: url(images/icono_lapiz_morado.png);
-}
-
-/*Icono audio*/
-.coursetag_DonostiarraNew_2 #actividad .player.audio {
-  background-image: url(images/icono_audio_morado.png);
-}
-
-/*Icono hablar*/
-.coursetag_DonostiarraNew_2 .icon-hablar:before {
-  background-image: url(images/icono_pronunt_morado.png);
-}
-
-/*icono Fast*/
-.coursetag_DonostiarraNew_2 .icon-fast:before {
-  background-image: url(images/icon_fast_morado.png);
-}
-
-/*Dropdown 3*/
-.coursetag_DonostiarraNew_2 .bck-dropdown-3-icon>.fa{
-	border: 3px solid #6F3181 !important;
-}
-
-.coursetag_DonostiarraNew_2 .bck-dropdown-3 .fa-chevron-down:before {
-    color: #6F3181;
-}
-
-.coursetag_DonostiarraNew_2 .bck-dropdown-3 .fa-chevron-up:before{
-	color: #6F3181;
-}
-
-.coursetag_DonostiarraNew_2 .bck-dropdown-3 .bck-dropdown-titulo{
-	color: #6F3181;
-}
-
-
-/*actividades*/
-/*Classify activities*/
-.coursetag_DonostiarraNew_2 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-  border-color: #a27aada1;
-  padding: 6px 6px 10px 6px;
-}
-
-.coursetag_DonostiarraNew_2 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-  border: 3px solid #a27aada1;
-    padding-top: 15px;
-}
-
-.coursetag_DonostiarraNew_2 #actividad .workspace.clasificar .clasificar_conjuntos .row .col-centered{
-	margin-top: 15px;
-}
-
-/*******************************/
-/*Título toc*/
-.coursetag_DonostiarraNew_2 #indice .unit-content .header .title{
-	color: #6f3181;
-}
-
-/*TOC*/
-.coursetag_DonostiarraNew_2 #indice .units ul li.active:not(.disabled){
-	background: #6f3181 !important;
-}
-
-.coursetag_DonostiarraNew_2 #indice .units ul li:hover:not(.disabled){
-	background: #6f3181 !important;
-}
-
-
-.coursetag_DonostiarraNew_2 #indice .units ul li:focus:not(.disabled){
-	background: #7ba21b !important;
-}
-
-.coursetag_DonostiarraNew_2 #indice .units ul li.hover:not(.disabled), 
-.coursetag_DonostiarraNew_2 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
-.coursetag_DonostiarraNew_2 #indice .units ul li:hover:not(.disabled){
-	background: #6f3181 !important;
-}
-
-.coursetag_DonostiarraNew_2 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_DonostiarraNew_2 #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_2 #book-index #indice .unit-content .actividades .item.current{
-	background: #6f3181 !important;
-}
-
-
-/*índice lateral*/
-.coursetag_DonostiarraNew_2  #indice .unit-content .actividades .item:active, 
-.coursetag_DonostiarraNew_2  #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_2 #indice .unit-content .actividades .item.current{
-	border-bottom: 1px solid #e5e5e5;
-}
-
-.coursetag_DonostiarraNew_2 #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_DonostiarraNew_2 #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_2 #indice .unit-content .actividades .item.current{
-	border-bottom: 2px solid #3e1b49 !important;
-}
-
-.coursetag_DonostiarraNew_2  #indice .unit-content .actividades .item:focus, 
-.coursetag_DonostiarraNew_2 #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_2 #indice .unit-content .actividades .item.current{
-	border-bottom: 2px solid #3e1b49;
-}
-
-.coursetag_DonostiarraNew_2 #book-index .col-main{
-	background: #6F3181;
-}
-
-
- .coursetag_DonostiarraNew_2 #indice .units ul li:not(.disabled) a:hover, 
- .coursetag_DonostiarraNew_2 #indice .units ul li.active a{
-	background: #6f3181 !important;
-}
-
-
-
-/*enlaces*/
-.coursetag_DonostiarraNew_2 #indice .actividades a:hover, 
-.coursetag_DonostiarraNew_2 #indice .actividades a:active, 
-.coursetag_DonostiarraNew_2 #indice .actividades a:focus{
-	color: #6f3181;
-}
-
-/*btn*/
-.coursetag_DonostiarraNew_2 .btn-primary, 
-.coursetag_DonostiarraNew_2 .btn-primary.disabled, 
-.coursetag_DonostiarraNew_2 .btn-primary.disabled:focus{
-	background: #6f3181;
-}
-
-.coursetag_DonostiarraNew_2 .btn-danger, 
-.coursetag_DonostiarraNew_2 .btn-danger[disabled]{
-	background: #6f3181;
-}
-
-.coursetag_DonostiarraNew_2  #actividad .content .review .attemps span {
-    background-color: #6f3181;
-}
-
-/*----------------------------Tag Libro 3 - coursetag_DonostiarraNew_3----------------------------*/
-
-/*-----------------Títulos - coursetag_DonostiarraNew_3----------------*/
-
-/*Título 3*/
-/*Título 2 - Verde*/
-.coursetag_DonostiarraNew_3 .bck-title-2 {
-  color: #8BBF36;
-}
-
-.coursetag_DonostiarraNew_3 .bck-title-3 {
-    color: #8bbf36;
-    background-color: #ebf3dc;
-}
-
-.coursetag_DonostiarraNew_3 .bck-title-12 {
-  color: #8BBF36;
-}
-
-/*título Wordlist*/
-.coursetag_DonostiarraNew_3 .bck-title-13 {
-  	color: #ffffff;
-    background-color: #A0C857;
-    font-size: 2.3rem;
-    font-family: 'Conv_FuturaStd-Medium';
-    font-weight: 500;
-    position: relative;
-    left: 0px;
-    width: fit-content;
-    border-radius: 50px;
-    padding: 10px;
-    font-weight: 700;
-}
-/*-------------Listas ordenadas - coursetag_DonostiarraNew_3------------*/
-
-/*Lista 2*/
-.coursetag_DonostiarraNew_3 #actividad .content .cke_contents ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_3 #actividad .content .texto_curso ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_3 #actividad .popover-content ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_3 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    color: #8bbf36;
-}
-
-/*------------Listas desordenadas - coursetag_DonostiarraNew_3-----------*/
-
-/*Lista desordenada 4*/
-
-.coursetag_DonostiarraNew_3 #actividad .content .texto_curso .bck-ul-4 li,
-.coursetag_DonostiarraNew_3 #actividad .content .workspace ul li .bck-ul-4 li ,
-.coursetag_DonostiarraNew_3 #actividad .popover-background.shown .popover-content .bck-ul-4 li {
-  color: #8bbf36;
-}
-
-.coursetag_DonostiarraNew_3 #actividad .content .texto_curso .bck-ul-4 li:before,
-.coursetag_DonostiarraNew_3 #actividad .content .workspace ul li .bck-ul-4 li:before ,
-.coursetag_DonostiarraNew_3 #actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
-    background-color: #8bbf36;
-}
-
-/*-------------------Cajas - coursetag_DonostiarraNew_3------------------*/
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-1 {
-    position: relative;
-    background: url(images/img_inicio_verde.png) repeat-y;
-    padding: 60px 18px 91px 83px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    width: 125.5%;
-}
-
-/*caja 3*/
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-3 {
-  background: #A7CB62;
-}
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-3 .bck-content {
-    background-color: #A7CB62;
-}
-
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-3 .bck-title {
-	color: #A7CB62;
-}
-
-/*CAJA6- CajaWordPool*/
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-6 .bck-content{
-    background-color: #E0ECC9 !important;
-}
-
-/*Caja 17*/
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-17 .bck-content {
-    border: 3px dotted #8bbf36;
-}
-
-/*Caja 24 */
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-24 {
-  background: #82c44c;
-}
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-24 .bck-content {
-   background-color: #82c44c;
-}
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-7 .bck-content {
-    border: 3px dotted #8BBF36;
-}
-
-/*caja UseFulLenguage*/
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-26 {
-    border: 3px solid #8BBF36;
-}
-
-.coursetag_DonostiarraNew_3 .bck-box.bck-box-26 .bck-title {
-    background-color: #8BBF36;
-}
-
-
-
-/*-------------------Énfasis - coursetag_DonostiarraNew_3------------------*/
-
-/*Énfasis 1*/
-.coursetag_DonostiarraNew_3 .bck-enfasis-1 {
-	color: #a0c857;
-}
-
-/*Énfasis DonostiarraNew*/
-.coursetag_DonostiarraNew_3 .bck-enfasis-7 {
-	color: #8bbf36;
-    background-color: #ebf3dc;
-
-}
-
-/*.coursetag_DonostiarraNew_3 .bck-enfasis-5{
-	background-color: #8BBF36;
-}*/
-
-/*------------------Iconos - coursetag_DonostiarraNew_3--------------------*/
-
-/*Icono lápiz*/
-.coursetag_DonostiarraNew_3 .icon-lapiz:before {
-  background-image: url(images/icono_lapiz_verde.png);
-}
-
-/*Icono audio*/
-.coursetag_DonostiarraNew_3 #actividad .player.audio {
-  background-image: url(images/icono_audio_verde.png);
-}
-
-/*Icono hablar*/
-.coursetag_DonostiarraNew_3 .icon-hablar:before {
-  background-image: url(images/icono_pronunt_verde.png);
-}
-
-/*icono Fast*/
-.coursetag_DonostiarraNew_3 .icon-fast:before {
-  background-image: url(images/icon_fast_verde.png);
-}
-
-/*Dropdown 3*/
-.coursetag_DonostiarraNew_3 .bck-dropdown-3-icon>.fa{
-	border: 3px solid #8BBF36;
-}
-
-.coursetag_DonostiarraNew_3 .bck-dropdown-3 .fa-chevron-down:before {
-    color: #8BBF36;
-}
-
-.coursetag_DonostiarraNew_3 .bck-dropdown-3 .fa-chevron-up:before{
-	color: #8BBF36;
-}
-
-.coursetag_DonostiarraNew_3 .bck-dropdown-3 .bck-dropdown-titulo{
-	color: #8BBF36;
-}
-/*******************************/
-/*Título toc*/
-.coursetag_DonostiarraNew_3 #indice .unit-content .header .title{
-	color: #8ebb1e;
-}
-
-/*TOC*/
-.coursetag_DonostiarraNew_3 #indice .units ul li.active:not(.disabled){
-	background: #7ba21b !important;
-}
-
-.coursetag_DonostiarraNew_3 #indice .units ul li:hover:not(.disabled){
-	background: #7ba21b !important;
-}
-
-
-.coursetag_DonostiarraNew_3 #indice .units ul li:focus:not(.disabled){
-	background: #7ba21b !important;
-}
-
-.coursetag_DonostiarraNew_3 #indice .units ul li.hover:not(.disabled), 
-.coursetag_DonostiarraNew_3 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
-.coursetag_DonostiarraNew_3 #indice .units ul li:hover:not(.disabled){
-	background: #8ebb1e !important;
-}
-
-.coursetag_DonostiarraNew_3 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_DonostiarraNew_3 #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_3 #book-index #indice .unit-content .actividades .item.current{
-	background: #8ebb1e !important;
-}
-
-
-/*índice lateral*/
-.coursetag_DonostiarraNew_3  #indice .unit-content .actividades .item:active, 
-.coursetag_DonostiarraNew_3  #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_3 #indice .unit-content .actividades .item.current{
-	    border-bottom: 2px solid #597514;
-}
-
-.coursetag_DonostiarraNew_3 #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_DonostiarraNew_3 #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_3 #indice .unit-content .actividades .item.current{
-	border-bottom: 2px solid #597514 !important;
-}
-
-.coursetag_DonostiarraNew_3  #indice .unit-content .actividades .item:focus, 
-.coursetag_DonostiarraNew_3 #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_3 #indice .unit-content .actividades .item.current{
-	border-bottom: 2px solid #597514;
-}
-
-.coursetag_DonostiarraNew_3 #book-index .col-main{
-	background: #8ebb1e;
-}
-
-.coursetag_DonostiarraNew_3 #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_DonostiarraNew_3 #indice .units ul li.active a{
-	background: #8BBF36 !important;
-}
-
-.coursetag_DonostiarraNew_3 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
-.coursetag_DonostiarraNew_3 #book-index #indice .units ul li.active a{
-	background: #8BBF36;
-}
-
-
-
-/*enlaces*/
-.coursetag_DonostiarraNew_3 #indice .actividades a:hover, 
-.coursetag_DonostiarraNew_3 #indice .actividades a:active, 
-.coursetag_DonostiarraNew_3 #indice .actividades a:focus{
-	color: #8BBF36;
-}
-
-/*btn*/
-.coursetag_DonostiarraNew_3 .btn-primary, 
-.coursetag_DonostiarraNew_3 .btn-primary.disabled, 
-.coursetag_DonostiarraNew_3 .btn-primary.disabled:focus{
-	background: #8BBF36;
-}
-
-.coursetag_DonostiarraNew_3 .btn-danger, 
-.coursetag_DonostiarraNew_3 .btn-danger[disabled]{
-	background: #8BBF36;
-}
-
-.coursetag_DonostiarraNew_3  #actividad .content .review .attemps span {
-    background-color: #8BBF36;
-}
-
-/*actividades*/
-/*Classify activities*/
-.coursetag_DonostiarraNew_3 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-  border-color: #8bbf3687;
-  padding: 6px 6px 10px 6px;
-}
-
-.coursetag_DonostiarraNew_3 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-  border: 3px solid #8bbf3687;
-    padding-top: 15px;
-}
-
-.coursetag_DonostiarraNew_3 #actividad .workspace.clasificar .clasificar_conjuntos .row .col-centered{
-	margin-top: 15px;
-}
-
-/*----------------------------Tag Libro 4 - coursetag_DonostiarraNew_4----------------------------*/
-
-/*-----------------Títulos - coursetag_DonostiarraNew_4----------------*/
-
-/*Título 3*/
-/*Título 2 - Verde*/
-.coursetag_DonostiarraNew_4 .bck-title-2 {
-  color: #5A75B8;
-}
-
-.coursetag_DonostiarraNew_4 .bck-title-3 {
-	color: #5A75B8;
-    background-color: #E0E2F3;
-}
-
-.coursetag_DonostiarraNew_4 .bck-title-12 {
-  color: #8BBF36;
-}
-
-/*título Wordlist*/
-.coursetag_DonostiarraNew_4 .bck-title-13 {
-  	color: #ffffff;
-    background-color: #7588C3;
-    font-size: 2.3rem;
-    font-family: 'Conv_FuturaStd-Medium';
-    font-weight: 500;
-    position: relative;
-    left: 0px;
-    width: fit-content;
-    border-radius: 50px;
-    padding: 10px;
-    font-weight: 700;
-}
-
-/*-------------Listas ordenadas - coursetag_DonostiarraNew_4------------*/
-
-/*Lista 2*/
-.coursetag_DonostiarraNew_4 #actividad .content .cke_contents ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_4 #actividad .content .texto_curso ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_4 #actividad .popover-content ol.bck-ol-2 li:before,
-.coursetag_DonostiarraNew_4 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    color: #5A75B8;
-}
-
-/*------------Listas desordenadas - coursetag_DonostiarraNew_4-----------*/
-
-/*Lista desordenada 4*/
-
-.coursetag_DonostiarraNew_4 #actividad .content .texto_curso .bck-ul-4 li,
-.coursetag_DonostiarraNew_4 #actividad .content .workspace ul li .bck-ul-4 li ,
-.coursetag_DonostiarraNew_4 #actividad .popover-background.shown .popover-content .bck-ul-4 li {
-  color: #7588c3;
-}
-
-.coursetag_DonostiarraNew_4 #actividad .content .texto_curso .bck-ul-4 li:before,
-.coursetag_DonostiarraNew_4 #actividad .content .workspace ul li .bck-ul-4 li:before ,
-.coursetag_DonostiarraNew_4 #actividad .popover-background.shown .popover-content .bck-ul-4 li:before{
-    background-color: #7588c3;
-}
-
-/*-------------------Cajas - coursetag_DonostiarraNew_4------------------*/
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-1 {
-    position: relative;
-    background: url(images/img_inicio_azul.png) repeat-y;
-    padding: 60px 18px 91px 83px;
-    background-size: cover;
-    top: -21px;
-    left: -97px;
-    width: 125.5%;
-}
-
-/*caja 3*/
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-3 {
-  background: #7C8FC7;
-}
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-3 .bck-content {
-    background-color: #7C8FC7;
-}
-
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-3 .bck-title {
-	color: #7C8FC7;
-}
-
-/*caja 6*/
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-6 .bck-content{
-	background-color: #D6CBE5;
-}
-
-
-/*caja 7*/
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-7 .bck-content {
-    border: 3px dotted #8BBF36;
-}
-
-/*Caja 17*/
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-17 .bck-content {
-    border: 3px dotted #214B8E;
-}
-
-/*Caja 24 */
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-24 {
-  background: #82c44c;
-}
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-24 .bck-content {
-   background-color: #82c44c;
-}
-
-
-/*caja UseFulLenguage*/
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-26 {
-    border: 3px solid #5A75B8;
-}
-
-.coursetag_DonostiarraNew_4 .bck-box.bck-box-26 .bck-title {
-    background-color: #5A75B8;
-}
-
-
-/*-------------------Énfasis - coursetag_DonostiarraNew_4------------------*/
-
-/*Énfasis 1*/
-.coursetag_DonostiarraNew_4 .bck-enfasis-1 {
-	color: #7588C3;
-}
-
-/*Énfasis DonostiarraNew*/
-.coursetag_DonostiarraNew_4 .bck-enfasis-7 {
-	color: #5A75B8;
-    background-color: #E0E2F3;
-}
-
-/*.coursetag_DonostiarraNew_4 .bck-enfasis-5{
-	background-color: #8BBF36;
-}*/
-
-/*------------------Iconos - coursetag_DonostiarraNew_4--------------------*/
-
-/*Icono lápiz*/
-.coursetag_DonostiarraNew_4 .icon-lapiz:before {
-  background-image: url(images/icono_lapiz_azul.png);
-}
-
-/*Icono audio*/
-.coursetag_DonostiarraNew_4 #actividad .player.audio {
-  background-image: url(images/icono_audio_azul.png);
-}
-
-/*Icono hablar*/
-.coursetag_DonostiarraNew_4 .icon-hablar:before {
-  background-image: url(images/icono_pronunt_azul.png);
-}
-
-/*icono Fast*/
-.coursetag_DonostiarraNew_4 .icon-fast:before {
-  background-image: url(images/icon_fast_azul.png);
-}
-
-/*Dropdown 3*/
-.coursetag_DonostiarraNew_4 .bck-dropdown-3-icon>.fa{
-	border: 3px solid #7588c3;
-}
-
-.coursetag_DonostiarraNew_4 .bck-dropdown-3 .fa-chevron-down:before {
-    color: #7588c3;
-}
-
-.coursetag_DonostiarraNew_4 .bck-dropdown-3 .fa-chevron-up:before{
-	color: #7588c3;
-}
-
-.coursetag_DonostiarraNew_4 .bck-dropdown-3 .bck-dropdown-titulo{
-	color: #7588c3;
-}
-
-
-/*******************************/
-/*Título toc*/
-.coursetag_DonostiarraNew_4 #indice .unit-content .header .title{
-	color: #7588c3;
-}
-
-/*TOC*/
-.coursetag_DonostiarraNew_4 #indice .units ul li.active:not(.disabled){
-	background: #7588c3 !important;
-}
-
-.coursetag_DonostiarraNew_4 #indice .units ul li:hover:not(.disabled){
-	background: #7588c3 !important;
-}
-
-
-.coursetag_DonostiarraNew_4 #indice .units ul li:focus:not(.disabled){
-	background: #7588c3 !important;
-}
-
-.coursetag_DonostiarraNew_4 #indice .units ul li.hover:not(.disabled), 
-.coursetag_DonostiarraNew_4 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
-.coursetag_DonostiarraNew_4 #indice .units ul li:hover:not(.disabled){
-	background: #7588c3 !important;
-}
-
-.coursetag_DonostiarraNew_4 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_DonostiarraNew_4 #book-index #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_4 #book-index #indice .unit-content .actividades .item.current{
-	background: #7588C3 !important;
-}
-
-
-/*índice lateral*/
-.coursetag_DonostiarraNew_4  #indice .unit-content .actividades .item:active, 
-.coursetag_DonostiarraNew_4  #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_4 #indice .unit-content .actividades .item.current{
-	border-bottom: 1px solid #434e6f;
-}
-
-.coursetag_DonostiarraNew_4 #book-index #indice .unit-content .actividades .item:hover, 
-.coursetag_DonostiarraNew_4 #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_4 #indice .unit-content .actividades .item.current{
-	border-bottom: 2px solid #434e6f !important;
-}
-
-.coursetag_DonostiarraNew_4  #indice .unit-content .actividades .item:focus, 
-.coursetag_DonostiarraNew_4 #indice .unit-content .actividades .item.active, 
-.coursetag_DonostiarraNew_4 #indice .unit-content .actividades .item.current{
-	border-bottom: 2px solid #434e6f;
-}
-
-.coursetag_DonostiarraNew_4 #book-index .col-main{
-	background: #7588C3;
-}
-
-
- .coursetag_DonostiarraNew_4 #indice .units ul li:not(.disabled) a:hover, 
- .coursetag_DonostiarraNew_4 #indice .units ul li.active a{
-	background: #7588C3 !important;
-}
-
-
-
-/*enlaces*/
-.coursetag_DonostiarraNew_4 #indice .actividades a:hover, 
-.coursetag_DonostiarraNew_4 #indice .actividades a:active, 
-.coursetag_DonostiarraNew_4 #indice .actividades a:focus{
-	color: #5A75B8;
-}
-
-/*btn*/
-.coursetag_DonostiarraNew_4 .btn-primary, 
-.coursetag_DonostiarraNew_4 .btn-primary.disabled, 
-.coursetag_DonostiarraNew_4 .btn-primary.disabled:focus{
-	background: #5A75B8;
-}
-
-.coursetag_DonostiarraNew_4 .btn-danger, 
-.coursetag_DonostiarraNew_4 .btn-danger[disabled]{
-	background: #5A75B8;
-}
-
-.coursetag_DonostiarraNew_4 #actividad .content .review .attemps span {
-    background-color: #5A75B8;
-}
-
 /****/
 @media screen and (max-width: 375px) {
 
@@ -3362,6 +2405,43 @@ border-color: #009FA5;
 .btn-danger, .btn-danger[disabled]{
 	margin-bottom: 10px;
 }
+
+.bck-title-5{
+	width: 164.5%;
+}
+
+.bck-title-7{
+	width: 164.5%;
+}
+
+.bck-title-9{
+	width: 164.5%;
+}
+
+.bck-title-13{
+	width: 164.5%;
+}
+
+.bck-title-14{
+	width: 164.4%;
+}
+
+.bck-title-14:after{
+	right: -52px;
+}
+
+.bck-title-15{
+	width: 164.5%;
+}
+
+.bck-box.bck-box-3 .bck-title:before{
+	left: -153px;
+    top: 35px;
+}
+
+.bck-box.bck-box-4{
+	width: 100%;
+}
 }
 
 @media screen and (max-width: 450px) {
@@ -3370,43 +2450,6 @@ border-color: #009FA5;
 	padding: 20px 15px 10px;
 }
 
-.bck-box.bck-box-1{
-	left: -32px;
-	width: 111.5%;
-}
-
-.bck-box.bck-box-24{
-	position: relative;
-    left: 50px;
-}
-
-.bck-title-1{
-	left: -52px;
-	/*left: -97px;*/
-}
-
-.bck-title-7{
-	left: -52px;
-}
-
-.bck-title-8{
-	left: -52px;
-}
-
-.bck-box.bck-box-16{
-	top: -7px;
-    left: -19px;
-    width: 108.2%;
-}
-
-.bck-title-6{
-	margin-left: -20px;
-}
-
-.bck-title-6:before{
-	padding: 24px 30px 0 24px;
-    left: -3px;
-}
 
 #actividad .content .cke_contents .bck-ol-2 li, 
 #actividad .content .cke_contents .bck-ol-2 li, 
@@ -3421,23 +2464,36 @@ border-color: #009FA5;
 	padding-left: 0;
 }
 
-.bck-box.bck-box-18 .bck-title:before{
-	margin-left: -23.3%;
-    margin-top: -40px;
+.bck-title-5{
+	width: 142.5%;
 }
 
-.bck-box.bck-box-18 .bck-title{
-	padding-top: 40px;
-	position: relative;
-    left: -83px;
+.bck-title-7{
+	width: 149.5%;
 }
 
-.bck-box-1 .bck-content p{
-	font-size: 2.5rem;
+.bck-title-9{
+	width: 149.5%;
 }
 
-.bck-enfasis-1{
-	top: 6px;
+.bck-title-13{
+	width: 149.5%;
+}
+
+.bck-title-14{
+	width: 149.4%;
+}
+
+.bck-title-14:after{
+	right: -52px;
+}
+
+.bck-title-15{
+	width: 149.5%;
+}
+
+.bck-box.bck-box-4{
+	width: 100%;
 }
 
 }
@@ -3459,17 +2515,12 @@ border-color: #009FA5;
   display: none;
 }
 
-.bck-dropdown-titulo{
-	padding-left: 0px;
+.bck-dropdown-1 .bck-dropdown-titulo{
+	top: -30px;
 }
 
-.bck-dropdown-icon{
-	width: 35px;
-    height: 35px;
-}
-
-.bck-dropdown-icon>.fa{
-	padding: 4px;
+.bck-dropdown-1 .bck-dropdown-icon>.fa{
+	left: -50px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li, 
@@ -3480,20 +2531,38 @@ border-color: #009FA5;
 	margin-left: -20px;
 }
 
-.bck-box.bck-box-3{
-	padding: 20px 1px 17px 60px;
+.bck-title-5{
+	width: 142.5%;
 }
 
-.bck-box.bck-box-3 .bck-content{
-	position: relative;
-    left: -26px;
-    top: 10px;
+.bck-title-7{
+	width: 142.5%;
 }
 
-.bck-box.bck-box-16{
-	left: -60px;
-    width: 132.5%;
+.bck-title-9{
+	width: 142.5%;
 }
+
+.bck-title-13{
+	width: 142.5%;
+}
+
+.bck-title-14{
+	width: 142.4%;
+}
+
+.bck-title-14:after{
+	right: -91px;
+}
+
+.bck-title-15{
+	width: 142.5%;
+}
+
+.bck-box.bck-box-4{
+	width: 100%;
+}
+
 }
 
 
@@ -3520,93 +2589,47 @@ border-color: #009FA5;
           margin-top: 99px;
       }
 
-      #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
-      display: inline-block;
-      background-image: url(images/rich_english_U7_pg64_img_0004.png);
-      background-color: rgba(0, 128, 0, 0)!important;
-      background-repeat: no-repeat;
-      background-size: contain;
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
-      border-radius: 100%;
-      margin: 0 5px;
-      vertical-align: sub;
-  }
-
   #actividad .carousel-inner .item-container {
   -webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
   -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
   box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
 }
 
-/*CAJA12- CoreValues */
-.bck-box.bck-box-12 {
-    margin-top: 15px;
-    background: #EEF4DC;
-    position: relative;
-    width: 133%;
-    left: -93px;
+.bck-title-5{
+	width: 134.5%;
 }
 
-.bck-box.bck-box-12 .bck-title {
-    color: #ffff;
-    background-color: rgb(184,49,135);
-    padding-left: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    width: fit-content;
-    position: relative;
-    top: -7px;
-    left: -1px;
+.bck-title-7{
+	width: 134.5%;
 }
 
-/*iconos niveles*/
-.icon-nivel1:before{
-	position: relative;
-    left: -86px;
+.bck-title-9{
+	width: 134.5%;
 }
 
-.icon-nivel2:before{
-	position: relative;
-    left: -86px;
+.bck-title-13{
+	width: 134.5%;
 }
 
-.icon-nivel3:before{
-	position: relative;
-    left: -86px;
+.bck-title-14{
+	width: 135.4%;
 }
 
-.icon-nivel4:before{
-	position: relative;
-    left: -86px;
+.bck-title-14:after{
+	right: -278px;
 }
 
-.icon-nivel5:before{
-	position: relative;
-    left: -86px;
+.bck-title-15{
+	width: 134.5%;
 }
 
-.icon-nivel6:before{
-	position: relative;
-    left: -86px;
+.bck-box.bck-box-4{
+	width: 100%;
 }
 
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)  {
-  #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
-      display: inline-block;
-      background-image: url(images/rich_english_U7_pg64_img_0004.png);
-      background-color: rgba(0, 128, 0, 0)!important;
-      background-repeat: no-repeat;
-      background-size: contain;
-      -webkit-border-radius: 100%;
-      -moz-border-radius: 100%;
-      border-radius: 100%;
-      margin: 0 5px;
-      vertical-align: sub;
-}
 
 #actividad .carousel-inner .item-container {
       -webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 9px;
@@ -3615,4 +2638,3 @@ border-color: #009FA5;
 }
 
 }
-
