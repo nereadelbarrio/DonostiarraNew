@@ -3051,13 +3051,12 @@ border-color: #009FA5;
 }
 
 .bck-dropdown-1 .bck-dropdown-content {
-	overflow-y: auto;
-	display: none;
-	max-height: 100%;
-	padding: 10px;
-	background-color: #fff;
-	border: 4px solid #9BD114;
-	border-radius: 20px;
+    overflow-y: auto;
+    display: none;
+    max-height: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 2px solid #EF5AAB;
 }
 
 .bck-dropdown-1 .bck-dropdown-button {
