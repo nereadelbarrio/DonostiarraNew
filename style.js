@@ -67,7 +67,7 @@
 				{ name: 'Caja Desafío', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
 				{ name: 'Caja Fíjate', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
 				{ name: 'Caja Desafío rosa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
-				{ name: 'Caja Pronunciation', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
+				{ name: 'Caja rosa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
 				{ name: 'Caja ReadingsTools', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
 				{ name: 'Caja CoreValues', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-12' } },
 				{ name: 'Caja WritingsTools', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-13' } },
