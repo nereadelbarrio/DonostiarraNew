@@ -29,6 +29,7 @@
 				{ name: 'Pie de imagen', element: 'h2', attributes: { 'class': 'bck-title-12'} },
 				{ name: 'Título Zona Web', element: 'h2', attributes: { 'class': 'bck-title-13'} },
 				{ name: 'Título rincon programador', element: 'h2', attributes: { 'class': 'bck-title-14'} },
+				{ name: 'Título autoevaluación', element: 'h2', attributes: { 'class': 'bck-title-15'} },
 				
 				{ name: 'NumeroIntro', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'NumInicio Unidad', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
