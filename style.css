@@ -924,6 +924,24 @@ content: " ";
     content: 'EL RINCÓN del programador';
 }
 
+/*Título autoevaluación*/
+.bck-title-15 {
+	background-image: url(images/donos_tec_u1_pg53_0001.png);
+    background-repeat: no-repeat;
+    height: auto;
+    font-size: 3rem;
+    margin-top: 0px;
+    position: relative;
+    padding: 36px 18px 40px 93px;
+    background-size: cover;
+    top: -20px;
+    left: -97px;
+    color: #D7B46A;
+    font-family: 'Conv_ProximaNova-Bold';
+    width: 125.5%;
+    text-transform: uppercase;
+}
+
 /*-------------*/
 
 /*Enfasis*/
