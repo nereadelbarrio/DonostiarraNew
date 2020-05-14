@@ -896,28 +896,33 @@ content: " ";
     COLOR: #ffff;
 }
 
-/*título GrammarReference*/
-.bck-title-14 {
-  	color: #ffffff;
-    background-color: #2E73B9;
-    font-size: 2.3rem;
-    font-family: 'Conv_FuturaStd-Medium';
-    font-weight: 500;
+/*título 14 rincon programador*/
+.bck-title-14:after{
+content: " ";
+    padding: 0px 75px 94px 94px;
+    left: 54px;
+    top: -10px;
+    background-repeat: no-repeat;
     position: relative;
-    left: 0px;
-    width: fit-content;
-    border-radius: 50px;
-    padding: 10px;
-    font-weight: 700;
+    background-color: transparent;
+    background-image: url(images/donos_tec_u1_pg51_0001.png);
 }
 
-
-
-/*párrafos - altura linea
-.texto_curso p{
-	font-size: 1.9;
-}*/
-
+.bck-title-14 {
+    position: relative;
+    font-weight: bold;
+    text-indent: -168px;
+    margin-left: -97px;
+    font-size: 1.8rem;
+    width: 125.4%;
+    font-family: 'Conv_ProximaNova-Bold';
+    background-color: #EF5AAB;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    COLOR: #ffff;
+}
 
 /*-------------*/
 
