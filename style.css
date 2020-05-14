@@ -3024,25 +3024,30 @@ border-color: #009FA5;
 /*Dropdown 1*/
 .bck-dropdown-1 .bck-dropdown-titulo:before {
 	content: "";
-	padding: 15px 18px;
-	background: url(images/donos_tec_u1_pg18_0002.png);
-	background-size: cover;
-	margin-left: 10px;
+    padding: 22px 28px;
+    background: url(images/donos_tec_u1_pg18_0002.png);
+    background-size: cover;
+    margin-left: 10px;
+    position: relative;
+    left: -30px;
 }
 
 .bck-dropdown-1 .bck-dropdown-titulo {
-	line-height: 25px;
 	display: inline-block;
-	vertical-align: middle;
-	font-size: 25px;
-	font-family: 'Conv_BerlinSansFBDemi-Bold';
-	color: #7FD200;
-	padding-left: 0px;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #333;
+    padding-left: 0px;
+    font-weight: 700;
+    position: relative;
+    top: 0;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon>.fa {
-	color: #7FD200;
+	color: #EF5AAB;
 	border: 0px;
+	position: relative;
+    left: -19px;
 }
 
 .bck-dropdown-1 .bck-dropdown-content {
@@ -3056,10 +3061,9 @@ border-color: #009FA5;
 }
 
 .bck-dropdown-1 .bck-dropdown-button {
-	padding: 10px 0px;
+	padding: 20px 10px 20px 0px;
+    border-top: 2px solid #EF5AAB;
 }
-
-/**/
 
 /*Dropdown 2*/
 
