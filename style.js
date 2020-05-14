@@ -40,7 +40,7 @@
 				{ name: 'Énfasis Bleeker', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
 				{ name: 'Énfasis naranja', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
 				{ name: 'Énfasis letras naranja', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
-				{ name: 'Énfasis verde', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
+				{ name: 'Énfasis doble', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
 				
 				{ name: 'Lista des 1 azul', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
 				{ name: 'Lista des 2 negro', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
