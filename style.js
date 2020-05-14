@@ -83,15 +83,8 @@
 				{ name: 'Celda SinBorderRight', element: 'td', attributes: { 'class': 'bck-td-8'} },
 				{ name: 'Celda morada', element: 'td', attributes: { 'class': 'bck-td-9'} },
 				
-				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 				{ name: 'Icono lista', element: 'span', attributes: { 'class': 'icon icon-lista' } },
-				{ name: 'Icono Focus', element: 'span', attributes: { 'class': 'icon icon-focus' } },
-				{ name: 'Icono Musica', element: 'span', attributes: { 'class': 'icon icon-musica' } },
-				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
-				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
-				{ name: 'Icono Libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
-				{ name: 'Icono Play', element: 'span', attributes: { 'class': 'icon icon-play' } },
-				{ name: 'Icono Fast', element: 'span', attributes: { 'class': 'icon icon-fast' } },
+				{ name: 'Icono estrella', element: 'span', attributes: { 'class': 'icon icon-estrella' } },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-2' } },
