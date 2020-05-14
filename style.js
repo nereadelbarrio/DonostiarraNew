@@ -68,6 +68,7 @@
 				{ name: 'Caja Fíjate', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
 				{ name: 'Caja Desafío rosa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
 				{ name: 'Caja rosa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
+				{ name: 'Caja clip', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
 
 				{ name: 'Tabla naranja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla rosa', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
