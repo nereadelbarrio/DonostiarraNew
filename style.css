@@ -1855,42 +1855,28 @@ background-color: #ffffff;
     background-image: url(images/donos_tec_u1_pg48_00010.png);
 }
 
-/*Caja Pronunciation  */
-
+/*Caja 10 rosa  */
 .bck-box.bck-box-10 {
-    margin-top: 20px;
-    padding: 20px;
-    background: #EFDBEA;
+	margin-top: 15px;
+    background: transparent;
+    border-radius: 15px;
+    border: 3px solid #F8C9DE;
 }
 
 .bck-box.bck-box-10 .bck-title {
-	color: #B83187;
-    font-weight: 700;
-    font-family: 'Conv_FuturaStd-Heavy';
+	position: relative;
+    top: 2px;
+    left: 0px;
+    padding-left: 19px;
+    font-family: 'Conv_ProximaNova-Bold';
 }
 
 .bck-box.bck-box-10 .bck-title p {
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .bck-box.bck-box-10 .bck-content {
-	border: 0;
-    padding: 5px;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.bck-box.bck-box-10 .bck-title::after{
-	background-image: url(images/icono_pronunt.png);
-    content: '';
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 27px;
-    position: absolute;
-    right: 14px;
-    width: 10px;
-    height: auto;
-    margin-top: -73px;
+	padding: 8px 8px 8px 19px;
 }
 
 /*CAJA11- ReadingsTools */
