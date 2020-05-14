@@ -942,6 +942,15 @@ content: " ";
     text-transform: uppercase;
 }
 
+/**/
+
+hr{
+    margin: 15px 0;
+    border-top: 2px solid #D7B46A;
+    position: relative;
+    top: -15px;
+}
+
 /*-------------*/
 
 /*Enfasis*/
