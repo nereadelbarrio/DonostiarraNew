@@ -27,7 +27,7 @@
 				{ name: 'Título Prácticas', element: 'h2', attributes: { 'class': 'bck-title-10'} },
 				{ name: 'Título 11 rosa', element: 'h2', attributes: { 'class': 'bck-title-11'} },
 				{ name: 'Pie de imagen', element: 'h2', attributes: { 'class': 'bck-title-12'} },
-				{ name: 'Título Wordlist', element: 'h2', attributes: { 'class': 'bck-title-13'} },
+				{ name: 'Título Zona Web', element: 'h2', attributes: { 'class': 'bck-title-13'} },
 				{ name: 'Título GrammarReference', element: 'h2', attributes: { 'class': 'bck-title-14'} },
 				
 				{ name: 'NumeroIntro', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
