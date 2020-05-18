@@ -932,6 +932,13 @@ content: " ";
     font-family: 'Conv_ProximaNova-Bold';
 }
 
+/*subtítulo unidad*/
+.bck-title-17{
+	position: relative;
+    font-size: 3rem;
+    font-family: 'Conv_ProximaNova-Regular';
+}
+
 /**/
 
 hr{
