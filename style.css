@@ -1913,6 +1913,17 @@ background-color: #ffffff;
     left: 53px;
 }
 
+/*caja 12 pantalla completa*/
+.bck-box.bck-box-12 {
+	position: relative;
+    padding: 0px;
+    background-size: cover;
+    top: -22px;
+    left: -97px;
+    width: 125.4%;
+    margin-bottom: 20px;
+}
+
 /**/
 
 /*seccion tÃ­tulo inicio unidad margin-top*/
