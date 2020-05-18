@@ -847,6 +847,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-weight: 500;
     position: relative;
     left: 7px;
+    top: -30px;
     font-family: 'Conv_AkzidenzGrotesk-Cond';
 }
 
