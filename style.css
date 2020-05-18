@@ -1936,6 +1936,32 @@ background-color: #ffffff;
     margin-bottom: 20px;
 }
 
+/*CAJA13- Caja azul unidad*/
+.bck-box.bck-box-13{
+	background-color: #2397CC;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -2px 2px 17px -3px #c8c8c8;
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 17% 22% / 85% 25%;
+}
+
+.bck-box.bck-box-13 .bck-title p {
+    font-size: 1.9rem;
+}
+
+.bck-box.bck-box-13 .bck-content{
+	position: relative;
+    top: -30px;
+    left: 26px;
+    padding: 20px;
+    color: #ffff;
+}
+
+
 /**/
 
 /*seccion tÃ­tulo inicio unidad margin-top*/
