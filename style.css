@@ -1610,7 +1610,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     border-radius: 20px;
     box-shadow: -2px 2px 17px -3px #c8c8c8;
     position: relative;
-    width: 80%;
+    width: 100%;
     margin: 20px 0;
     border-radius: 17% 22% / 85% 25%;
 }
