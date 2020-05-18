@@ -1939,7 +1939,7 @@ background-color: #ffffff;
 /*CAJA13- Caja azul unidad*/
 .bck-box.bck-box-13{
 	background-color: #2397CC;
-    padding: 20px;
+    padding: 26px 40px 20px 40px;
     border: none;
     border-radius: 20px;
     box-shadow: -2px 2px 17px -3px #c8c8c8;
@@ -1959,8 +1959,8 @@ background-color: #ffffff;
     left: 26px;
     padding: 20px;
     color: #ffff;
+    width: 90%;
 }
-
 
 /**/
 
