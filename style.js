@@ -72,6 +72,7 @@
 				{ name: 'Caja rosa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
 				{ name: 'Caja clip', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
 				{ name: 'Caja pantalla completa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-12' } },
+				{ name: 'Caja azul unidad', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-13' } },
 
 				{ name: 'Tabla naranja', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Tabla rosa', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
