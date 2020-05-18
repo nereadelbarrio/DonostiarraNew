@@ -31,6 +31,7 @@
 				{ name: 'Título rincon programador', element: 'h2', attributes: { 'class': 'bck-title-14'} },
 				{ name: 'Título autoevaluación', element: 'h2', attributes: { 'class': 'bck-title-15'} },
 				{ name: 'Título unidad', element: 'h2', attributes: { 'class': 'bck-title-16'} },
+				{ name: 'Subtítulo unidad', element: 'h2', attributes: { 'class': 'bck-title-17'} },
 				
 				{ name: 'NumeroIntro', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'NumInicio Unidad', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
