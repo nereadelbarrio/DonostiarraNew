@@ -2507,6 +2507,12 @@ border-color: #009FA5;
 	width: 100%;
 }
 
+.bck-box.bck-box-12{
+	top: -7px;
+    left: -19px;
+    width: 108.2%;
+}
+
 }
 
 
@@ -2574,6 +2580,11 @@ border-color: #009FA5;
 	width: 100%;
 }
 
+.bck-box.bck-box-12{
+	left: -60px;
+    width: 132.5%;
+}
+
 }
 
 
@@ -2638,6 +2649,11 @@ border-color: #009FA5;
 	width: 100%;
 }
 
+.bck-box.bck-box-12{
+	left: -96px;
+    width: 133.6%;
+}
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)  {
@@ -2649,3 +2665,5 @@ border-color: #009FA5;
 }
 
 }
+
+
