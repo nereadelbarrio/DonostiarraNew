@@ -889,6 +889,8 @@ content: " ";
     position: relative;
     background-color: transparent;
     background-image: url(images/2donos_tec_u1_pg51_0001.png);
+	position: relative;
+    top: -41px;
 }
 
 .bck-title-14 {
