@@ -59,7 +59,7 @@
 				{ name: 'Lista circulos verde', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
 				{ name: 'Lista 3 num', element: 'ol', attributes: { 'class': 'bck-ol-6' } },
 				{ name: 'Lista 4 num', element: 'ol', attributes: { 'class': 'bck-ol-7' } },
-				
+				{ name: 'Lista 5 num', element: 'ol', attributes: { 'class': 'bck-ol-8' } },
 										
 				{ name: 'Caja Actividades', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-1' } },
 				{ name: 'Caja EjemploMemoria', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
