@@ -448,6 +448,7 @@ body.is_app .DonostiarraNew-navbar.ocultar {
 /* CKEDITOR */
 #actividad .content img {
   margin-top: 20px;
+  vertical-align: bottom;
 }
 
 li img {
