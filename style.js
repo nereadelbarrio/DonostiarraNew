@@ -32,7 +32,7 @@
 				{ name: 'Título autoevaluación', element: 'h2', attributes: { 'class': 'bck-title-15'} },
 				{ name: 'Título unidad', element: 'h2', attributes: { 'class': 'bck-title-16'} },
 				{ name: 'Subtítulo unidad', element: 'h2', attributes: { 'class': 'bck-title-17'} },
-				{ name: 'Subtítulo unidad', element: 'h2', attributes: { 'class': 'bck-title-18'} },
+				{ name: 'Título resumen', element: 'h2', attributes: { 'class': 'bck-title-18'} },
 				
 				{ name: 'NumeroIntro', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'NumInicio Unidad', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
