@@ -2388,7 +2388,7 @@ border-color: #009FA5;
 
 .bck-dropdown-1 .bck-dropdown-content {
     overflow-y: auto;
-    display: none;
+    /*display: none;*/
     max-height: 100%;
     padding: 10px;
     background-color: #fff;
