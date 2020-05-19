@@ -242,12 +242,11 @@ p {
 /*INDICE LATERAL*/
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
 #book-index #indice .units ul li.active a {
-  background: #0ca1ea;
+  background: #099BD6;
 }
 
-
 #book-index .col-main {
-      background: #0ca1ea;
+      background: #099BD6;
 }
 
 #indice .unit-content {
