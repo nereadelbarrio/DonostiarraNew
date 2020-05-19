@@ -888,7 +888,9 @@ content: " ";
     padding-top: 20px;
     padding-right: 20px;
     COLOR: #ffff;
+    top: -41px;
 }
+
 
 /*título 14 rincon programador*/
 .bck-title-14:after{
@@ -900,8 +902,7 @@ content: " ";
     position: relative;
     background-color: transparent;
     background-image: url(images/2donos_tec_u1_pg51_0001.png);
-	position: relative;
-    top: -41px;
+    position: relative;
 }
 
 .bck-title-14 {
@@ -912,12 +913,13 @@ content: " ";
     width: 125.4%;
     font-family: 'Conv_ProximaNova-Bold';
     background-color: #F6A0CF;
-    padding-left: 124px;
+    padding-left: 99px;
     padding-bottom: 35px;
     padding-top: 35px;
     padding-right: 20px;
     color: #ffff;
     content: 'EL RINCÓN del programador';
+    top: -41px;
 }
 
 /*Título autoevaluación*/
