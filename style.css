@@ -1091,7 +1091,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
 /*lista des 1 azul*/
 #actividad .content .texto_curso .bck-ul-1 li,
 #actividad .content .workspace ul li .bck-ul-1 li ,
-/*#actividad .popover-background.shown .popover-content .bck-ul-1 li*/ {
+#actividad .popover-background.shown .popover-content .bck-ul-1 li {
 	font-size: 2rem;
     font-weight: 100;
     margin-left: 5px;
@@ -1108,7 +1108,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     margin-top: 14px;
     margin-left: -19px;
 }
-
 /*lista des 2 Negra */
 #actividad .content .texto_curso .bck-ul-2 li,
 #actividad .content .workspace ul li .bck-ul-2 li ,
