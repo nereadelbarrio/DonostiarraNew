@@ -1381,6 +1381,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     line-height: unset;
     font-weight: 600;
     margin-top: 0px;
+    font-size: 1.9rem;
 }
 
 /*LISTA circulos AZUL*/
