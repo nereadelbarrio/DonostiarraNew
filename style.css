@@ -1611,6 +1611,7 @@ body:not(.edit) .bck-box p {
 
 .bck-title {
     border-bottom: none;
+	color: inherit;
 }
 
 .bck-box .bck-content {
