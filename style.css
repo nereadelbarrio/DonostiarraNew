@@ -1279,6 +1279,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     font-size: 2rem;
     margin-top: -0.8px;
     font-family: 'Conv_ProximaNova-Bold';
+    top: 0px;
+    left: 0px;
+    width: 30px;
 }
 
 /*LISTA ord num 2*/
