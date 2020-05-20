@@ -2132,7 +2132,6 @@ background-color: #ffffff;
 }
 
 /**Iconos anterioresÂ¿?**/
-
 .item-container .icon:before {
   content: "";
   background-repeat: no-repeat;
@@ -2142,9 +2141,8 @@ background-color: #ffffff;
   background-size: contain;
   background-position: center center;
   display: inline-block;
-  vertical-align: text-bottom;
-  /*height: 28px;
-  width: 30px;*/
+  /*height: 25px;
+    width: 25px;*/
 }
 
 /*pop up*/
