@@ -1640,7 +1640,7 @@ body:not(.edit) .bck-box p {
 	color: #E5BA6B;
     position: relative;
     top: -88px;
-    left: 5px;
+    left: 20px;
     font-family: 'Conv_ProximaNova-Bold';
     text-transform: uppercase;
     letter-spacing: 3px;
