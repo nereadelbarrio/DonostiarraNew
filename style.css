@@ -1156,7 +1156,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #007BD1;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: 0px;
+    margin-left: 11px;
 }
 
 /*lista des 2 Negra */
@@ -1177,7 +1177,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #333;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: 0px;
+    margin-left: 11px;
 }
 
 /*lista des 3 Naranja */
@@ -1198,7 +1198,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #D7B46A;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: 0px;
+    margin-left: 11px;
 }
 
 /*lista des 4 verde */
@@ -1219,7 +1219,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #A3C231;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: 0px;
+    margin-left: 11px;
 }
 
 /*lista desordenada 5*/
@@ -1243,7 +1243,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #fff;
     border-radius: 0;
     margin-top: 14px;
-    margin-left: 0px;
+    margin-left: 11px;
 }
 
 
