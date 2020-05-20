@@ -1565,6 +1565,24 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
 /**/
 
 /*BOXES*/
+.bck-box{
+	background: transparent;
+}
+
+.bck-box.center .bck-content {
+    position: relative;
+    left: 60px;
+}
+
+.bck-box.center {
+    display: block;
+    text-align: inherit;
+}
+
+body:not(.edit) .bck-box p {
+    display: inline-block;
+    text-align: left;
+}
 
 /*caja actividades*/
 .bck-box.bck-box-1{
