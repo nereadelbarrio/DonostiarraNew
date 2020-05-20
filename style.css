@@ -1584,6 +1584,10 @@ body:not(.edit) .bck-box p {
     text-align: left;
 }
 
+.bck-title {
+    border-bottom: none;
+}
+
 /*caja actividades*/
 .bck-box.bck-box-1{
 	background-color: #ffffff;
@@ -1716,7 +1720,7 @@ body:not(.edit) .bck-box p {
 	color: #0080D6;
     position: relative;
     top: -43px;
-    left: 58px;
+    left: 88px;
     font-family: 'Conv_ProximaNova-Bold';
     letter-spacing: 1px;
     font-size: 2rem;
@@ -2054,7 +2058,7 @@ background-color: #ffffff;
 	position: relative;
     top: -30px;
     left: 26px;
-    padding: 20px;
+    padding: 63px 55px 5px 30px;
     color: #ffff;
     width: 90%;
 }
