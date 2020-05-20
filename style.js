@@ -88,7 +88,7 @@
 				{ name: 'Icono estrella', element: 'span', attributes: { 'class': 'icon icon-estrella' } },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } }
-			],stylesToRemove: ["bck-box", "center"]
+			]
 		},
 		slidesTitle: {},
 		subunits: [],
