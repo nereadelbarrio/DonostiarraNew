@@ -2471,6 +2471,12 @@ border-color: #009FA5;
     top: 0;
 }
 
+.bck-dropdown-1 .bck-dropdown-icon{
+	background-color: transparent;
+    width: 25px;
+    height: 10px;
+}
+
 .bck-dropdown-1 .bck-dropdown-icon>.fa {
 	color: #EF5AAB;
 	border: 0px;
