@@ -1653,6 +1653,10 @@ body:not(.edit) .bck-box p {
     background-image: url(images/donos_tec_u1_pg21_0002.png);
 }
 
+.bck-box.bck-box-1:after{
+	display: none;
+}
+
 /*CAJA 2- Ejemplo memoria*/
 .bck-box.bck-box-2{
 	background-color: #ffffff;
