@@ -2084,12 +2084,15 @@ background-color: #ffffff;
   padding: 0px;
 }
 
-/*CAJA POP-UP*/
-/*.info-popover .popover-title:before, .popover-template .popover-title:before {
+/*CAJA POP-UP azul*/
+.info-popover .popover-title:before, 
+.popover-template .popover-title:before {
   color: #728fa6;
+  background: transparent;
 }
 
-.info-popover .popover-title, .popover-template .popover-title {
+.info-popover .popover-title, 
+.popover-template .popover-title {
   background: #728fa6;
 }
 
@@ -2098,8 +2101,8 @@ background-color: #ffffff;
 }
 
 .info-template .info-title.shown:before {
-  color: #728fa6;
-}*/
+display: none;
+}
 
 /**/
 
