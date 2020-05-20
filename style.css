@@ -2048,7 +2048,7 @@ background-color: #ffffff;
 }
 
 .bck-box.bck-box-11 .bck-title:before{
-	content: " ";
+    content: " ";
     padding: 41px 43px 9px 19px;
     left: -40px;
     top: 45px;
