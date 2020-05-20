@@ -677,6 +677,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Conv_ProximaNova-Bold';
 }
 
+.bck-title-1:before{
+	display: none;
+}
+
 /*Título 2*/
 .bck-title-2:before{
 	content: " ";
