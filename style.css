@@ -2085,7 +2085,7 @@ background-color: #ffffff;
 }
 
 /*CAJA POP-UP*/
-.info-popover .popover-title:before, .popover-template .popover-title:before {
+/*.info-popover .popover-title:before, .popover-template .popover-title:before {
   color: #728fa6;
 }
 
@@ -2099,7 +2099,7 @@ background-color: #ffffff;
 
 .info-template .info-title.shown:before {
   color: #728fa6;
-}
+}*/
 
 /**/
 
@@ -2187,7 +2187,8 @@ background-color: #ffffff;
 }
 .info-template .info-title.shown{
 	font-weight: bold;
-	font-family: 'MyriadPro-Regular', sans-serif;
+	font-family: 'Conv_ProximaNova-Regular';
+	padding-top: 0px;
 }
 
 .info-popover .popover-title, .popover-template .popover-title{
@@ -2200,7 +2201,7 @@ background-color: #ffffff;
     font-size: 2rem;
     min-height: 35px;
     font-weight: bold;
-    font-family: 'MyriadPro-Regular', sans-serif;
+    font-family: 'Conv_ProximaNova-Regular';
 }
 .fa-times:before {
     content: "\f00d";
@@ -2208,10 +2209,11 @@ background-color: #ffffff;
 }
 .popover-template .popover-title:before{
 	content: "";
+	background: transparent;
 }
 .popover-template .popover-content{
 	color: #007BCD;
-    font-family: 'MyriadPro-Regular', sans-serif;
+    font-family: 'Conv_ProximaNova-Regular';
 }
 
 /**TABLA y Celdas**/
