@@ -675,6 +675,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     position: relative;
     left: -45px;
     font-family: 'Conv_ProximaNova-Bold';
+	color: #333;
 }
 
 .bck-title-1:before{
@@ -2042,7 +2043,7 @@ background-color: #ffffff;
     padding: 0px;
     background-size: cover;
     top: 0px;
-    left: -97px;
+    left: 0px;
     width: 125.4%;
     margin-bottom: 20px;
 }
