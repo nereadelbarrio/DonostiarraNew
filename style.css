@@ -2107,8 +2107,8 @@ background-color: #ffffff;
 /*icono lista*/
 .icon-lista:before{
 	display: inline-block;
-    width: 10px;
-    height: 14px;
+    width: 10px  !important;
+    height: 14px  !important;
     background-color: #F7A828;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     top: -4px;
