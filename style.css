@@ -2444,6 +2444,12 @@ border-color: #009FA5;
 /**/
 
 /*Dropdown 1*/
+.bck-dropdown.bck-dropdown-1{
+	background-color: transparent;
+    border: none;
+    margin-top: 0px;
+}
+
 .bck-dropdown-1 .bck-dropdown-titulo:before {
 	content: "";
     padding: 22px 28px;
