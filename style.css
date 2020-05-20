@@ -1011,7 +1011,7 @@ hr{
 
 /*énfasis NumInicio Unidad*/
 .bck-enfasis-2 {
-    background-size: contain;
+	background-size: contain;
     content: " ";
     padding: 9px 17px 13px 27px;
     left: 0px;
@@ -1031,10 +1031,18 @@ hr{
     padding: 9px 4px;
 }
 
+.cke_contents .bck-enfasis- {
+    padding: 0px;
+}
+
 /*énfasis azul*/
 .bck-enfasis-4 {
 	background-color: #CAE8F3;
     padding: 9px 4px;
+}
+
+.cke_contents .bck-enfasis-4 {
+    padding: 0px;
 }
 
 /*énfasis letras azul*/
@@ -1064,6 +1072,10 @@ hr{
 .bck-enfasis-9 {
 	background-color: rgb(236,216,179);
     padding: 9px 4px;
+}
+
+.cke_contents .bck-enfasis-9 {
+    padding: 0px;
 }
 
 /*énfasis letras naranja*/
