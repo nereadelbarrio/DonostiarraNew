@@ -675,7 +675,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     position: relative;
     left: -45px;
     font-family: 'Conv_ProximaNova-Bold';
-	color: #333;
+    font-size: 3.3rem;
+    color: #333;
 }
 
 .bck-title-1:before{
@@ -700,7 +701,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-weight: bold;
     text-indent: -30px;
     margin-left: 28px;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     width: fit-content;
     font-family: 'Conv_ProximaNova-Bold';
 }
@@ -715,7 +716,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border-bottom: 2px solid #4DB4E7;
     color: #fff;
     padding-top: 5px;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
 }
 
 /*Título 4*/
@@ -723,13 +724,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	position: relative;
     border-bottom: 2px solid #93D5F6;
     font-weight: bold;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     left: 27px;
     width: fit-content;
     font-family: 'Conv_ProximaNova-Bold';
 }
 
-/*Título acti refuerzo*/
+/*Título acti refuerz0*/
 .bck-title-5 {
     background-image: url(images/donos_tec_u1_pg28_0001.png);
     background-size: contain;
@@ -745,12 +746,13 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     left: -97px;
     color: #ffff;
     font-family: 'Conv_ProximaNova-Bold';
-    width: 125.5%;
+    width: 119.3%;
 }
+
 
 /*Título 6*/
 .bck-title-6 {
-    color: #D7B46A;
+	color: #D7B46A;
     font-size: 2.3rem;
     font-weight: 700;
     position: relative;
@@ -774,7 +776,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     left: -97px;
     color: #ffff;
     font-family: 'Conv_ProximaNova-Bold';
-    width: 125.5%;
+    width: 119.3%;
 }
 
 /*Título 8 verde*/
@@ -816,7 +818,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     left: -97px;
     color: #ffff;
     font-family: 'Conv_ProximaNova-Bold';
-    width: 125.5%;
+    width: 119.3%;
 }
 
 /*Título Prácticas*/
@@ -830,6 +832,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border: 2px solid #F8CBE0;
     border-radius: 20px;
 }
+
 
 /*Título 11 rosa*/
 .bck-title-11:before{
@@ -854,6 +857,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-family: 'Conv_ProximaNova-Bold';
 }
 
+
 /*título pie de imagen*/
 .bck-title-12 {
 	color: #404040;
@@ -862,7 +866,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-weight: 500;
     position: relative;
     left: 7px;
-    top: -20px;
+        top: -20px;
     font-family: 'Conv_AkzidenzGrotesk-Cond';
 }
 
@@ -884,7 +888,7 @@ content: " ";
     text-indent: -168px;
     margin-left: -97px;
     font-size: 1.8rem;
-    width: 125.4%;
+    width: 119.3%;
     font-family: 'Conv_ProximaNova-Bold';
     background-color: #EF5AAB;
     padding-left: 150px;
@@ -914,7 +918,7 @@ content: " ";
     font-weight: bold;
     margin-left: -97px;
     font-size: 1.8rem;
-    width: 125.4%;
+    width: 119.3%;
     font-family: 'Conv_ProximaNova-Bold';
     background-color: #F6A0CF;
     padding-left: 99px;
@@ -940,7 +944,7 @@ content: " ";
     left: -97px;
     color: #D7B46A;
     font-family: 'Conv_ProximaNova-Bold';
-    width: 125.5%;
+    width: 119.3%;
     text-transform: uppercase;
 }
 
@@ -948,7 +952,7 @@ content: " ";
 .bck-title-16{
 	position: relative;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.9rem;
     font-family: 'Conv_ProximaNova-Bold';
 }
 
@@ -973,7 +977,7 @@ content: " ";
     left: -97px;
     color: #ffff;
     font-family: 'Conv_ProximaNova-Bold';
-    width: 125.5%;
+    width: 119.3%;
 }
 
 /**/
