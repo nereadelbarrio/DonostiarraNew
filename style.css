@@ -1152,8 +1152,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #007BD1;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: -19px;
+    margin-left: 0px;
 }
+
 /*lista des 2 Negra */
 #actividad .content .texto_curso .bck-ul-2 li,
 #actividad .content .workspace ul li .bck-ul-2 li ,
@@ -1165,7 +1166,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
 
 #actividad .content .texto_curso .bck-ul-2 li:before,
 #actividad .content .workspace ul li .bck-ul-2 li:before ,
-#actividad .content .cke_contents .bck-ul-2 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul-2 li:before{
     content: "";
     height: 5px;
@@ -1173,7 +1173,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #333;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: -19px;
+    margin-left: 0px;
 }
 
 /*lista des 3 Naranja */
@@ -1187,7 +1187,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
 
 #actividad .content .texto_curso .bck-ul-3 li:before,
 #actividad .content .workspace ul li .bck-ul-3 li:before ,
-#actividad .content .cke_contents .bck-ul-3 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul-3 li:before{
     content: "";
     height: 5px;
@@ -1195,13 +1194,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #D7B46A;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: -19px;
+    margin-left: 0px;
 }
 
 /*lista des 4 verde */
 #actividad .content .texto_curso .bck-ul-4 li,
 #actividad .content .workspace ul li .bck-ul-4 li ,
-#actividad .content .cke_contents .bck-ul-4 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul-4 li {
 	font-size: 2rem;
     font-weight: 100;
@@ -1217,7 +1215,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #A3C231;
     border-radius: 10px;
     margin-top: 14px;
-    margin-left: -19px;
+    margin-left: 0px;
 }
 
 /*lista desordenada 5*/
@@ -1234,7 +1232,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
 
 #actividad .content .texto_curso .bck-ul-5 li:before,
 #actividad .content .workspace ul li .bck-ul-5 li:before ,
-#actividad .content .cke_contents .bck-ul-5 li:before,
 #actividad .popover-background.shown .popover-content .bck-ul-5 li:before{
     content: "";
     height: 8px;
@@ -1242,8 +1239,9 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     background-color: #fff;
     border-radius: 0;
     margin-top: 14px;
-    margin-left: -19px;
+    margin-left: 0px;
 }
+
 
 /*LISTAS ORDENADAS*/
 
@@ -1641,13 +1639,14 @@ body:not(.edit) .bck-box p {
 .bck-box.bck-box-1 .bck-content{
 	position: relative;
     top: -55px;
+	padding-left: 10px;
 }
 
 .bck-box.bck-box-1 .bck-title:before {
     content: " ";
-    padding: 32px;
-    left: -61px;
-    top: 32px;
+	padding: 58px 61px 0px 61px;
+    left: -67px;
+    top: 64px;
     background-repeat: no-repeat;
     position: relative;
     background-color: transparent;
