@@ -51,7 +51,6 @@
 				{ name: 'Lista des 2 negro', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
 				{ name: 'Lista des 3 naranja', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
 				{ name: 'Lista des 1 verde', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
-				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
 							
 				{ name: 'Lista 1 num', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
 				{ name: 'Lista 2 num', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
