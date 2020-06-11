@@ -2751,11 +2751,11 @@ border-color: #009FA5;
 }
 
 .bck-dropdown-1 .bck-dropdown-titulo{
-	top: -30px;
+	top: 0px;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon>.fa{
-	left: -50px;
+	left: -15px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li, 
@@ -2780,6 +2780,7 @@ border-color: #009FA5;
 
 .bck-title-13{
 	width: 142.5%;
+	padding-right: 100px;
 }
 
 .bck-title-14{
@@ -2793,13 +2794,18 @@ border-color: #009FA5;
 .bck-title-15{
 	width: 142.5%;
 }
+	
+.bck-box.bck-box-2 .bck-title:before{
+	padding: 46px 96px 0px 65px;
+	top: 31px;
+}	
 
 .bck-box.bck-box-4{
 	width: 100%;
 }
 
 .bck-box.bck-box-12{
-	left: -60px;
+	left: 0px;
     width: 132.5%;
 }
 
