@@ -1221,31 +1221,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     margin-left: 11px;
 }
 
-/*lista desordenada 5*/
-
-#actividad .content .texto_curso .bck-ul-5 li,
-#actividad .content .workspace ul li .bck-ul-5 li ,
-#actividad .popover-background.shown .popover-content .bck-ul-5 li {
-  font-size: 1.8rem;
-  font-weight: 100;
-  margin-left: -2px;
-  color: #fff;
-  margin-bottom: 0px;
-}
-
-#actividad .content .texto_curso .bck-ul-5 li:before,
-#actividad .content .workspace ul li .bck-ul-5 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul-5 li:before{
-    content: "";
-    height: 8px;
-    width: 8px;
-    background-color: #fff;
-    border-radius: 0;
-    margin-top: 14px;
-    margin-left: 11px;
-}
-
-
 /*LISTAS ORDENADAS*/
 
 /*LISTA ORDENADA General*/
