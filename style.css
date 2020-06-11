@@ -138,7 +138,6 @@
 
 }
 
-
 /*General */
 body {
   font-size: 16px;
@@ -156,7 +155,6 @@ body {
   text-align: left;
 }
 
-
 #actividad .carousel-inner .item-container {
   -webkit-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
   -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
@@ -173,7 +171,6 @@ body {
 #actividad .content .header {
 	display: none;
 }
-
 
 #actividad .content .header .title img {
 	display: none;
@@ -224,20 +221,6 @@ p {
 .bck-t-align-center {
 	line-height: 1.7em!important;
 }
-
-
-/*ENLACE WEB*/
-
-/*#actividad a {
-  -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
-  background-color: #F9F2F4;
-  padding: 0px 5px;
-  color: #AECE5D;
-  font-weight: 600;
-  text-decoration: none;
-}*/
 
 /*INDICE LATERAL*/
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, 
@@ -311,7 +294,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	color: #0cb9ea;
 }
 
-
 #book-index #indice .unit-content .actividades .item {
   background: transparent;
 }
@@ -332,11 +314,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
   padding-left: 10px;
 }
 
-
-
-
 /*HEADER*/
-
 .DonostiarraNew-navbar h3 {
   width: 75%;
   margin: auto;
@@ -465,7 +443,6 @@ vertical-align: top;
 }
 
 /* ACTIVITIES */
-
 #actividad .workspace.test .checkbox-option label.filter-label,
 #actividad .workspace.test .radio-option label.filter-label,
 #actividad .workspace.true-false .checkbox-option label.filter-label,
@@ -478,7 +455,6 @@ vertical-align: top;
 	display: inline-block;
 	margin-left: 70px;
 }
-
 
 #actividad .content .workspace.test ul li ul li:before,
 #actividad .content .workspace.test ul li .bck-ul li:before {
@@ -529,7 +505,6 @@ vertical-align: top;
   font-size: 1.8rem;
 }
 
-
 /*SeÃ±alar respuesta - Respuesta en lÃ­nea*/
 #actividad .workspace.chooseblanks .inline-answer a {
   display: inline-block;
@@ -566,7 +541,6 @@ vertical-align: top;
   border-bottom: 1px solid #00bdff;
   background-color: #bbffb6;
 }
-
 
 #actividad .workspace.matching .opcion {
   overflow: hidden;
@@ -622,8 +596,6 @@ vertical-align: top;
 #actividad .workspace.ordenar .js-rank-item{
 	margin-bottom: 16px;
 }
-
-
 /**/
 
 /*Icono audio*/
@@ -642,7 +614,6 @@ vertical-align: top;
   -webkit-box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
   box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
 }
-
 
 #actividad .content img.player, #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
   height: 30px !important;
@@ -749,7 +720,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: 119.3%;
 }
 
-
 /*Título 6*/
 .bck-title-6 {
 	color: #D7B46A;
@@ -833,7 +803,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     border-radius: 20px;
 }
 
-
 /*Título 11 rosa*/
 .bck-title-11:before{
 	content: " ";
@@ -856,7 +825,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     width: fit-content;
     font-family: 'Conv_ProximaNova-Bold';
 }
-
 
 /*título pie de imagen*/
 .bck-title-12 {
@@ -1117,7 +1085,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     color: #3CA9D2;
     text-decoration: underline;
 }
-
 /**/
 
 /*LISTAS DESORDENADAS*/
@@ -1222,7 +1189,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
 }
 
 /*LISTAS ORDENADAS*/
-
 /*LISTA ORDENADA General*/
 
 #actividad .content .cke_contents .bck-ol li:before,
@@ -1379,7 +1345,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     margin-top: 10px;
 }
 
-
 #actividad .content .cke_contents .bck-ol-4 li:before,
 #actividad .content .texto_curso .bck-ol-4 li:before,
 #actividad .popover-content .bck-ol-4 li:before,
@@ -1401,7 +1366,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     top: 3px;
 }
 
-
 /*LISTA circulos verde*/
 #actividad .content .cke_contents .bck-ol-5,
 #actividad .content .texto_curso .bck-ol-5,
@@ -1422,7 +1386,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     margin-left: 9px;
     margin-top: 10px;
 }
-
 
 #actividad .content .cke_contents .bck-ol-5 li:before,
 #actividad .content .texto_curso .bck-ol-5 li:before,
@@ -1561,8 +1524,6 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     margin-top: 0.2px;
     font-family: 'Conv_ProximaNova-Bold';
 }
-
-
 /**/
 
 /*BOXES*/
@@ -2082,7 +2043,7 @@ background-color: #ffffff;
 
 /**/
 
-/*seccion tÃ­tulo inicio unidad margin-top*/
+/*seccion titulo inicio unidad margin-top*/
 #actividad .content .iniciounidad .header .title h3 {
   margin-top: 150px;
 }
@@ -2114,7 +2075,6 @@ background-color: #ffffff;
 .info-template .info-title.shown:before {
 display: none;
 }
-
 /**/
 
 /*Iconos*/
@@ -2364,7 +2324,6 @@ border-color: #009FA5;
 .cke_reset {
   background: white;
 }
-
 
 /*Boton toc - boton reininciar ejercicio*/
 
@@ -2673,7 +2632,6 @@ border-color: #009FA5;
 	padding: 20px 15px 10px;
 }
 
-
 #actividad .content .cke_contents .bck-ol-2 li, 
 #actividad .content .cke_contents .bck-ol-2 li, 
 #actividad .content .texto_curso .bck-ol-2 li, 
@@ -2748,7 +2706,6 @@ border-color: #009FA5;
 }
 
 }
-
 
 @media screen and (max-width: 500px) {
 
@@ -2826,7 +2783,6 @@ border-color: #009FA5;
 }
 
 }
-
 
 @media screen and (max-width: 768px) {
 
