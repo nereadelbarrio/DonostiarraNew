@@ -2441,6 +2441,58 @@ border-color: #009FA5;
     border-top: 2px solid #EF5AAB;
 }
 
+/*Dropdown 2 keywords*/
+.bck-dropdown.bck-dropdown-2{
+	background-color: transparent;
+    border: none;
+    margin-top: 0px;
+}
+
+.bck-dropdown-2 .bck-dropdown-titulo:before {
+content: "";
+    padding: 5px 20px 4px 20px;
+    background: url(images/donos_tec_u1_pg18_0003-ingles.png);
+    background-size: cover;
+    margin-left: 0px;
+    position: relative;
+    left: -11px;
+}
+
+.bck-dropdown-2 .bck-dropdown-titulo {
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #ffff;
+    padding-left: 0px;
+    position: relative;
+    font-family: 'Conv_Bleeker-Regular';
+    top: 0;
+}
+
+.bck-dropdown-2 .bck-dropdown-icon{
+	background-color: transparent;
+    width: 25px;
+    height: 10px;
+}
+
+.bck-dropdown-2 .bck-dropdown-icon>.fa {
+	display: none;
+}
+
+.bck-dropdown-2 .bck-dropdown-content {
+	overflow-y: auto;
+    max-height: 100%;
+    padding: 10px;
+    background-color: #EAF6FB;
+    border: none;
+}
+
+.bck-dropdown-2 .bck-dropdown-button {
+	padding: 20px 10px 20px 0px;
+    background-color: #43A6DE;
+    box-shadow: 22px 31px 29px -26px #6d6d6d;
+}
+
 /**/
 
 /*Activities Dropdown*/
