@@ -86,7 +86,8 @@
 				{ name: 'Icono lista', element: 'span', attributes: { 'class': 'icon icon-lista' } },
 				{ name: 'Icono estrella', element: 'span', attributes: { 'class': 'icon icon-estrella' } },
 
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } }
+				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-1' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown-2' } }
 			]
 		},
 		slidesTitle: {},
