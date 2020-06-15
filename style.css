@@ -2001,7 +2001,8 @@ background-color: #ffffff;
 .bck-box.bck-box-11 .bck-content {
 	position: relative;
     top: -40px;
-    left: 53px;
+    left: 33px;
+    width: 90%;
 }
 
 /*caja 12 pantalla completa*/
