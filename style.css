@@ -1843,8 +1843,10 @@ background-color: #ffffff;
     width: fit-content;
     width: -moz-fit-content;
     position: relative;
+    /*top: -76px;
+    left: -11px;*/
     top: -76px;
-    left: -11px;
+    left: -20px;
     font-family: 'Conv_ProximaNova-Bold';
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -1859,8 +1861,10 @@ background-color: #ffffff;
 .bck-box.bck-box-7 .bck-title:before {
 	content: " ";
     padding: 59px 62px 0px 72px;
-    left: -61px;
-    top: 72px;
+    /*left: -61px;
+    top: 72px;*/
+    left: -50px;
+    top: 67px;
     background-repeat: no-repeat;
     position: relative;
     background-color: transparent;
