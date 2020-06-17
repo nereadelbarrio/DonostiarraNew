@@ -2132,6 +2132,7 @@ display: none;
     left: 0px;
     background-image: none;
     position: relative;
+	margin-left: 5px;
 }
 
 /*icono estrella*/
