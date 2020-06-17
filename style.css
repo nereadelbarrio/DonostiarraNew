@@ -160,7 +160,7 @@ body {
   -moz-box-shadow: rgba(0,0,0,0.298039) 0 3px 9px;
   box-shadow: rgba(0, 0, 0, 0.43) 0 3px 9px;
   padding-bottom: 0px;
-  background: #ffff;	
+  background: #ffffff;	
 	
 }
 
@@ -187,7 +187,7 @@ body {
     height: 44px;
     overflow: hidden;
     line-height: 5.0rem;
-	color: #ffff;
+	color: #ffffff;
 }
 
 /* modo correcion/revision */
@@ -674,6 +674,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: 28px;
     font-size: 2.3rem;
     width: fit-content;
+    width: -moz-fit-content;
     font-family: 'Conv_ProximaNova-Bold';
 }
 
@@ -698,6 +699,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     font-size: 2.3rem;
     left: 27px;
     width: fit-content;
+    width: -moz-fit-content;
     font-family: 'Conv_ProximaNova-Bold';
 }
 
@@ -715,7 +717,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-size: cover;
     top: -21px;
     left: -97px;
-    color: #ffff;
+    color: #ffffff;
     font-family: 'Conv_ProximaNova-Bold';
     width: 119.3%;
 }
@@ -744,7 +746,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-size: cover;
     top: -21px;
     left: -97px;
-    color: #ffff;
+    color: #ffffff;
     font-family: 'Conv_ProximaNova-Bold';
     width: 119.3%;
 }
@@ -769,6 +771,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: 28px;
     font-size: 2.3rem;
     width: fit-content;
+    width: -moz-fit-content;
     font-family: 'Conv_ProximaNova-Bold';
 }
 
@@ -786,7 +789,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-size: cover;
     top: -21px;
     left: -97px;
-    color: #ffff;
+    color: #ffffff;
     font-family: 'Conv_ProximaNova-Bold';
     width: 119.3%;
 }
@@ -798,6 +801,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     padding: 6px 12px;
     font-size: 2.3rem;
     width: fit-content;
+    width: -moz-fit-content;
     margin-left: 24px;
     border: 2px solid #F8CBE0;
     border-radius: 20px;
@@ -823,6 +827,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     margin-left: 28px;
     font-size: 2.3rem;
     width: fit-content;
+    width: -moz-fit-content;
     font-family: 'Conv_ProximaNova-Bold';
 }
 
@@ -863,7 +868,7 @@ content: " ";
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 20px;
-    COLOR: #ffff;
+    COLOR: #ffffff;
     top: -41px;
 }
 
@@ -893,7 +898,7 @@ content: " ";
     padding-bottom: 35px;
     padding-top: 35px;
     padding-right: 20px;
-    color: #ffff;
+    color: #ffffff;
     content: 'EL RINCÓN del programador';
     top: -41px;
 }
@@ -943,7 +948,7 @@ content: " ";
     background-size: cover;
     top: -20px;
     left: -97px;
-    color: #ffff;
+    color: #ffffff;
     font-family: 'Conv_ProximaNova-Bold';
     width: 119.3%;
 }
@@ -975,7 +980,7 @@ hr{
     background-repeat: no-repeat;
     position: relative;
     background-image: url(images/TPR1ESO_Unidad1-3.png);
-    color: #ffff;
+    color: #ffffff;
     text-shadow: none;
     font-size: 2.8rem;
     font-family: 'Conv_MyriadPro-Bold';
@@ -991,7 +996,7 @@ hr{
     background-repeat: no-repeat;
     position: relative;
     background-image: url(images/donos_tec_u1_pg16_0001.png);
-    color: #ffff;
+    color: #ffffff;
     text-shadow: none;
     font-family: 'Conv_MyriadPro-Bold';
     font-size: 2.8rem;
@@ -1379,7 +1384,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     margin-left: -36px;
     margin-right: 0px;
     border-radius: 100%;
-    line-height: initial;
+    line-height: normal;
     font-size: 1.9rem;
     font-weight: 700;
     padding: 5px 0px 0px 1px;
@@ -1421,7 +1426,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
     margin-left: -36px;
     margin-right: 0px;
     border-radius: 100%;
-    line-height: initial;
+    line-height: normal;
     font-size: 1.9rem;
     font-weight: 700;
     padding: 5px 0px 0px 1px;
@@ -1562,7 +1567,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img){
 }
 
 body:not(.edit) .bck-box p {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: block;
 }
 
 .bck-title {
@@ -1617,6 +1623,7 @@ body:not(.edit) .bck-box p {
     position: relative;
     background-color: transparent;
     background-image: url(images/donos_tec_u1_pg21_0002.png);
+
 }
 
 .bck-box.bck-box-1:after{
@@ -1758,8 +1765,9 @@ background-color: #ffffff;
 
 .bck-box.bck-box-5 .bck-title{
 	color: #85CEE4;
-    background-color: #ffff;
+    background-color: #ffffff;
     width: fit-content;
+    width: -moz-fit-content;
     position: relative;
     top: -41px;
     left: 71px;
@@ -1831,8 +1839,9 @@ background-color: #ffffff;
 
 .bck-box.bck-box-7 .bck-title{
 	color: #A2C617;
-    background: #ffff;
+    background: #ffffff;
     width: fit-content;
+    width: -moz-fit-content;
     position: relative;
     top: -76px;
     left: -11px;
@@ -1872,8 +1881,9 @@ background-color: #ffffff;
 
 .bck-box.bck-box-8 .bck-title{
 	color: #A2C617;
-    background: #ffff;
+    background: #ffffff;
     width: fit-content;
+    width: -moz-fit-content;
     position: relative;
     top: -76px;
     left: -23px;
@@ -1913,8 +1923,9 @@ background-color: #ffffff;
 
 .bck-box.bck-box-9 .bck-title{
     color: rgb(230,0,125);
-    background: #ffff;
+    background: #ffffff;
     width: fit-content;
+    width: -moz-fit-content;
     position: relative;
 	top: -49px;
     left: -81px;
@@ -1925,8 +1936,9 @@ background-color: #ffffff;
 }
 
 .bck-box.bck-box-9 .bck-title p{
-	 background-color: #ffff;
+	 background-color: #ffffff;
     width: fit-content;
+    width: -moz-fit-content;
     padding: 0px 20px 0px 10px;
     position: relative;
     position: r;
@@ -1996,6 +2008,7 @@ background-color: #ffffff;
 	color: #EF5AAB;
     background: transparent;
     width: fit-content;
+    width: -moz-fit-content;
     position: relative;
     top: -43px;
     left: 34px;
@@ -2059,7 +2072,7 @@ background-color: #ffffff;
     top: -30px;
     left: 26px;
     padding: 63px 55px 5px 30px;
-    color: #ffff;
+    color: #ffffff;
     width: 100%;
 }
 
@@ -2201,7 +2214,7 @@ display: none;
 }
 .fa-times:before {
     content: "\f00d";
-    color: #ffff;
+    color: #ffffff;
 }
 .popover-template .popover-title:before{
 	content: "";
@@ -2463,6 +2476,7 @@ border-color: #009FA5;
     border-top: 2px solid #EF5AAB;
 }
 
+
 /*Dropdown 2 keywords*/
 .bck-dropdown.bck-dropdown-2{
 	background-color: transparent;
@@ -2484,7 +2498,7 @@ content: "";
 	display: inline-block;
     vertical-align: middle;
     font-size: 25px;
-    color: #ffff;
+    color: #ffffff;
     padding-left: 0px;
     position: relative;
     font-family: 'Conv_Bleeker-Regular';
