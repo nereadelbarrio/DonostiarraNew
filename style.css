@@ -1653,6 +1653,11 @@ body:not(.edit) .bck-box p {
     letter-spacing: 3px;
 }
 
+.bck-box.bck-box-2 .bck-title p{
+	width: auto;
+    display: inline-block;
+}
+
 .bck-box.bck-box-2 .bck-content{
 	position: relative;
     top: -55px;
